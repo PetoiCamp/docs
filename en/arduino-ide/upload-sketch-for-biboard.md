@@ -8,6 +8,8 @@ description: This chapter is for Advanced users with programming experience.
 
 For the specific parameters of each functional module of BiBoard, please refer to [Chapter 2](../biboard/biboard-v0.md#2.-modules-and-functions) of the BiBoard Quick Start Guide.
 
+Test update.
+
 ## 2. Set up BiBoard&#x20;
 
 ### 2.1 Prepare the ESP32 development environment
