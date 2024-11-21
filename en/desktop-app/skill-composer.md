@@ -305,3 +305,21 @@ If you want the desktop app to stop detecting serial connections, click the "<ma
 ## Professional extensions
 
 You can modify the source code of the Skill Composer in **OpenCat/pyUI/SkillComposer.py**.&#x20;
+
+## Teach by pulling legs using the Feedback servo
+
+{% hint style="warning" %}
+This function requires the servos after March 2024, the BiBoard, and the latest firmware.&#x20;
+{% endhint %}
+
+We have added the position feedback feature to recent batches of Petoi servos. The servo can reply to a specific PWM pulse (3500µs) with its current position in the form of pulse length. The central controller (BiBoard) can convert the signal to angles for more interaction.
+
+{% embed url="https://youtu.be/vlHBf_dN4R0" %}
+
+First, send the robot a serial command "xl" to start the learning process. In the demo, it's triggered by our customized voice command. The robot's servo driver will switch to reading mode. Joint jigs can occur during this transition. Organize the robot's legs and then hold it still. The learning starts when no significant movements are detected.
+
+Pull the legs, and the movement will be recorded. Stopping in the middle is okay because identical postures will be skipped. The recording will stop if the maximal frame is reached or the robot's joints are not moved for 2 seconds.
+
+The recorded command can be called by "xp" to replay. The skill data is also printed to the screen so you can save it and import it into the Skill Composer or other OpenCat interfaces.
+
+The control logic is defined in **OpenCatEsp32/src/reaction.h** and **motion.h**.
