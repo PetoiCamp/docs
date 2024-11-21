@@ -371,20 +371,6 @@ After inputting '**Y**' or '**n**', all instinct arrays will be stored in the I2
 
 When verifying the skill action, you can open [the serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor) and call through the serial port command with '**k**' token. For example, Bittle can transform into a sitting posture by "ksit".
 
-## Feedback servo
-
-In recent batches of Petoi servos, we have added the position feedback feature. The servo can reply to a specific PWM pulse (3500µs) with its current position also in the form of wave length. The signal can be decoded by the main controller to allow more interactions.
-
-{% embed url="https://youtu.be/vlHBf_dN4R0" %}
-
-First, send the robot a serial command "xl" to start the learning process. In the demo, it's triggered by our customized voice command. The robot's servo driver will switch to reading mode. Joint jigs can occur during this transition. Organize the robot's legs and then hold it still. The learning starts when no significant movements are detected.
-
-Pull the legs, and the movement will be recorded. Stopping in the middle is okay because identical postures will be skipped. The recording will stop if the maximal frame is reached or the robot's joints are not moved for 2 seconds.
-
-The recorded command can be called by "xp" to replay. The skill data is also printed to the screen so you can save it and import it into the Skill Composer or other OpenCat interfaces.
-
-The control logic is defined in **OpenCatEsp32/src/reaction.h** and **motion.h**.
-
 ## Intelligent
 
 By adding some [extensible modules](https://docs.petoi.com/extensible-modules/introduction) (such as a gesture sensor), it can help the robot to better perceive the environment and even make decisions. By accumulating these automatic behaviors and designing a decision tree, the robot's fully automatic intelligent operation is finally realized!
