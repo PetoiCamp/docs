@@ -8,8 +8,6 @@ description: This chapter is for Advanced users with programming experience.
 
 For the specific parameters of each functional module of BiBoard, please refer to [Chapter 2](../biboard/biboard-v0.md#2.-modules-and-functions) of the BiBoard Quick Start Guide.
 
-Test update.
-
 ## 2. Set up BiBoard&#x20;
 
 ### 2.1 Prepare the ESP32 development environment
@@ -21,11 +19,11 @@ Please refer to [Chapter 3.2.1](https://docs.petoi.com/biboard/biboard-v0#id-3.2
 * #### sdkconfig.h
 
 {% hint style="info" %}
-* For Windows:\
+- For Windows:\
   C:\Users\\{username}\AppData\Local\Arduino15\packages\esp32\hardware\esp32\2.0.\*\tools\sdk\esp32\qio\_qspi\include\sdkconfig.h
-* For Mac:\
+- For Mac:\
   /Users/{username}/Library/Arduino15/packages/esp32/hardware/esp32/2.0.\*/tools/sdk/esp32/qio\_qspi/include/sdkconfig.h
-* For Ubuntu:\
+- For Ubuntu:\
   Arduino root directory/.arduino15 (hidden file)/packages/esp32/hardware/esp32/2.0.12/tools/sdk/esp32/qio\_qspi/include/sdkconfig.h
 {% endhint %}
 
@@ -73,7 +71,7 @@ We keep updating the codes as an open-source project. You can star and follow ou
 {% hint style="warning" %}
 No matter where you save the folder, the file structure should be:
 
-![](<../.gitbook/assets/OpenCatEsp32\_tree (1).png>)&#x20;
+![](<../.gitbook/assets/OpenCatEsp32_tree (1).png>)&#x20;
 {% endhint %}
 
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
@@ -93,7 +91,7 @@ If you cannot find the serial port after connecting to your computer:
 
 ### 2.7 Compile and upload the sketch
 
-Modify the device type macro definition in OpenCatEsp32**.ino** according to the device type.
+Modify the device type macro definition in OpenCatEsp3&#x32;**.ino** according to the device type.
 
 ```cpp
 #define BITTLE    //Petoi 9 DOF robot dog: 1 on head + 8 on leg
@@ -101,7 +99,7 @@ Modify the device type macro definition in OpenCatEsp32**.ino** according to the
 //#define CUB
 ```
 
-Modify the motherboard model macro definition in OpenCatEsp32**.ino** according to [the motherboard version](../desktop-app/firmware-uploader.md#biboard-version).
+Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** according to [the motherboard version](../desktop-app/firmware-uploader.md#biboard-version).
 
 ```cpp
 // #define BiBoard_V0_1  //ESP32 Board with 12 channels of built-in PWM for joints
