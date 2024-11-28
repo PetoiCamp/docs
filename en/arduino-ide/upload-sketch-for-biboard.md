@@ -58,7 +58,7 @@ Suppose you want to fully utilize the 16 MB flash of BiBoard (it's unnecessary a
 ### 2.5 Download the OpenCatEsp32 package
 
 {% hint style="info" %}
-We keep updating the codes as an open-source project. You can star and follow our GitHub repository to get the newest features and bug fixes. You can also share your codes with worldwide OpenCatEsp32 users.&#x20;
+We keep updating the codes as an open-source project. You can star-mark and follow our GitHub repository to get the newest features and bug fixes. You can also share your codes with worldwide OpenCatEsp32 users.&#x20;
 {% endhint %}
 
 * Download the ​OpenCatEsp32 repository from GitHub repository: [https://github.com/PetoiCamp/OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32)\
@@ -66,7 +66,7 @@ We keep updating the codes as an open-source project. You can star and follow ou
 
 <figure><img src="../.gitbook/assets/downloadEsp32Repo.png" alt=""><figcaption></figcaption></figure>
 
-* If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino**, so that the two names match.&#x20;
+* If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino** so that the two names match.&#x20;
 
 {% hint style="warning" %}
 No matter where you save the folder, the file structure should be:
@@ -86,27 +86,39 @@ Set the serial port in the Arduino IDE:
 If you cannot find the serial port after connecting to your computer:
 
 * You may need to install [the driver](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) for the CP210x chip.&#x20;
-* If the BiBoard is powered on by the battery, please long-press the button on the battery >=3s to power off the mainboard so that the board is only powered through the USB cable and only the blue LED is lit up.&#x20;
+* If the battery powers on the BiBoard, please long-press the button on the battery >=3s to power off the mainboard so that the board is only powered through the USB cable and only the blue LED is lit up.&#x20;
 {% endhint %}
 
 ### 2.7 Compile and upload the sketch
 
 Modify the device type macro definition in OpenCatEsp3&#x32;**.ino** according to the device type.
 
-```cpp
+````cpp
 #define BITTLE    //Petoi 9 DOF robot dog: 1 on head + 8 on leg
 //#define NYBBLE  //Petoi 11 DOF robot cat: 2 on head + 1 on tail + 8 on leg
 //#define CUB
+```cpp
+
 ```
+````
 
 Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** according to [the motherboard version](../desktop-app/firmware-uploader.md#biboard-version).
 
 ```cpp
 // #define BiBoard_V0_1  //ESP32 Board with 12 channels of built-in PWM for joints
-#define BiBoard_V0_2
+// #define BiBoard_V0_2
+#define BiBoard_V1_0
 ```
 
-After the modification is completed, you can click the **Upload** button to upload OpenCatEsp32.ino, and the changes in the program will be automatically saved.
+if the robot(Bittle) with the robotic arm, you should also activate the macro definition as follows:
+
+```cpp
+#define ROBOT_ARM                 // for attaching head clip arm
+```
+
+Otherwise, please comment out this line code.
+
+After the modification is completed, you can click the **Upload** button (as below) to upload OpenCatEsp32.ino, and the changes in the program will be automatically saved.
 
 <figure><img src="../.gitbook/assets/image (515).png" alt=""><figcaption></figcaption></figure>
 
@@ -114,7 +126,7 @@ After the modification is completed, you can click the **Upload** button to uplo
 
 The default code runs the **Standard** mode (including the **Voice command** function). If you want to switch modes, Please [open the serial monitor](serial-monitor.md#biboard) and use the following serial commands:
 
-<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. The switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. The switch on the extension hat should be dialed to <strong>Uart2</strong> side</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>X</td><td>Disable all the module functions above</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
+<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. The switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>XS</td><td>Enable the Serial 2(Tx2, Rx2). The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XB</td><td>Enable the back touch funtion. </td></tr><tr><td>X</td><td>Disable all the module functions above</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
 
 {% hint style="info" %}
 The behavior of the official modules is defined in separate header files in **OpenCat/src/**. You can find them in **OpenCat/src/io.h** **-> readSignal()**. The behavior of **Quick demo** mode is defined in **OpenCat/OpenCat.ino ->  quickDemo()**. You can study the example code to write your functions.&#x20;
@@ -143,9 +155,9 @@ If you want to keep the previous joint calibration data, please input '**n**'.
 &#x20;Input '**Y**' to the question, which means calibrating the MPU6050, i.e. the gyro/accelerometer sensor.
 
 {% hint style="warning" %}
-Put the BiBoard **FLAT** on the table, and don't touch it during calibration.
+Halts at the connection stage. To restart it, you can close and reopen the serial monitor or press the reset button on BiBoard. Put the BiBoard **FLAT** on the table, and don't touch it during calibration.
 
-Sometimes, the program could halt at the connection stage. You can close the serial monitor and reopen it, or press the reset button on BiBoard,  to restart the program.&#x20;
+Sometimes, the program halts at the connection stage. To restart it, you can close and reopen the serial monitor or press the reset button on BiBoard.&#x20;
 
 The program starts calibration after playing the melody 6 times.
 {% endhint %}
@@ -207,7 +219,7 @@ d
 
 ```
 
-After the IMU calibration is completed, the robot will enter the regular power-on program every time it is powered on.
+After the IMU calibration, the robot will enter the regular power-on program every time it is powered on.
 
 {% hint style="info" %}
 The main program of Bittle judges whether it has been initialized by comparing the **BIRTHMARK** in the EEPROM and whether it will not enter the initialization process again when it is turned on next time.
@@ -215,7 +227,7 @@ The main program of Bittle judges whether it has been initialized by comparing t
 
 ### 2.10 Power on
 
-* Long-press the button on the battery and boot up the robot with one side up. It will enter the calibration state automatically. The picture below shows the upper and lower legs installed after the robot enters the calibration state.
+* Long-press the battery button and boot up the robot with one side up. It will enter the calibration state automatically. The picture below shows the upper and lower legs installed after the robot enters the calibration state.
 
 ![](<../.gitbook/assets/SideUp (1).jpg>)
 
