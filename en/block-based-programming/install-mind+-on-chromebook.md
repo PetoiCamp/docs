@@ -9,7 +9,7 @@ Then, follow the following steps to install Mind+.
 ## Check the processor architecture
 
 Use the following command to check the processor architecture in the terminal:\
-_**`uname -m`**_\
+&#xNAN;_**`uname -m`**_\
 The output will be similar to "i686", "x86\_64" or "armv7":\
 i686 (or similar) - 32-bit Intel/AMD processor (common in older computers).\
 x86\_64 (or similar) - 64-bit Intel/AMD processors (modern laptops, desktops, and most Chromebooks).\
@@ -24,8 +24,8 @@ According to different  architectures to download different versions:[https://mi
 ## Installation
 
 Use the following command in the terminal to install it (Replace **\*\*\*\*\*** with the file name of the installation package):\
-_**`sudo dpkg -i *****.deb`**_\
-_**`sudo apt-get -f install`**_
+&#xNAN;_**`sudo dpkg -i *****.deb`**_\
+&#xNAN;_**`sudo apt-get -f install`**_
 
 After installed, you can start the **Mind+** app in the Chromebook launcher:
 

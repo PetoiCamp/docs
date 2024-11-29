@@ -17,10 +17,10 @@ Only the position of the buttons matters, though those symbols can help you reme
 Abbreviations for key definitions can reduce SRAM usage. Due to the limited keys of a physical remote, you can change the definitions for convenience.&#x20;
 
 {% hint style="warning" %}
-The following map is just an illustration. Check the **`#define KXX command`**in OpenCat/src/infrared.h for the actual key definitions in effect. They are also open to your customization.
+The following map is just an illustration. Check the **`#define KXX command`**&#x69;n OpenCat/src/infrared.h for the actual key definitions in effect. They are also open to your customization.
 {% endhint %}
 
-![](../.gitbook/assets/IR\_Nybble.png)
+![](../.gitbook/assets/IR_Nybble.png)
 
 We also made a customized remote panel for future batches. Previous users can download the design file and print it on A4 paper.&#x20;
 
@@ -44,9 +44,9 @@ We also made a customized remote panel for future batches. Previous users can do
 * When the robot is walking, you can let it climb up/down a small slope (<10 degrees)
 
 {% hint style="info" %}
-* If the robot keeps beeping after you connect the USB uploader, with numbers printed on the serial monitor, it’s the low voltage alarm being triggered. You need to power the mainboard with the battery to pass the threshold.
-* The servos are designed to be driven by internal gears. Avoid rotating the servos too fast from the outside.&#x20;
-* **Don’t keep the robot running for too long.** It will overheat the electronics and reduce the servos’ life span.&#x20;
-* If you feel something is wrong with the robot, press the reset button on the main board to restart the program.&#x20;
-* Be kind as if you were playing with a real kitten/puppy. (^=◕ᴥ◕=^)
+- If the robot keeps beeping after you connect the USB uploader, with numbers printed on the serial monitor, it’s the low voltage alarm being triggered. You need to power the mainboard with the battery to pass the threshold.
+- The servos are designed to be driven by internal gears. Avoid rotating the servos too fast from the outside.&#x20;
+- **Don’t keep the robot running for too long.** It will overheat the electronics and reduce the servos’ life span.&#x20;
+- If you feel something is wrong with the robot, press the reset button on the main board to restart the program.&#x20;
+- Be kind as if you were playing with a real kitten/puppy. (^=◕ᴥ◕=^)
 {% endhint %}

@@ -34,7 +34,7 @@ Note:&#x20;
 
 For **NyBoard V1\_1**, the board version number is here:
 
-![](<../.gitbook/assets/NyBoardV1\_1 (3).jpg>)\
+![](<../.gitbook/assets/NyBoardV1_1 (3).jpg>)\
 
 
 Dial the I2C switch(Sw2) to the "**Arduino**" side
@@ -119,27 +119,11 @@ For **BiBoard**, the firmware uploader calls the application **esptool** to uplo
 
 #### Menu bar in Petoi Desktop APP
 
-<div align="left">
-
-<img src="../.gitbook/assets/Model_UI.jpg" alt="Model">
-
- 
-
-<img src="../.gitbook/assets/Language_UI.jpg" alt="Language">
-
- 
-
-<img src="../.gitbook/assets/About_UI.jpg" alt="Help">
-
-</div>
+<div align="left"><img src="../.gitbook/assets/Model_UI.jpg" alt="Model"> <img src="../.gitbook/assets/Language_UI.jpg" alt="Language"> <img src="../.gitbook/assets/About_UI.jpg" alt="Help"></div>
 
 ### Click the Firmware Uploader button
 
-<div align="center">
-
-<img src="../.gitbook/assets/Main_FU-en.png" alt="Main interface">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/Main_FU-en.png" alt="Main interface"></div>
 
 <figure><img src="../.gitbook/assets/image (270).png" alt=""><figcaption><p><strong>Firmware Uploader interface</strong></p></figcaption></figure>
 
@@ -171,7 +155,7 @@ The 1.0 software won't work properly with the Joint Calibrator, the Skill Compos
 
     \
     For **BiBoard,** Mind+ mode is supported by default and does not require a serial command to switch on.\
-    For documentation on each sensor, please refer to the corresponding pages in the [**EXTENSIBLE MODULES**](https://docs.petoi.com/extensible-modules/introduction) section**.**
+    For documentation on each sensor, please refer to the corresponding pages in the [**EXTENSIBLE MODULES**](https://docs.petoi.com/extensible-modules/introduction) sectio&#x6E;**.**
 {% endhint %}
 
 {% hint style="info" %}

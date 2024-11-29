@@ -44,7 +44,7 @@
 
 ## Free Curriculum
 
-* [📚 Download](https://drive.google.com/drive/folders/13iGqVpg9JFAYbGBv5oTFU8sHvXrkqL7z?usp=drive\_link)
+* [📚 Download](https://drive.google.com/drive/folders/13iGqVpg9JFAYbGBv5oTFU8sHvXrkqL7z?usp=drive_link)
 
 ## APIs
 
@@ -63,8 +63,8 @@
 ## Nyboard
 
 * [Overview](nyboard/overview.md)
-* [NyBoard V1\_0](nyboard/nyboard-v1\_0.md)
-* [NyBoard V1\_1 & NyBoard V1\_2](nyboard/nyboard-v1\_1-and-nyboard-v1\_2.md)
+* [NyBoard V1\_0](nyboard/nyboard-v1_0.md)
+* [NyBoard V1\_1 & NyBoard V1\_2](nyboard/nyboard-v1_1-and-nyboard-v1_2.md)
 
 ## BIBOARD
 
@@ -107,6 +107,7 @@
 * [PIR Motion Sensor](extensible-modules/pir-motion-sensor.md)
 * [IR Distance Sensor](extensible-modules/ir-distance-sensor.md)
 * [Voice Command Module](extensible-modules/voice-command-module.md)
+* [Grove Vision AI V2](extensible-modules/grove-vision-ai-v2.md)
 * [Advanced development and application of AI vision modules](extensible-modules/advanced-development-and-application-of-ai-vision-modules/README.md)
   * [Model Training](extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-training.md)
   * [Model quantification](extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-quantification.md)
