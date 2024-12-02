@@ -8,6 +8,8 @@ description: This chapter is for Advanced users with programming experience.
 
 For the specific parameters of each functional module of BiBoard, please refer to [Chapter 2](../biboard/biboard-v0.md#2.-modules-and-functions) of the BiBoard Quick Start Guide.
 
+\============
+
 ## 2. Set up BiBoard&#x20;
 
 ### 2.1 Prepare the ESP32 development environment
@@ -110,7 +112,7 @@ Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** accor
 #define BiBoard_V1_0
 ```
 
-if the robot(Bittle) with the robotic arm, you should also activate the macro definition as follows:
+if the robot(Bittle R) with the robotic arm, you should also activate the macro definition as follows:
 
 ```cpp
 #define ROBOT_ARM                 // for attaching head clip arm
