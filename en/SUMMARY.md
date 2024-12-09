@@ -107,7 +107,7 @@
 * [PIR Motion Sensor](extensible-modules/pir-motion-sensor.md)
 * [IR Distance Sensor](extensible-modules/ir-distance-sensor.md)
 * [Voice Command Module](extensible-modules/voice-command-module.md)
-* [Grove Vision AI V2](extensible-modules/grove-vision-ai-v2.md)
+* [Petoi AI Vision Module](extensible-modules/petoi-ai-vision-module.md)
 * [Advanced development and application of AI vision modules](extensible-modules/advanced-development-and-application-of-ai-vision-modules/README.md)
   * [Model Training](extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-training.md)
   * [Model quantification](extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-quantification.md)

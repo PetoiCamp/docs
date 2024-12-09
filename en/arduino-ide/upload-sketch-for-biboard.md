@@ -57,18 +57,18 @@ You can use the default 4MB with spiffs. You can also use other partition scheme
 
 Suppose you want to fully utilize the 16 MB flash of BiBoard (it's unnecessary and takes a longer uploading time). You can read the user manual for the [Add hardware partition configuration option in Arduino IDE](https://docs.petoi.com/biboard/demo-applications/13.-add-hardware-partition-configuration-option-in-arduino-ide).
 
-### 2.5 Download the OpenCatEsp32 package
+### 2.5 Download the source code & install the library
 
 {% hint style="info" %}
 We keep updating the codes as an open-source project. You can star-mark and follow our GitHub repository to get the newest features and bug fixes. You can also share your codes with worldwide OpenCatEsp32 users.&#x20;
 {% endhint %}
 
-* Download the ​OpenCatEsp32 repository from GitHub repository: [https://github.com/PetoiCamp/OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32)\
-  We suggest you utilize GitHub’s version control feature. Otherwise, make sure you download the **WHOLE OpenCatEsp32 FOLDER** every time. All the codes have to be the same version to work together.&#x20;
+1. Download the ​OpenCatEsp32 repository from GitHub repository: [https://github.com/PetoiCamp/OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32)\
+   We suggest you utilize GitHub’s version control feature. Otherwise, make sure you download the **WHOLE OpenCatEsp32 FOLDER** every time. All the codes have to be the same version to work together.&#x20;
 
 <figure><img src="../.gitbook/assets/downloadEsp32Repo.png" alt=""><figcaption></figcaption></figure>
 
-* If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino** so that the two names match.&#x20;
+2. If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino** so that the two names match.&#x20;
 
 {% hint style="warning" %}
 No matter where you save the folder, the file structure should be:
@@ -77,6 +77,13 @@ No matter where you save the folder, the file structure should be:
 {% endhint %}
 
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
+
+3. Install the latest version of libraries (**Seeed Arduino SSCMA**, **ICM42670P**) in the Library Manager:\
+   ![](<../.gitbook/assets/image (1).png>)\
+   \
+   ![](<../.gitbook/assets/image (2).png>)\
+   \
+   ![](<../.gitbook/assets/image (3).png>)
 
 ### 2.6 [Connect to BiBoard](../upload-firmware.md#biboard) via USB type-C data cable
 
