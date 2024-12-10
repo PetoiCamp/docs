@@ -1,6 +1,6 @@
 # Bluetooth Connection
 
-If you want to use [Joint Calibrator](https://docs.petoi.com/desktop-app/joint-calibrator), [Skill Composer](https://docs.petoi.com/desktop-app/skill-composer) in the Petoi Desktop App, or a coding block in [Mind+](https://docs.petoi.com/block-based-programming/petoi-coding-blocks) via computer Bluetooth, you need to pair the mainboard Bluetooth on the computer first.
+If you want to use [Joint Calibrator](https://docs.petoi.com/desktop-app/joint-calibrator), [Skill Composer](https://docs.petoi.com/desktop-app/skill-composer) in the Petoi Desktop App, or a coding block in [Mind+](https://docs.petoi.com/block-based-programming/petoi-coding-blocks) via computer Bluetooth, you need to pair the mainboard's Bluetooth with the computer first.
 
 ## Connection Steps
 
@@ -26,7 +26,19 @@ After paired successfully, it shows：
 
 <figure><img src=".gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (507).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (507).png" alt=""><figcaption><p>Windows 10</p></figcaption></figure>
+
+{% hint style="info" %}
+For **Windows 11**, after the initial Bluetooth pairing, the device might show “not connected” as follows. However, as long as the robot is not rebooted after the pairing, the associated COM port is still registered in the system. You can connect to the serial port within the Petoi application, such as the Desktop app and the Mind+.
+
+<img src=".gitbook/assets/not_connected.png" alt="" data-size="original">
+{% endhint %}
+
+Check the **outgoing** serial port, which we will use later in the Mind+ or Petoi Desktop App in the **More Bluetooth options**:
+
+<figure><img src=".gitbook/assets/image (508).png" alt=""><figcaption><p>More Bluetooth options</p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (509).png" alt=""><figcaption><p>Bluetooth Settings</p></figcaption></figure>
 
 {% hint style="info" %}
 If you have already added the BiBoard Bluetooth before, after powering off and powering on the robot, you should remove both of the two devices in the list as follows:
@@ -40,12 +52,6 @@ Then re-do the _**Step 3**_.
 ![](<.gitbook/assets/image (512).png>)\
 Click the button _**Cancel**_ to quit.
 {% endhint %}
-
-Check the **outgoing** port. We will use it later in the Mind+ or Petoi Desktop App:
-
-<figure><img src=".gitbook/assets/image (508).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (509).png" alt=""><figcaption></figcaption></figure>
 
 4.  Test in Mind+:\
 
