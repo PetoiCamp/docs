@@ -18,15 +18,7 @@ This robot arm is already fully assembled. You only need to install the servo wi
 
 In the [**Petoi Desktop App**](https://docs.petoi.com/desktop-app/introduction), choose the model **Bittle R**, then click the **Firmware Uploader** button to upload the firmware for the robot with an arm.
 
-<div>
-
-<figure><img src="../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/FirmwareUpload01.jpeg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/FirmwareUpload01.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
 
@@ -72,7 +64,7 @@ Click the corresponding slider track of the robot arm and adjust the robot arm b
 
 <figure><img src="../.gitbook/assets/rotationDirections.jpeg" alt=""><figcaption></figcaption></figure>
 
-The joint index corresponding to the claw is 2. It can be auto-calibrated by pressing the **Auto** button. You can also manually click the corresponding slider track and adjust the gear on the servo output shaft to the position shown in the figure above.
+The joint index corresponding to the claw is 2. It can be auto-calibrated by pressing the **Auto** button or inputting the serial command "**c-2**" on the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard) of Arduino IDE. You can also manually click the corresponding slider track and adjust the gear on the servo output shaft to the position shown in the figure above.
 
 ## How to use
 

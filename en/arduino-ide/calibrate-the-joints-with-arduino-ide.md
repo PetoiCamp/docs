@@ -2,7 +2,7 @@
 
 ### Prepare to Enter to the Calibration State
 
-Entering calibration state requires the following preparations: ‌
+Entering the calibration state requires the following preparations: ‌
 
 ### Prepare to Enter the Calibration State
 
@@ -14,19 +14,19 @@ Entering the calibration state requires the following preparations: ‌
 
 3\. Connect the [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) and communicate normally&#x20;
 
-If you are building the robot with an unassembled kit, do not install the head and leg components until calibrated.&#x20;
+If you build the robot with an unassembled kit, do not install the head and leg components until calibrated.&#x20;
 
 You need to install the battery and long-press the button on the battery to power the robot.
 
-![](<../.gitbook/assets/assets\_bittle\_wire2 (3).jpeg>)
+![](<../.gitbook/assets/assets_bittle_wire2 (3).jpeg>)
 
-The calibration has 3 steps:
+The calibration has three steps:
 
-&#x20; 1\. Power on the robot with battery, let servos rotate freely to zero angle/calibration state
+&#x20; 1\. Power on the robot with battery, and let servos rotate freely to zero angle/calibration state
 
 &#x20; 2\. Attach body parts to the servos
 
-&#x20; 3\. Fine-tune the offsets in serial monitor
+&#x20; 3\. Fine-tune the offsets in the serial monitor
 
 ## 1. Enter the calibration state
 
@@ -42,31 +42,31 @@ The first row is the joint indexes; the second row is their calibration offsets:
 | ---------- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- |
 | **Offset** | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 |
 
-Initial values are “-1” or “0”, and should be changed by later calibration.&#x20;
+Initial values are “-1” or “0” and should be changed by later calibration.&#x20;
 
 {% hint style="info" %}
-The servos use a potentiometer in the feedback loop for position control. When holding at a static position, they tend to vibrate around the target angle. A Parkinson’s-like vibration will develop after a short period of use. It won’t affect much during continuous motion. Better servos without these troubles could cost 10 times more, so replacing a failed unit is a more cost-effective solution. &#x20;
+The servos use a potentiometer in the feedback loop for position control. When held at a static position, they tend to vibrate around the target angle. A Parkinson's-like vibration will develop after a short period of use. It won’t affect much during continuous motion. Better servos without these troubles could cost 10 times more, so replacing a failed unit is a more cost-effective solution. &#x20;
 {% endhint %}
 
 ## 2. The rationale for calibration
 
 ### 2.1 Understand the zero state and the coordinate system
 
-After typing ‘c’ in the serial monitor, with all servos rotated to their zero angles, now attach the head, tail, and legs prepared in the previous section to the body. They are generally perpendicular to their linked body frames. The calibration pose is shown below:
+After typing ‘c’ in the serial monitor, with all servos rotated to their zero angles, attach the head, tail, and legs prepared in the previous section to the body. They are generally perpendicular to their linked body frames. The calibration pose is shown below:
 
-![Nybble's Calibration State](<../.gitbook/assets/calibration\_Nybble (2).png>)
+![Nybble's Calibration State](<../.gitbook/assets/calibration_Nybble (2).png>)
 
 ![Bittle's Calibration State](<../.gitbook/assets/zero (2).png>)
 
 {% hint style="info" %}
-If you are building the robot from a kit, install the servo-related components according to the picture above, and try to ensure that they are perpendicular to each other (the upper leg is perpendicular to the torso, and the lower leg is perpendicular to the upper leg). Please refer to the related chapter in the user manual for the details:
+If you are building the robot from a kit, install the servo-related components according to the picture above and try to ensure that they are perpendicular to each other (the upper leg is perpendicular to the torso, and the lower leg is perpendicular to the upper leg). Please refer to the related chapter in the user manual for the details:
 
 * Nybble
-* [Bittle](https://app.gitbook.com/s/-MPQ2vWEZUH7ol6XE55o-887967055/4-connect-the-wires#5.2-prepare-for-calibration)
+* [Bittle](https://bittle.petoi.com/6-calibration)
 {% endhint %}
 
 {% hint style="warning" %}
-Note: Insert the servo-related components directly into the servo output shaft, do not turn the output shaft during this process.
+Note: Insert the servo-related components directly into the servo output shaft; do not turn the output shaft during this process.
 {% endhint %}
 
 &#x20;Rotating the limbs counter-clockwise from their zero states will be positive (same as in polar coordinates). Viewed from the left side of the robot's body, the counter-clockwise rotation of the joint is defined as the positive direction.
@@ -76,14 +76,14 @@ The only exception is the tilt angle for the head of Nybble. It’s more natural
 {% endhint %}
 
 {% hint style="info" %}
-But from the right side of the robot's body, the positive and negative of the rotation direction are just opposite.
+However, from the right side of the robot's body, the rotation direction's positive and negative are just opposite.
 {% endhint %}
 
 ### 2.2 Discrete angular intervals
 
-If we take a closer look at the servo shaft, we can see it has a certain number of teeth. That’s for attaching the servo arms, and to avoid sliding in the rotational direction. In our servo sample, the gears divide 360 degrees into 25 sectors, each taking **14.4** degrees(offset of -7.2\~7.2 degrees). That means we cannot always get a perfect perpendicular installation.&#x20;
+If we look closer at the servo shaft, we can see it has a certain number of teeth. That’s for attaching the servo arms and avoiding sliding in the rotational direction. In our servo sample, the gears divide 360 degrees into 25 sectors, each taking **14.4** degrees(offset of -7.2\~7.2 degrees). That means we cannot always get a perfect perpendicular installation.&#x20;
 
-![](<../.gitbook/assets/assets\_bittle\_-MTLzoDqllmeUcpCu5jV\_-MTM-Wiv6R3xuNmAhgrE\_37 (1).png>)
+![](<../.gitbook/assets/assets_bittle_-MTLzoDqllmeUcpCu5jV_-MTM-Wiv6R3xuNmAhgrE_37 (1).png>)
 
 ### 2.3 Attach body parts to the servos
 
@@ -107,7 +107,7 @@ Install upper leg and lower leg components to the output teeth of the servos aft
 
 ### 3.1 Joint Control Commands
 
-The command for fine-tuning calibration (refer to the [serial protocol](https://app.gitbook.com/o/-M-\_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/\~/changes/DHad2hALnPq88oSLEuF1/serial-protocol)) is formatted as `cIndex Offset`. Notice that there’s a space between cIndex and Offset. The index number of the robot's joints is shown in the pictures below:
+The command for fine-tuning calibration (refer to the [serial protocol](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/DHad2hALnPq88oSLEuF1/serial-protocol)) is formatted as `cIndex Offset`. Notice that there’s a space between cIndex and Offset. The index number of the robot's joints is shown in the pictures below:
 
 ![Nybble](<../.gitbook/assets/jointIndexNybble (1).png>)
 
@@ -115,30 +115,34 @@ The command for fine-tuning calibration (refer to the [serial protocol](https://
 
 For example :
 
-* `c8 6` means giving the 8th servo an offset of 6 degrees.&#x20;
-* `c0 -4` means giving the 0th servo(the head) an offset of -4 degrees.&#x20;
+* `c8 6` This means giving the 8th servo an offset of 6 degrees.&#x20;
+* `c0 -4` This means giving the 0th servo(the head) an offset of -4 degrees.&#x20;
 
 {% hint style="warning" %}
-The resolution of the correction amount is 1 degree, do not use decimals.
+The resolution of the correction amount is 1 degree; do not use decimals.
 {% endhint %}
 
 {% hint style="info" %}
-If you find the absolute value of offset is larger than 9, that means you are not attaching the limb closest to its zero states. That will result in a decreased reachable range of the servo on either side. Take off the limb and rotate it by one tooth. It will result in an opposite but smaller offset.&#x20;
+If you find the absolute value of offset is more significant than 9, you are not attaching the limb closest to its zero states. That will decrease the servo's reachable range on either side. Please take off the limb and rotate it by one tooth. It will result in an opposite but smaller offset.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-For example, if you have to use -9 as the calibration value, take the limb off, rotate by one tooth then attach it back. The new calibration value should be around 5, i.e.,  The sum of their absolute values is 14. Avoid rotating the servo shaft during this adjustment.&#x20;
+For example, if you have to use -9 as the calibration value, remove the limb, rotate it by one tooth, and then attach it back. The new calibration value should be around 5, i.e., the sum of their absolute values is 14. Avoid rotating the servo shaft during this adjustment.&#x20;
 {% endhint %}
 
 Find the best offset that can bring the limb to the zero states.  It's a process of trial and error.
+
+{% hint style="info" %}
+For the robotic arm, you can use the serial command "**c-2**" to [auto-calibrate](https://docs.petoi.com/extensible-modules/robot-arm#fine-calibration) the robotic claw joint.
+{% endhint %}
 
 After calibration, **remember to type ‘s’ to save the offsets**. Otherwise, they will be forgotten when exiting the calibration state. You can even save every time after you’re done with one servo.&#x20;
 
 ### 3.2 Use ‘L’ shaped joint tuner
 
-When watching something, the observation will change from different perspectives. That’s why we always want to read directly above a referencing ruler when measuring length.&#x20;
+When watching something, one's observations will change from different perspectives. When measuring length, one always wants to read directly above a referencing ruler.&#x20;
 
-It’s especially important that you keep a parallel perspective when calibrating Bittle. Use the 'L'-shaped joint tuner as a parallel reference to avoid reading errors. Align the tips on the tuner with the center of the screws in the shoulder and knee joints, and the little hole on the tip of the foot. Look along the co-axis of the centers. For each leg, calibrate the shoulder servos (index 8\~11) first, then the knee servos(index 12\~15). When calibrating the knee, use the matching triangle windows on both the tuner and shank to ensure parallel alignment.&#x20;
+You must keep a parallel perspective when calibrating Bittle. Use the 'L'-shaped joint tuner as a parallel reference to avoid reading errors. Align the tips on the tuner with the center of the screws in the shoulder and knee joints and the little hole on the tip of the foot. Look along the co-axis of the centers. For each leg, calibrate the shoulder servos (index 8\~11) first, then the knee servos(index 12\~15). When calibrating the knee, use the matching triangle windows on both the tuner and shank to ensure parallel alignment.&#x20;
 
 #### Nybble
 
@@ -146,23 +150,21 @@ It’s especially important that you keep a parallel perspective when calibratin
 
 #### Bittle
 
-![](../.gitbook/assets/assets\_bittle\_-MSGw-I0q\_j0kHosz8nz\_-MSGx1sAobtzY1ucuddF\_53.jpeg)
+![](../.gitbook/assets/assets_bittle_-MSGw-I0q_j0kHosz8nz_-MSGx1sAobtzY1ucuddF_53.jpeg)
 
 ![Align the upper leg first](../.gitbook/assets/calib1.png)
 
 ![Pay attention to the reference edges for the lower leg](../.gitbook/assets/calib2.png)
 
-###
-
 ### 3.3 Testing and validation
 
-After calibration, type ‘d’ or ‘kup’ to validate the calibration. It will result in Bittle / Nybble symmetrically moving its limbs between rest and stand state. &#x20;
+After calibration, type ‘d’ or ‘kup’ to validate the calibration. This will result in Bittle / Nybble symmetrically moving its limbs between the rest and stand states. &#x20;
 
 You may need to do a few rounds of calibrations to achieve optimal states.
 
-Take Bittle for example, as follows:
+Take Bittle, for example, as follows:
 
-![](<../.gitbook/assets/calibValidation\_Bittle (1).png>)
+![](<../.gitbook/assets/calibValidation_Bittle (1).png>)
 
 ### 3.4 Install the screws
 
@@ -170,7 +172,7 @@ After completing the joint calibration, install the center screws to fix the leg
 
 ### 3.5 Center of mass
 
-Try to understand how the robot keeps balance even during walking. If you are adding new components to the robot, try your best to distribute its weight symmetrically about the spine. You may also need to slide the battery holder back and forth to find the best spot for balancing. Because the battery is heavier in the front, you can also insert it in a reversed direction to shift the center of mass more toward the back.&#x20;
+Try to understand how the robot keeps balance even during walking. If you add new components to the robot, distribute its weight symmetrically about the spine. You may also need to slide the battery holder back and forth to find the best balance spot. Because the battery is heavier in the front, you can insert it in a reversed direction to shift the center of mass more toward the back.&#x20;
 
 {% hint style="info" %}
 You may need to recalibrate if there's a change to the center of mass.&#x20;
