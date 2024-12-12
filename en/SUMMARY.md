@@ -93,7 +93,7 @@
 * [Introduction (For NyBoard)](communication-modules/introduction-for-nyboard.md)
 * [USB Uploader (CH340C or CH343G)](communication-modules/usb-downloader-ch340c.md)
 * [Dual Mode Bluetooth ](communication-modules/dual-mode-bluetooth.md)
-* [WiFi ESP8266](communication-modules/wifi-esp8266/README.md)
+* [WiFi module ESP8266](communication-modules/wifi-esp8266/README.md)
   * [ESP8266 + Python Scripts Implement wireless crowd control](communication-modules/wifi-esp8266/esp8266-+-python-scripts-implement-wireless-crowd-control.md)
 
 ## Extensible Modules

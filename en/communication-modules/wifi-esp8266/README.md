@@ -1,18 +1,16 @@
-# WiFi ESP8266
+# WiFi module ESP8266
 
-### WiFi module ESP8266
-
-### Introduction
+## Introduction
 
 This module uses the ESP8266EX's official model ESP-WROOM-02D, which has 4MB of QSPI Flash. It is certified by the FCC in the United States, CE-RED in Europe, TELEC in Japan, and KC in South Korea.
 
 The module is fully opened. You can program it separately. This is not a simple, transparent transmission module.
 
-### Module Functions
+## Module Functions
 
 The module includes an automatic download circuit and a communication module. The automatic download circuit refers to the official recommendation to use 2 S8050 transistors to receive the RTS and DTR signals from the CH340C downloader and trigger the download sequence.
 
-### Assembly
+## Assembly
 
 Connect to the NyBoard：
 
@@ -24,29 +22,35 @@ Update sketches through USB downloader：
 
 ## Development Environment Settings
 
-We use the Arduino as the development environment.
+We use the Arduino IDE as the development environment.
+
+{% hint style="info" %}
+You must download and install [Arduino IDE](https://www.arduino.cc/en/software) first.&#x20;
+{% endhint %}
 
 ### 2.1 Add ESP8266 source to the board manager
 
-![](<../../.gitbook/assets/2 (5).png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/3 (5).png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-URL：[http://arduino.esp8266.com/stable/package\_esp8266com\_index.json](http://arduino.esp8266.com/stable/package\_esp8266com\_index.json). Paste it into the URL of the additional development board in the Arduino preferences.
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Then open the "Board Manager" and enter ESP8266 or 8266 to search for the board support package:
+URL：[http://arduino.esp8266.com/stable/package\_esp8266com\_index.json](http://arduino.esp8266.com/stable/package_esp8266com_index.json). Paste it into the Additional Boards Manager URLs in the Arduino IDE preferences.
 
-![](<../../.gitbook/assets/4 (4).png>)
+Then open the **Board Manager** and input _ESP8266_ or _8266_ to search for the board support package:
 
-Download the package ESP8266 by ESP8266 Community.
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Download the latest version of ESP8266 from ESP8266 Community.
 
 ### Configuration of the Module
 
-After downloading the board support package, we select ESP8266 Board (current version: 2.74) -> Generic ESP8266 Module.
+After downloading the board support package, we select Board -> ESP8266 -> Generic ESP8266 Module.
 
-![](../../.gitbook/assets/6.png)
-
-![](<../../.gitbook/assets/7 (4).png>)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 Then we set the parameters：
 
@@ -60,37 +64,95 @@ Then we set the parameters：
 | lwIP variant  | V2 Lower memory                                                 |
 | Erase Flash   | Only sketch                                                     |
 
-![](../../.gitbook/assets/8.png)
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### Download Test
 
 After configuration, we used the Arduino classic "Blink" program to test the ESP8266 development board.&#x20;
 
-Open the Blink project, configure the development board, plug the module into the communication module debugging interface of the USB downloader, and download the Blink example.&#x20;
+Open the Blink project, configure the development board, plug the module into the communication module debugging interface of the USB uploader (USB Adapter), and upload the **Blink** sketch.&#x20;
 
-Compared with the Arduino UNO, the compilation time is slightly longer. After Linking, the download progress will be displayed as a percentage:
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-![](../../.gitbook/assets/10.png)
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-The "Blink sketch" uses 257KB of flash and 26.8KB of the SRAM.&#x20;
+Compared with the Arduino UNO, the compilation time is slightly longer. After Linking, the uploading progress will be displayed as follows:
+
+````
+```
+. Variables and constants in RAM (global, static), used 28104 / 80192 bytes (35%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ DATA     1496     initialized variables
+╠══ RODATA   920      constants       
+╚══ BSS      25688    zeroed variables
+. Instruction RAM (IRAM_ATTR, ICACHE_RAM_ATTR), used 59667 / 65536 bytes (91%)
+║   SEGMENT  BYTES    DESCRIPTION
+╠══ ICACHE   32768    reserved space for flash instruction cache
+╚══ IRAM     26899    code in IRAM    
+. Code in flash (default, ICACHE_FLASH_ATTR), used 232148 / 1048576 bytes (22%)
+║   SEGMENT  BYTES    DESCRIPTION
+╚══ IROM     232148   code in flash   
+
+"C:\Users\wjf-1\AppData\Local\Arduino15\packages\esp8266\tools\python3\3.7.2-post1/python3" -I "C:\Users\wjf-1\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\3.1.2/tools/upload.py" --chip esp8266 --port "COM51" --baud "921600" ""  --before default_reset --after hard_reset write_flash 0x0 "C:\Users\wjf-1\AppData\Local\arduino\sketches\E155A600E863F22636B5717F21F23873/Blink.ino.bin"
+esptool.py v3.0
+Serial port COM51
+Connecting....
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: e8:db:84:fc:63:f0
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Compressed 265616 bytes to 195731...
+Writing at 0x00000000... (8 %)
+Writing at 0x00004000... (16 %)
+Writing at 0x00008000... (25 %)
+Writing at 0x0000c000... (33 %)
+Writing at 0x00010000... (41 %)
+Writing at 0x00014000... (50 %)
+Writing at 0x00018000... (58 %)
+Writing at 0x0001c000... (66 %)
+Writing at 0x00020000... (75 %)
+Writing at 0x00024000... (83 %)
+Writing at 0x00028000... (91 %)
+Writing at 0x0002c000... (100 %)
+Wrote 265616 bytes (195731 compressed) at 0x00000000 in 4.4 seconds (effective 482.9 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+
+```
+````
 
 ## Download WiFi Firmware
 
 Project URL：[https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController](https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController)
 
-There're 3 files in the project:
+There are three files in the project:
 
 * ESP8266WiFiController.ino: Arduino sketch with server core code.
-* mainpage.h：welcome page (html) in a char array.
-* actionpage.h：action controller page (html) in a char array.
+* mainpage.h： welcome page (HTML) in a char array.
+* actionpage.h： action controller page (HTML) in a char array.
 
 Please put them in the folder named "ESP8266WiFiController",  then open the ino file and download it to the ESP8266 WiFi module.
 
 ## How to Use
 
-After the sketch downloader to the WiFi module, we strongly recommend run it with your USB downloader so you can get the serial output in the Arduino serial monitor.
+After the sketch is uploaded to the WiFi module, we strongly recommend running it with your USB uploader (USB Adapter) so you can get the serial output in the serial monitor of Arduino IDE.
 
-Open your smartphone WiFi scanner and find an access point named "Bittle-AP" that is not encrypted. Connect it.
+Open the serial monitor in Arduino IDE as follows. Then, unplug and re-plug the WiFi module into the USB uploader.
+
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Open the serial monitor</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Open your smartphone's WiFi scanner and find an unencrypted access point named "Bittle-AP." Connect it.
 
 <figure><img src="../../.gitbook/assets/Mobile.jpg" alt=""><figcaption><p>Mobile Phone</p></figcaption></figure>
 
@@ -100,7 +162,7 @@ Open your smartphone WiFi scanner and find an access point named "Bittle-AP" tha
 If your smartphone automatically optimizes your network connection,  it will cut the connection of "Bittle-AP" because there is no Internet connection. Your smartphone may connect to the WiFi with an Internet connection or even use your cellular data.
 {% endhint %}
 
-Your smartphone may auto jump to the "WiFiManager" page when connecting to "Bittle-AP".&#x20;
+Your smartphone may auto-jump to the "WiFiManager" page when connecting to "Bittle-AP."&#x20;
 
 ![](<../../.gitbook/assets/image (271).png>)
 
@@ -108,13 +170,13 @@ If not, please open your browser and enter **192.168.4.1** to enter the WiFi con
 
 ![](<../../.gitbook/assets/image (359).png>)
 
-On the WiFiManager page, Bittle's wireless module will automatically search for all nearby WiFi SSIDs and display them. After you click on your own WiFi SSID and enter the password, Bittle will connect to this network first.
+On the WiFiManager page, Bittle's wireless module will automatically search for and display all nearby WiFi SSIDs. After you click on your WiFi SSID and enter the password, Bittle will connect to this network first.
 
 ![](<../../.gitbook/assets/image (130).png>)
 
-After connecting to the WiFi successfully, Bittle will print out the IP address assigned by DHCP through the serial port. You can also configure a fixed IP address in Arduino.
+After successfully connecting to the WiFi, Bittle will print out the IP address assigned by DHCP through the serial port on the serial monitor.&#x20;
 
-<figure><img src="../../.gitbook/assets/Serial_Monitor.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Enter the WiFi module's IP address in the web browser, and you can now control the Bittle through WiFi! &#x20;
 
@@ -226,7 +288,7 @@ void loop(void){
 
 ## More Ways Playing the WiFi Module
 
-Compared to the ATMega328P on the NyBoard, the ESP8266 has more hardware and software resources, so you can do more experiments with it.&#x20;
+Compared to the ATMega328P on the NyBoard, the ESP8266 has more hardware and software resources so that you can do more experiments with it.&#x20;
 
 Connect your Bittle to IoT platforms with HTTP restful APIs.&#x20;
 

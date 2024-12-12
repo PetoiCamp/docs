@@ -4,7 +4,7 @@
 
 Petoi AI Vision Module is based on the Arm Cortex-M55, and Ethos-U55 embedded vision module. The Ethos-U55 has 64 to 512 GOP/s of arithmetic power to meet the growing demand for downloading machine learning.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## BiBoard <a href="#biboard" id="biboard"></a>
 

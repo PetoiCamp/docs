@@ -2,7 +2,7 @@
 
 This remote controller is a micro:bit based gamepad. It includes a 4-direction joystick and four undefined buttons. To enhance the gaming experience, it is also paired with a buzzer and vibration motor. It is compact in appearance, comfortable in hand, and can be remotely controlled.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Software setup
 
@@ -24,7 +24,7 @@ import the program to [the programming platform makecode](https://makecode.micro
 We recommend you use the **Chrome** browser.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Download the program to the micro:bit V2
 
@@ -50,7 +50,7 @@ Click![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/intere
 
 Select `BBC micro:bit CMSIS-DAP` in the pop-up window and then select Connect. At this point, our micro:bit has connected successfully.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click to download the program.
 
@@ -60,7 +60,7 @@ Click to download the program.
 
 1. [Upload the newest firmware](https://docs.petoi.com/upload-firmware) to the robot (mainboard type: **BiBoard**)
 2. Install 2 x #7 AAA batteries and plug in the micro:bit V2 to the remote controller. Then power on the remote controller as follows:\
-   ![](<../.gitbook/assets/image (5).png>)\
+   ![](<../.gitbook/assets/image (5) (1).png>)\
 
 3. Power on the robot. After the robot startup, it can connect to the controller automatically.\
    If there are many remote controllers and robots, the connection is one-to-one and first-come-first-served.

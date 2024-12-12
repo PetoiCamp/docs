@@ -79,11 +79,11 @@ No matter where you save the folder, the file structure should be:
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
 
 3. Install the latest version of libraries (**Seeed Arduino SSCMA**, **ICM42670P**) in the Library Manager:\
-   ![](<../.gitbook/assets/image (1).png>)\
+   ![](<../.gitbook/assets/image (1) (1).png>)\
    \
-   ![](<../.gitbook/assets/image (2).png>)\
+   ![](<../.gitbook/assets/image (2) (1).png>)\
    \
-   ![](<../.gitbook/assets/image (3).png>)
+   ![](<../.gitbook/assets/image (3) (1).png>)
 
 ### 2.6 [Connect to BiBoard](../upload-firmware.md#biboard) via USB type-C data cable
 
