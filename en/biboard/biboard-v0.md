@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-BiBoard is a robot dog controller based on ESP32 developed by Petoi LLC. Unlike NyBoard for normal users and robot lovers, BiBoard is mainly facing developers and geeks. High-performance processors, larger memory and storage, wireless connections. Audio function is also included.
+BiBoard is a robot dog controller based on ESP32 developed by Petoi LLC. Unlike NyBoard, which is for regular users and robot lovers, BiBoard mainly faces developers and geeks. High-performance processors, larger memory and storage (16 MB of Flash), and wireless connections. Audio function is also included.
 
 ## 2. Modules and functions
 
@@ -47,7 +47,7 @@ Open “Preferences” in Arduino, add ESP32 development board URL:
 
 <figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/BiBoard\_config\_02 (1).png>)
+![](<../.gitbook/assets/BiBoard_config_02 (1).png>)
 
 Save it and then exit.
 
@@ -59,7 +59,7 @@ Please install the latest available version **2.0.12**. Installing version 2.0.1
 
 <figure><img src="../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/BiBoard\_config\_05.png)
+![](../.gitbook/assets/BiBoard_config_05.png)
 
 After shown “INSTALLED”, the BiBoard board support package is finished.
 

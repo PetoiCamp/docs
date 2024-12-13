@@ -8,8 +8,6 @@ description: This chapter is for Advanced users with programming experience.
 
 For the specific parameters of each functional module of BiBoard, please refer to [Chapter 2](../biboard/biboard-v0.md#2.-modules-and-functions) of the BiBoard Quick Start Guide.
 
-\============
-
 ## 2. Set up BiBoard&#x20;
 
 ### 2.1 Prepare the ESP32 development environment
@@ -45,7 +43,9 @@ There is a setting for the **Flash Size** and **Partition Scheme** among the opt
 
 ### 2.4 Choose hardware partition
 
-The BiBoard uses an ESP32 with a **16 M** flash. To simplify, you can use the **default** **4 MB** partition map without a problem. There's plenty of programming space for the standard OpenCatEsp32 firmware.&#x20;
+The BiBoard V0 uses an ESP32 with a **16M** flash. To simplify, you can use the **default** **4 MB** partition map without a problem. There's plenty of programming space for the standard OpenCatEsp32 firmware.&#x20;
+
+The BiBoard V1 uses an ESP32 with a **4M** flash.
 
 #### 4 MB partition
 
