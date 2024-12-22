@@ -18,6 +18,8 @@ If you need help, please write to support@petoi.com or post on our forum at [pet
 
 ### 🐶 [Bittle X User Manual](https://bittle-x.petoi.com/)
 
+### 🐶 [Bittle X V2 User Manual](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/UtxUfZDdNPRZrsrs5U9L/)
+
 ![](<.gitbook/assets/NB copy.JPG>)
 
 ## Intelligent Search
