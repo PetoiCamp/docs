@@ -2,9 +2,9 @@
 
 We have defined a set of serial communication protocols for robots:&#x20;
 
-<figure><img src="../.gitbook/assets/tokens.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/serial_commands.png" alt=""><figcaption></figcaption></figure>
 
-All the token starts with a single ASCII-encoded character to specify their parsing format. They are case-sensitive and usually in lowercase.&#x20;
+All the tokens start with a single ASCII-encoded character to specify their parsing format. They are case-sensitive and usually in lowercase.&#x20;
 
 {% hint style="info" %}
 Some commands, like the **c** and **m** commands, can be combined.&#x20;
@@ -34,7 +34,7 @@ You can refer to the macro definitions in OpenCat.h to utilize the most updated 
 
 
 
-{% @github-files/github-code-block %}
+{% @github-files/github-code-block url="https://github.com/PetoiCamp/OpenCat/blob/3368dfd46d91cb453bb5fcca3ca4cf84712c922e/src/OpenCat.h#L204-L254" %}
 
 <figure><img src="../.gitbook/assets/tokens (1).png" alt=""><figcaption></figcaption></figure>
 
