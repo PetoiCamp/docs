@@ -68,7 +68,7 @@
 
 ## BIBOARD
 
-* [BiBoard V0 Quick Start Guide](biboard/biboard-v0.md)
+* [BiBoard V0 Guide](biboard/biboard-v0.md)
 * [BiBoard Extension Hat](biboard/biboard-extension-hat.md)
 * [Demo Applications](biboard/demo-applications/README.md)
   * [1.GPIO port](biboard/demo-applications/1.gpio-port.md)
