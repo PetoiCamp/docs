@@ -18,7 +18,7 @@ If you need help, please write to support@petoi.com or post on our forum at [pet
 
 ### 🐶 [Bittle X User Manual](https://bittle-x.petoi.com/)
 
-### 🐶 [Bittle X V2 User Manual](https://petoi.gitbook.io/english)
+
 
 ![](<.gitbook/assets/NB copy.JPG>)
 
