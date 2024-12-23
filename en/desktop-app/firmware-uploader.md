@@ -58,23 +58,28 @@ Use the [**USB type-C data cable for BiBoard**](../upload-firmware.md#biboard)**
 {% hint style="info" %}
 If you cannot find the serial port after connecting to your computer:
 
-* You may need to install [the driver](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) for the CP210x chip.&#x20;
+* You may need to install [the driver](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) for the CP210x chip for BiBoard V0.&#x20;
+* You may need to install [the driver](../technical-support/useful-tools.md#biboard-v1-usb-driver-to-access-the-serial-port) for the CH343 chip for BiBoard V1.&#x20;
 * If the battery powers the BiBoard, please long-press the button on the battery >=3s to power off the mainboard so that the board is only powered through the USB cable and only the blue LED is lit up.&#x20;
 {% endhint %}
 
+#### BiBoard V0
+
 <figure><img src="../.gitbook/assets/image (413).png" alt=""><figcaption></figcaption></figure>
 
-#### BiBoard Version
-
-You can find the board version number on the BiBoard:
+You can find the board version number on the BiBoard V0:
 
 <figure><img src="../.gitbook/assets/image (430).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-On the pre-assembled Bittle/Bittle X, you can check the version information of BiBoard like this by taking a picture and zooming in to see the version information:
+On the pre-assembled Bittle X, you can check the version information of BiBoard like this by taking a picture and zooming in to see the version information:
 
 <img src="../.gitbook/assets/BiBoard_Version.jpg" alt="" data-size="original">
 {% endhint %}
+
+#### BiBoard V1
+
+<figure><img src="../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure>
 
 ## Upload the firmware using the Petoi Desktop app.
 
@@ -133,30 +138,7 @@ For **BiBoard**, the firmware uploader calls the application **esptool** to uplo
 The 1.0 software won't work properly with the Joint Calibrator, the Skill Composer, and other APIs. Only use it when you want to use CodeCraft (a graphical coding interface by our partner, TinkerGen).&#x20;
 {% endhint %}
 
-<table><thead><tr><th width="176">Options</th><th width="293">Values</th><th>Note</th></tr></thead><tbody><tr><td>Software version</td><td><p>1.0</p><p>2.0 (default)</p></td><td>The 1.0 version is obsolete.</td></tr><tr><td>Board version</td><td>NyBoard_V1_0 (default<em>)</em><br>NyBoard_V1_1<br>NyBoard_V1_2<br>BiBoard_V0_1<br>BiBoard_V0_2</td><td>BiBoard_V0_1 or BiBoard_V0_2  is for Bittle X only.</td></tr><tr><td>Product</td><td>Bittle (default)<br>Nybble<br>Bittle X</td><td></td></tr><tr><td>Mode</td><td>Standard (default)<br>RandomMind <br>Voice<br>Mind+<br>Camera <br>Ultrasonic <br>RandomMind_Ultrasonic<br>Light<br>Touch<br>PIR<br>Gesture<br>IR distance</td><td><p>For NyBoard, these 12 modes can be selected. All of these modes are applicable to both <strong>Bittle</strong> and <strong>Nybble</strong>.</p><p>For <strong>BiBoard</strong>, You only need to upload the <strong>Standard</strong> mode firmware, and you can switch between different modes via serial port commands. [1]</p></td></tr><tr><td>Serial port</td><td>Auto detection or by manual selection. </td><td>You can find the correct one through unplug and replug the USB socket on the computer side</td></tr></tbody></table>
-
-{% hint style="info" %}
-1.  You can use the following serial commands to switch modes for **BiBoard**:\
-
-
-    | Serial command | Function                                                                              |
-    | -------------- | ------------------------------------------------------------------------------------- |
-    | XA             | Voice. The switch on the extension hat should be dialed to the **Voice command** side |
-    | XU             | Ultrasonic. The switch on the extension hat should be dialed to **Uart2** side        |
-    | XC             | Camera                                                                                |
-    | XL             | Light                                                                                 |
-    | XT             | Touch                                                                                 |
-    | XI             | PIR                                                                                   |
-    | XG             | Gesture                                                                               |
-    | XD             | IR distance                                                                           |
-    | XQ             | Quick demo                                                                            |
-    | X              | Standard                                                                              |
-    | z              | RandomMind (On/Off)                                                                   |
-
-    \
-    For **BiBoard,** Mind+ mode is supported by default and does not require a serial command to switch on.\
-    For documentation on each sensor, please refer to the corresponding pages in the [**EXTENSIBLE MODULES**](https://docs.petoi.com/extensible-modules/introduction) sectio&#x6E;**.**
-{% endhint %}
+<table><thead><tr><th width="176">Options</th><th width="293">Values</th><th>Note</th></tr></thead><tbody><tr><td>Software version</td><td><p>1.0</p><p>2.0 (default)</p></td><td>The 1.0 version is obsolete.</td></tr><tr><td>Board version</td><td><p>NyBoard_V1_0 (default<em>)</em><br>NyBoard_V1_1<br>NyBoard_V1_2<br>BiBoard_V0_1</p><p>BiBoard_V0_2<br>BiBoard_V1_0</p></td><td>BiBoard_V0_1 or BiBoard_V0_2  is for Bittle X.  <br>BiBoard_V1_0 is for Bittle X V2 only.</td></tr><tr><td>Product</td><td>Bittle (default)<br>Nybble<br>Bittle X</td><td></td></tr><tr><td>Mode</td><td>Standard (default)<br>RandomMind <br>Voice<br>Mind+<br>Camera <br>Ultrasonic <br>RandomMind_Ultrasonic<br>Light<br>Touch<br>PIR<br>Gesture<br>IR distance</td><td><p>For NyBoard, these 12 modes can be selected. All of these modes are applicable to both <strong>Bittle</strong> and <strong>Nybble</strong>.</p><p>For <strong>BiBoard</strong>, You only need to upload the <strong>Standard</strong> mode firmware, and you can switch between different modes via serial port commands. [1]</p></td></tr><tr><td>Serial port</td><td>Auto detection or by manual selection. </td><td>You can find the correct one through unplug and replug the USB socket on the computer side</td></tr></tbody></table>
 
 {% hint style="info" %}
 1. You can use the serial commands to [switch modes](../arduino-ide/upload-sketch-for-biboard.md#id-2.8-swith-mode-via-the-serial-commands) for **BiBoard**:\
@@ -178,9 +160,9 @@ There's no correlation between the board (hardware) version and the code (softwa
 * **Update the Mode Only**\
   If you have **upgraded the firmware** at least once after downloading a new version of this desktop app, you can switch between the modes without refreshing the parameters. It's faster by skipping the firmware upgrade stage.&#x20;
 
-#### **Upgrade the firmware** process for NyBoard.
+#### **Upgrade the firmware** process for NyBoard
 
-After clicking the **Upgrade the Firmware** button, the uploading process starts immediately. The status bar at the bottom shows the current progress in real-time and the results of key processes.
+After clicking the **Upgrade the Firmware** button, the uploading process starts immediately. The status bar at the bottom shows the current progress in real time and the results of key processes.
 
 After the **Parameters** firmware has been successfully uploaded, the board runs the configuration program. Some message windows will pop up in sequence for you to confirm or cancel:
 
