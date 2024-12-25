@@ -130,17 +130,31 @@ Hard resetting via RTS pin...
 ```
 ````
 
-## Download WiFi Firmware
+## Upload the WiFi Firmware to the ESP8266 module.
 
 Project URL：[https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController](https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController)
 
-There are three files in the project:
+There are seven files in the project:
 
 * ESP8266WiFiController.ino: Arduino sketch with server core code.
 * mainpage.h： welcome page (HTML) in a char array.
 * actionpage.h： action controller page (HTML) in a char array.
+* actions.h
+* actions.json
+* calibrationpage.h
+* commons.h
 
-Please put them in the folder named "ESP8266WiFiController",  then open the ino file and download it to the ESP8266 WiFi module.
+Please open the **ESP8266WiFiController.ino** in the Arduino IDE and install the library **WiFiManager** and **Dictionary** in the Library Manager:
+
+<figure><img src="../../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
+
+Then, upload the sketch to the ESP8266 WiFi module.
+
+<figure><img src="../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
 
 ## How to Use
 
