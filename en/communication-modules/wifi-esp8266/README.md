@@ -8,7 +8,7 @@ The module is fully opened. You can program it separately. This is not a simple,
 
 ## Module Functions
 
-The module includes an automatic download circuit and a communication module. The automatic download circuit refers to the official recommendation to use 2 S8050 transistors to receive the RTS and DTR signals from the CH340C downloader and trigger the download sequence.
+The module includes an automatic upload circuit and a communication module. The automatic upload circuit recommends using 2 S8050 transistors to receive the RTS and DTR signals from the [USB uploader](../usb-downloader-ch340c.md) (CH340C or CH343G) and trigger the upload sequence.
 
 ## Assembly
 
@@ -16,7 +16,7 @@ Connect to the NyBoard：
 
 ![](<../../.gitbook/assets/0 (3).jpeg>)
 
-Update sketches through USB downloader：
+Update sketches through USB uploader：
 
 ![](../../.gitbook/assets/1.jpeg)
 
@@ -54,19 +54,19 @@ After downloading the board support package, we select Board -> ESP8266 -> Gener
 
 Then we set the parameters：
 
-| Parameters    | Settings                                                        |
-| ------------- | --------------------------------------------------------------- |
-| Builtin Led   | 2                                                               |
-| Upload Speed  | 921600（Auto-negotiation during downloading, 115200 is too slow） |
-| CPU Frequency | 160MHz                                                          |
-| Flash Size    | 4MB                                                             |
-| Reset Method  | DTR reset                                                       |
-| lwIP variant  | V2 Lower memory                                                 |
-| Erase Flash   | Only sketch                                                     |
+| Parameters    | Settings                                                      |
+| ------------- | ------------------------------------------------------------- |
+| Builtin Led   | 2                                                             |
+| Upload Speed  | 921600（Auto-negotiation during uploading, 115200 is too slow） |
+| CPU Frequency | 160MHz                                                        |
+| Flash Size    | 4MB                                                           |
+| Reset Method  | DTR reset                                                     |
+| lwIP variant  | V2 Lower memory                                               |
+| Erase Flash   | Only sketch                                                   |
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-### Download Test
+### Upload the test program.
 
 After configuration, we used the Arduino classic "Blink" program to test the ESP8266 development board.&#x20;
 
@@ -173,10 +173,10 @@ Open your smartphone's WiFi scanner and find an unencrypted access point named "
 ![Computer](<../../.gitbook/assets/image (398).png>)
 
 {% hint style="info" %}
-If your smartphone automatically optimizes your network connection,  it will cut the connection of "Bittle-AP" because there is no Internet connection. Your smartphone may connect to the WiFi with an Internet connection or even use your cellular data.
+If your smartphone automatically optimizes your network connection,  it will cut the connection of "Bittle-AP" because there is no Internet connection. Your smartphone may connect to the WiFi with an Internet connection or even use your cellular data. Please turn off your smartphone's network connection optimization function and force it to connect to the "**Bittle-AP**" hotspot.
 {% endhint %}
 
-Your smartphone may auto-jump to the "WiFiManager" page when connecting to "Bittle-AP."&#x20;
+Your smartphone may auto-jump to the "WiFiManager" page when connecting to "**Bittle-AP**."&#x20;
 
 ![](<../../.gitbook/assets/image (271).png>)
 
@@ -184,11 +184,11 @@ If not, please open your browser and enter **192.168.4.1** to enter the WiFi con
 
 ![](<../../.gitbook/assets/image (359).png>)
 
-On the WiFiManager page, Bittle's wireless module will automatically search for and display all nearby WiFi SSIDs. After you click on your WiFi SSID and enter the password, Bittle will connect to this network first.
+On the WiFiManager page, Please click the **Configure WiFi** button. The WiFi module will automatically search for and display all nearby WiFi SSIDs. After you click on your WiFi SSID and enter the password, the WiFi module will connect to this network first.
 
 ![](<../../.gitbook/assets/image (130).png>)
 
-After successfully connecting to the WiFi, Bittle will print out the IP address assigned by DHCP through the serial port on the serial monitor.&#x20;
+After successfully connecting to the network, the WiFi module will print out the IP address assigned by DHCP through the serial port on the serial monitor.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
@@ -302,7 +302,7 @@ void loop(void){
 
 ## More Ways Playing the WiFi Module
 
-Compared to the ATMega328P on the NyBoard, the ESP8266 has more hardware and software resources so that you can do more experiments with it.&#x20;
+Compared to the ATMega328P on the NyBoard, the ESP8266 has more hardware and software resources, so you can do more experiments with it.&#x20;
 
 Connect your Bittle to IoT platforms with HTTP restful APIs.&#x20;
 
