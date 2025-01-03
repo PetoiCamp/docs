@@ -17,9 +17,11 @@ description: Robots can be precisely calibrated using the Petoi Desktop App.
 Make sure you have uploaded the OpenCat [**Main function**](https://docs.petoi.com/desktop-app/firmware-uploader#uploading-process) firmware before calibrating. Only the software version 2.0 can calibrate the joints via this App.
 {% endhint %}
 
-You need to connect the [**USB adapter**](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) and USB data cable or [**Bluetooth module**](https://docs.petoi.com/communication-modules/dual-mode-bluetooth#connection-with-nyboard) (for NyBoard only ) to the computer, install the battery and long-press the button on the battery to power the robot.
+For NyBoard, you need to connect the [**USB adapter**](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) and USB data cable or [**Bluetooth module**](https://docs.petoi.com/communication-modules/dual-mode-bluetooth#connection-with-nyboard) (for NyBoard only ) to the computer, install the battery, and long-press the button on the battery to power the robot.
 
-## Enter the calibration state
+For **BiBoard**, the USB data cable connection for joint calibration must be made directly to **the BiBoard** and NOT to the outside charging port on the battery.  You can also connect to the computer via [Bluetooth](https://docs.petoi.com/bluetooth-connection).
+
+## Enter the calibration state.
 
 &#x20;After the robot is powered on, there are 2 methods to enter the calibration state:
 
@@ -78,7 +80,7 @@ Use the included L-shaped tool as a reference during calibration. According to t
 
 #### Bittle
 
-![](../.gitbook/assets/assets\_bittle\_-MSGw-I0q\_j0kHosz8nz\_-MSGx1sAobtzY1ucuddF\_53.jpeg)
+![](../.gitbook/assets/assets_bittle_-MSGw-I0q_j0kHosz8nz_-MSGx1sAobtzY1ucuddF_53.jpeg)
 
 ![Align the upper leg first](../.gitbook/assets/calib1.png)
 
@@ -92,7 +94,7 @@ You can switch between  "**Rest**", "**Stand up**" and "**Walk**" to test the ca
 
 If you want to continue calibrating, please click the **Calibration** button, and the robot will be in the calibration state again (all servos will move to the calibration position immediately).&#x20;
 
-![](../.gitbook/assets/Cali\_btn\_Nybble\_en.png) ![](<../.gitbook/assets/calibrBittle\_cali\_en (1).png>)
+![](../.gitbook/assets/Cali_btn_Nybble_en.png) ![](<../.gitbook/assets/calibrBittle_cali_en (1).png>)
 
 {% hint style="info" %}
 Note:&#x20;
