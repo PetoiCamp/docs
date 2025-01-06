@@ -21,7 +21,7 @@ Please download and install the USB driver:
 * Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER_EXE.html)
 * Linux: [http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](http://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html)
 
-### BiBoard
+### BiBoard V0
 
 When you use a USB type-C data cable to upload the firmware for the **BiBoard**,  if there is **no** serial port in the port list of Device Manager.&#x20;
 
@@ -37,7 +37,24 @@ Please download and install the USB driver:
 
 {% embed url="https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers?tab=downloads" %}
 
-For more details, please refer to the [BiBoard USB Driver to access the serial port](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port).
+For more details, please refer to the [BiBoard V0 USB Driver to access the serial port](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port).
+
+### BiBoard V1
+
+When you use a USB type-C data cable to upload the firmware for the mainboard **BiBoard V1.**
+
+* In Windows, if there is **no** serial port in the port list of **Device Manager**:
+
+<figure><img src=".gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
+
+* In Mac, open the **Terminal** program under the **Applications**-**Utilities** folder and type the following commands. If no serial device name starting with "_**tty.wchusbserial**_" is found:
+
+<figure><img src=".gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
+
+#### Please download and install the USB driver:
+
+* Windows: [https://www.wch-ic.com/downloads/CH343SER\_EXE.html](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
+* Mac: [https://www.wch-ic.com/downloads/CH34XSER\_MAC\_ZIP.html](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
 
 ## Upload the firmware
 
