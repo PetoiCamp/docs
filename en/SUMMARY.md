@@ -138,7 +138,9 @@
 
 ## Useful Links 🕸
 
-* [🔭 Official Site of Petoi](https://www.petoi.com)
+* [🔭 Home of Petoi Robots](https://www.petoi.com)
+* [🛒 Shop Coding Robots](https://www.petoi.com/collections/robots)
 * [💿 GitHub of OpenCat](https://github.com/PetoiCamp/OpenCat)
 * [🎪 PetoiCamp (Forum)](https://www.petoi.camp/)
+* [📽️ Petoi Robot Videos](https://www.youtube.com/@petoicamp/playlists)
 * [📬 Users' repositories](useful-links/users-repositories.md)
