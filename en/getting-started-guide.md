@@ -15,6 +15,10 @@ If you have a construction kit, you can follow the following instructions to bui
     * select BiBoard V1 during the firmware upload process with [Petoi Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#biboard-for-bittle-x)
 * [Nybble](https://nybble.petoi.com/chapter1)
 
+{% hint style="warning" %}
+Note that the robot is suitable for working on smooth surfaces. When walking on a carpet, the movement may not be smooth.
+{% endhint %}
+
 ### After you’ve assembled a Petoi robot or have bought a pre-assembled version, the following steps are recommended:
 
 1. [Play with mobile app](https://docs.petoi.com/mobile-app/controller)

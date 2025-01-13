@@ -43,13 +43,16 @@ For more details, please refer to the [BiBoard V0 USB Driver to access the seria
 
 When you use a USB type-C data cable to upload the firmware for the mainboard **BiBoard V1.**
 
-* In Windows, if there is **no** serial port in the port list of **Device Manager**:
+* On Windows, if there is **no** serial port in the port list of **Device Manager**:
 
 <figure><img src=".gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
 
-* In Mac, open the **Terminal** program under the **Applications**-**Utilities** folder and type the following commands. If no serial device name starting with "_**tty.wchusbserial**_" is found:
+*   On Mac, open the **Terminal** program under the **Applications**-**Utilities** folder and type the following commands. If no serial device name starting with "_**tty.wchusbserial**_" or "_**cu.wchusbserial**_" is found:
 
-<figure><img src=".gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
+    ```
+    cd /dev
+    ls
+    ```
 
 #### Please download and install the USB driver:
 
