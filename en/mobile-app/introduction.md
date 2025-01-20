@@ -47,6 +47,12 @@ If the main board is **BiBoard**, no need to plug the Bluetooth dongle.
 
 The LED on the Bluetooth dongle should blink, waiting for a connection. Open the app and scan available Bluetooth devices. **Don't connect the robot with the phone's system-wide Bluetooth settings!** Connect the device with the name Bittle, Petoi, or OpenCat. Remember to open the Bluetooth service and grant the app access to the service. On some devices, you may also need to allow the location service for the app, though we are not using any of that information.
 
+{% hint style="info" %}
+On some Android OS, you need to activate the location service as following:
+
+<img src="../.gitbook/assets/location service.png" alt="" data-size="original">
+{% endhint %}
+
 {% hint style="warning" %}
 The app will send a greeting to the Bluetooth device and expects a response from the OpenCat firmware. You must install the full OpenCat code on your robot before connecting to the app. Otherwise, the app will consider it's "not a Petoi device". A pre-assembled robot should already have the firmware installed. Otherwise, you must configure it with Arduino IDE or the Desktop app.&#x20;
 {% endhint %}
@@ -57,4 +63,4 @@ If Bluetooth is connected, its LED will light steadily. The robot will play a th
 
 The App should automatically detect Nybble or Bittle with the latest OpenCat firmware. Otherwise, it will show the selections for Nybble or Bittle. The option "**Select a robot**" also can be re-visited in the control panel.
 
-![](<../.gitbook/assets/Control\_Cali\_en (1).jpg>)
+![](<../.gitbook/assets/Control_Cali_en (1).jpg>)
