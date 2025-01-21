@@ -8,7 +8,7 @@ Petoi Desktop App provides a neat graphical user interface to configure the firm
 
 You can download the [latest version](https://github.com/PetoiCamp/OpenCat/releases) of the desktop App and unzip it.
 
-Before running the app, you must use the included USB adapter or the Bluetooth dongle to connect to a Petoi robot.
+Before running the app, you must use the included USB adapter or the Bluetooth dongle to connect to a Petoi robot.  You may need to [install drivers](https://docs.petoi.com/technical-support/useful-tools#nyboard-usb-driver-to-access-the-usb-uploader-adapter) for USB connection.
 
 ### Windows
 
@@ -63,10 +63,10 @@ UI.py is the general entry for all the modules:
 
 * UI.py
 
-\-> FirmwareUploader.py
+-> FirmwareUploader.py
 
-\-> Calibrator.py
+-> Calibrator.py
 
-\-> SkillComposer.py
+-> SkillComposer.py
 
-\-> translate.py provides multi-language support for the UI. You may help to translate the UI into your language.
+-> translate.py provides multi-language support for the UI. You may help to translate the UI into your language.
