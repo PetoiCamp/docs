@@ -134,6 +134,18 @@ After connecting the motherboard to the computer via a USB data cable or [Blueto
   "kclap",       // Make a clapping motion with the robotic gripper.
 ```
 
+### Skill and directional combinations
+
+| Skill Name | Front | Left   | Right | Down           |
+| ---------- | ----- | ------ | ----- | -------------- |
+| pick       | pickF |  pickL | pickR | pickD          |
+| drop       | dropF | dropL  | dropR | dropD          |
+| put        | putF  | putL   | putR  | putD           |
+| toss       | tossF | tossL  | tossR | tossD = launch |
+| hunt       |       |        |       |                |
+| showOff    |       |        |       |                |
+| clap       |       |        |       |                |
+
 ## Advanced Usage
 
 ### Create new skill
