@@ -1,5 +1,7 @@
 # Python coding mode in Mind+
 
+## Switch to the Python coding mode
+
 If you are familiar with the Petoi coding blocks and Python language, you can change to the **Code** mode in Mind+ as follows:
 
 <figure><img src="../.gitbook/assets/image (417).png" alt=""><figcaption></figcaption></figure>
@@ -8,14 +10,16 @@ If you are familiar with the Petoi coding blocks and Python language, you can ch
 
 The **Code** mode is a Python3 development environment. You can write any Python script in it and call all the API interfaces of the PetoiRobot library imported by Mind+.&#x20;
 
-You can find the PetoiRobot library in the following directory, there are all the definitions of API interfaces in the **PetoiRobot.py**
+You can find the PetoiRobot library in the following directory. There are all the definitions of API interfaces in the **PetoiRobot.py**
 
 * Windows\
   C:\Users\\{username}\AppData\Local\DFScratch\extensions\petoi-robot-thirdex\python\libraries\PetoiRobot.py
 * MacOS\
   /Users/{username}/Library/DFScratch/extensions/petoi-robot-thirdex/python/libraries/PetoiRobot.py
 
-Below are the supported functions in the library. You may refer to the auto-generated Python code in the **Blocks** mode to learn its formats.
+## Available functions
+
+Below are the supported function calls in the library, which correspond to the coding blocks. To learn their formats, you may refer to the auto-generated Python code in the Blocks mode.
 
 ```python
 # use to print debug information
