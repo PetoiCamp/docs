@@ -4,21 +4,17 @@ This remote controller is a micro:bit based gamepad. It includes a 4-direction j
 
 <figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Software setup
+## Hardware
 
 {% hint style="info" %}
 micro:bit V1 has a smaller memory. So, the full functionality requires **micro:bit V2**.
 {% endhint %}
 
-### Download the program
+## Software setup
 
-You can download the program file, which is used to control **Bittle R** (with robot arm):
+The Joystick's source code is now open-sourced. It can control Bittle X, Bittle R(with robotic arm), and Nybble Q. For more information, please refer to our [GitHub repository](https://github.com/PetoiCamp/ESP32_Microbit_Controller).
 
-{% file src="../.gitbook/assets/microbit-JoyStickRz.hex" %}
-
-### Import to the makecode
-
-import the program to [the programming platform makecode](https://makecode.microbit.org) as follows:
+You can download the program file([microbit-JoyStick.hex](https://github.com/PetoiCamp/ESP32_Microbit_Controller/blob/main/microbit-JoyStick.hex)), then import the program to [the programming platform makecode](https://makecode.microbit.org) as follows:
 
 {% hint style="info" %}
 We recommend you use the **Chrome** browser.
@@ -62,12 +58,25 @@ Click to download the program.
 2. Install 2 x #7 AAA batteries and plug in the micro:bit V2 to the remote controller. Then power on the remote controller as follows:\
    ![](<../.gitbook/assets/image (5) (1).png>)\
 
-3. Power on the robot. After the robot startup, it can connect to the controller automatically.\
+3. Power on the robot. After the robot is startup, it can connect to the controller automatically via Bluetooth.\
    If there are many remote controllers and robots, the connection is one-to-one and first-come-first-served.
+
+{% hint style="info" %}
+After a successful Bluetooth connection, the robot automatically disconnects every 20 minutes (indicated by an hourglass animation on the LED matrix). To re-establish the Bluetooth connection, touch the Micro:Bit's logo (a touch button) and hold the controller vertically with the left joystick at the lower side, as shown in the figure:\
+![](<../.gitbook/assets/image (550).png>)\
+After a successful reconnection, you will hear a prompt tone, and the LED matrix will play an animated hourglass flow reversely.
+{% endhint %}
 
 ## Controller function introduction
 
 ### To control Bittle R(with robot arm):
 
-<figure><img src="../.gitbook/assets/功能介绍01_en.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/BittleR_en.png" alt=""><figcaption></figcaption></figure>
 
+### To control Bittle X:
+
+<figure><img src="../.gitbook/assets/BittleX_en.png" alt=""><figcaption></figcaption></figure>
+
+### To control Nybble Q:
+
+<figure><img src="../.gitbook/assets/NybbleQ_en.png" alt=""><figcaption></figcaption></figure>

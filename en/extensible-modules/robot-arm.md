@@ -46,12 +46,12 @@ After the robot is powered on, there are two methods to enter the calibration st
 
 **BiBoard\_V1\_\***
 
-<figure><img src="../.gitbook/assets/image (528).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 BiBoard\_V0\_\*
 
-<img src="../.gitbook/assets/image (529).png" alt="" data-size="original">
+![](<../.gitbook/assets/image (549).png>)
 {% endhint %}
 
 {% hint style="info" %}
