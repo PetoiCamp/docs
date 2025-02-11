@@ -3,7 +3,7 @@
 There are two ways to play a melody with the robot:
 
 1. Using the [Petoi Coding Blocks](https://docs.petoi.com/block-based-programming/petoi-coding-blocks#play-a-melody) in Mind+.
-2. Using the [Serial Protocol](../apis/serial-protocol.md) in Mind+, Arduino IDE, Python, and the Petoi mobile app.&#x20;
+2. Using the [Serial Protocol](../apis/serial-protocol/) in Mind+, Arduino IDE, Python, and the Petoi mobile app.&#x20;
 
 {% embed url="https://youtu.be/lCv2iHTBbkw" %}
 
@@ -11,11 +11,7 @@ There are two ways to play a melody with the robot:
 
 You can use this coding block to make one tone.&#x20;
 
-<div align="left">
-
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/mind+ToneExample.png" alt=""><figcaption></figcaption></figure>
 
@@ -31,7 +27,7 @@ There are several ways to join multiple tones together to make a melody:
 
 To better understand the format, you can continue reading the next section.&#x20;
 
-## 2. The [Serial Protocol ](../apis/serial-protocol.md)for generating melody
+## 2. The [Serial Protocol ](../apis/serial-protocol/)for generating melody
 
 ### 2.1 **Start Token**
 
@@ -65,7 +61,7 @@ b14 1 14 1
 
 ### **2.4 Half-scale vs. Whole-scale**
 
-A difference of 1 in note number represents a half-scale tone (semitone), while a difference of 2 represents a whole-scale tone. You can define any note as the base (e.g., middle C3 = **14**). This sets the reference point for your melody. So D3 will be **16**, E3 will be **18**, F3 will be **19**, G will be **21**, A will be **23**, B will be **25**, and C4 will be **26**. C4 - C3 = 12. That's the so-called [12-Tone Equal Temperament](https://en.wikipedia.org/wiki/12\_equal\_temperament). You may write a map in the code for quick conversion.&#x20;
+A difference of 1 in note number represents a half-scale tone (semitone), while a difference of 2 represents a whole-scale tone. You can define any note as the base (e.g., middle C3 = **14**). This sets the reference point for your melody. So D3 will be **16**, E3 will be **18**, F3 will be **19**, G will be **21**, A will be **23**, B will be **25**, and C4 will be **26**. C4 - C3 = 12. That's the so-called [12-Tone Equal Temperament](https://en.wikipedia.org/wiki/12_equal_temperament). You may write a map in the code for quick conversion.&#x20;
 
 ### **2.5 Command Structure**
 
@@ -221,11 +217,7 @@ For example, using Gemini to give you a raw melody sequence to start with:
 
 {% embed url="https://g.co/gemini/share/137e88c37842" %}
 
-<div align="center">
-
-<figure><img src="../.gitbook/assets/geminiMelody (1).png" alt=""><figcaption><p>Screenshot of the AI generated response</p></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../.gitbook/assets/geminiMelody (1).png" alt=""><figcaption><p>Screenshot of the AI generated response</p></figcaption></figure></div>
 
 You may share your prompt, which works directly with our community, at [www.petoi.camp](https://www.petoi.camp).&#x20;
 

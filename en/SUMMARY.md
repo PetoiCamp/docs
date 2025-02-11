@@ -48,7 +48,8 @@
 
 ## APIs
 
-* [🖇️ Serial Protocol](apis/serial-protocol.md)
+* [🖇️ Serial Protocol](apis/serial-protocol/README.md)
+  * [Feedback servos](apis/serial-protocol/feedback-servos.md)
 * [🐍 Python API](apis/python-api.md)
 * [🐛 8266 MicroPython controller](apis/8266-micropython-controller/README.md)
   * [Run MicroPython on ESP8266](apis/8266-micropython-controller/run-micropython-on-esp8266.md)

@@ -2,7 +2,7 @@
 
 We have defined a set of serial communication protocols for robots:&#x20;
 
-<figure><img src="../.gitbook/assets/serial_commands.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/serial_commands.png" alt=""><figcaption></figcaption></figure>
 
 All the tokens start with a single ASCII-encoded character to specify their parsing format. They are case-sensitive and usually in lowercase.&#x20;
 
@@ -36,11 +36,11 @@ You can refer to the macro definitions in OpenCat.h to utilize the most updated 
 
 {% @github-files/github-code-block url="https://github.com/PetoiCamp/OpenCat/blob/3368dfd46d91cb453bb5fcca3ca4cf84712c922e/src/OpenCat.h#L204-L254" %}
 
-<figure><img src="../.gitbook/assets/tokens (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/tokens (1).png" alt=""><figcaption></figcaption></figure>
 
 Some more available commands for skills:
 
-<figure><img src="../.gitbook/assets/skillList.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/skillList.png" alt=""><figcaption></figcaption></figure>
 
 The complete set of skills in effect is defined in [InstinctBittle.h](https://github.com/PetoiCamp/OpenCat/blob/main/src/InstinctBittle.h) or [InstinctNybble.h](https://github.com/PetoiCamp/OpenCat/blob/main/src/InstinctNybble.h):\
 For example:
