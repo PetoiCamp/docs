@@ -50,6 +50,14 @@ Use the latest OpenCatESP32 source code to finish the setup. For example, to mod
 
 <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FGu37FwV2ge9LKHORqrUl%252Fimage.png%3Falt%3Dmedia%26token%3D6b0f5ed3-eb4b-4668-8f5a-3e7462718519&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fa49fffa&#x26;sv=1" alt=""><figcaption><p><em><strong>OpenCatEsp32.ino</strong></em></p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/AI vision module code.png" alt=""><figcaption><p>src/camera.h</p></figcaption></figure>
-
 After uploading, [open the serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard) and use the serial command "_**XC**_" to switch to using the camera mode.
+
+{% hint style="info" %}
+If the camera mode can't be activated, as following:
+
+<img src="../.gitbook/assets/image (551).png" alt="" data-size="original">
+
+You can use the [web debug GUI ](https://sensecraft.seeed.cc/ai/#/device/local)to upgrade the camera firmware and upload the Face Detection model.
+
+<img src="../.gitbook/assets/image (552).png" alt="" data-size="original">
+{% endhint %}
