@@ -55,7 +55,7 @@ You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-
 
 Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
-![](https://docs.petoi.com/\~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FaleqWtxk5PSH9bWe9CfF%252Fimage.png%3Falt%3Dmedia%26token%3Dc92b21ff-992f-4163-a981-86078e26eedd\&width=768\&dpr=4\&quality=100\&sign=308febb4\&sv=1)
+![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FaleqWtxk5PSH9bWe9CfF%252Fimage.png%3Falt%3Dmedia%26token%3Dc92b21ff-992f-4163-a981-86078e26eedd\&width=768\&dpr=4\&quality=100\&sign=308febb4\&sv=1)
 
 * **Arduino IDE**
 
@@ -63,29 +63,47 @@ You can use [Arduino IDE](https://www.arduino.cc/en/software) to [upload the ske
 
 Use the latest OpenCatESP32 code to finish the setup. For example, to modify the code for _**Bittle**_ as shown below:
 
-![](https://docs.petoi.com/\~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FGu37FwV2ge9LKHORqrUl%252Fimage.png%3Falt%3Dmedia%26token%3D6b0f5ed3-eb4b-4668-8f5a-3e7462718519\&width=768\&dpr=4\&quality=100\&sign=fa49fffa\&sv=1)
+![](https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FGu37FwV2ge9LKHORqrUl%252Fimage.png%3Falt%3Dmedia%26token%3D6b0f5ed3-eb4b-4668-8f5a-3e7462718519\&width=768\&dpr=4\&quality=100\&sign=fa49fffa\&sv=1)
 
 #### 2. Switch mode
 
 After uploading,  the firmware is in **Voice** mode by default. If you need to switch, please open the serial monitor and input the serial command _**`XA`**_ to switch to **Voice** mode.
 
-## Play with the voice commands
+## Play with the voice commands.
 
-### Default Usage
+### Common use cases
 
-#### 1. Switch the language mode
+When the robot is restarted, the voice module will be automatically reset to its default language setting. The robot's default language setting is English.
 
-Switch to **English**
+{% hint style="info" %}
+This feature is exclusively designed for robots using **BiBoard** as their mainboard.
+{% endhint %}
 
-* You can speak **Bing-Bing** or
-* Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called **English** and use the code: _`X65,97`_
+#### 1. Set the default language
 
-Switch to **Chinese**.&#x20;
+There are two ways to set the default language:
 
-* Speak **Di-Di** to
-* Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called **Chinese** and use the code: _`X65,98`_
+* Using the serial commands
+  * Open the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor):
+    * To set the default language to **English**, use the command: _**`XAa`**_.&#x20;
+    * To set it to **Chinese**, use the command: _**`XAb`**_.
+  * In the [mobile app](https://docs.petoi.com/mobile-app/controller#create-a-single-command):
+    * To set the default language to **English**, create a mobile app command called **English** and use the code: _**`X65,97`**._
+    * To set it to **Chinese**, create a mobile app command called **Chinese** and use the code: _**`X65,98`**._
+* Using the voice commands
+  * To set the default language to **English**, you need to say the voice command "**Lizheng**" (phonetic) first and then say "**Bing-Bing**" (phonetic).
+  * To set it to **Chinese**, you need to say the voice command "**Attention**" first and then say "**Di-Di**"(phonetic).
 
-#### 2. Turn on/off the voice command functionality(audio response and robotics reaction)
+#### 2. Switch the language temporarily
+
+* To switch to **English**, you can say "**Bing-Bing**" (phonetic)
+* Switch to **Chinese**, you can say "**Di-Di**" (phonetic)
+
+{% hint style="info" %}
+Note: Use this method after rebooting the robot. The language will switch to the default language setting. Therefore, if you accidentally switch the language mode, you can restore the default language setting by restarting the robot.
+{% endhint %}
+
+#### 3. Turn on/off the voice command functionality(audio response and robotics reaction)
 
 To turn on
 
@@ -97,13 +115,13 @@ To turn off
 * Speak **Be quiet**
 * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called **Disable voice** and use the code: _`X65,100`_
 
-#### 3.  Use the predefined voice commands
+#### 4.  Use the predefined voice commands
 
 You can refer to the list of available voice commands shown below:
 
 <figure><img src="../.gitbook/assets/voiceCommand_en.png" alt=""><figcaption></figcaption></figure>
 
-See [**this doc**](https://docs.google.com/spreadsheets/d/1Lr6Cd1T-H9sSdUi\_bI-OeMClkVOKjTQM/edit?usp=sharing\&ouid=106975882561093680387\&rtpof=true\&sd=true) for the latest version.
+See [**this doc**](https://docs.google.com/spreadsheets/d/1Lr6Cd1T-H9sSdUi_bI-OeMClkVOKjTQM/edit?usp=sharing\&ouid=106975882561093680387\&rtpof=true\&sd=true) for the latest version.
 
 {% hint style="info" %}
 To avoid inadvertently triggering the robot to respond to voice commands, you can say **Be quiet** to the robot to disable the voice module, such as when talking with others.
@@ -244,7 +262,7 @@ The test sketch is in the OpenCat repository on GitHub (specific path: OpenCat/M
 
 There are seven related serial commands for configuration; you can input them into the serial monitor.&#x20;
 
-<table><thead><tr><th width="178">Serial Command</th><th width="222">Mobile App Button Code</th><th>Function</th></tr></thead><tbody><tr><td>XAa</td><td>X65,97</td><td>Switch to English</td></tr><tr><td>XAb</td><td>X65,98</td><td>Switch to Chinese</td></tr><tr><td>XAc</td><td>X65,99</td><td>Turn on the reply tone and enable reaction</td></tr><tr><td>XAd</td><td>X65,100</td><td>Turn off the reply tone and disable reaction</td></tr><tr><td>XAe</td><td>X65,101</td><td>Enter custom voice command mode</td></tr><tr><td>XAf</td><td>X65,102</td><td>Exit custom voice command mode</td></tr><tr><td>XAg</td><td>X65,103</td><td>Delete all the custom voice commands</td></tr></tbody></table>
+<table><thead><tr><th width="178">Serial Command</th><th width="222">Mobile App Button Code</th><th>Function</th></tr></thead><tbody><tr><td>XAa</td><td>X65,97</td><td>Set the default language to English</td></tr><tr><td>XAb</td><td>X65,98</td><td>Set the default language to Chinese</td></tr><tr><td>XAc</td><td>X65,99</td><td>Turn on the reply tone and enable reaction</td></tr><tr><td>XAd</td><td>X65,100</td><td>Turn off the reply tone and disable reaction</td></tr><tr><td>XAe</td><td>X65,101</td><td>Enter custom voice command mode</td></tr><tr><td>XAf</td><td>X65,102</td><td>Exit custom voice command mode</td></tr><tr><td>XAg</td><td>X65,103</td><td>Delete all the custom voice commands</td></tr></tbody></table>
 
 {% hint style="info" %}
 After inputting the command above in the message box, **press Enter** to send the command to the robot.
