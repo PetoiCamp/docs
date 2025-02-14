@@ -116,7 +116,7 @@
   * [Model deployment](extensible-modules/advanced-development-and-application-of-ai-vision-modules/model-deployment.md)
   * [Training on the COCO DIY dataset](extensible-modules/advanced-development-and-application-of-ai-vision-modules/training-on-the-coco-diy-dataset.md)
 * [Robot Arm](extensible-modules/robot-arm.md)
-* [🎮 Joystick with micro:bit](extensible-modules/joystick-with-micro-bit.md)
+* [🎮 Joystick with Micro: Bit](extensible-modules/joystick-with-micro-bit.md)
 
 ## Applications
 

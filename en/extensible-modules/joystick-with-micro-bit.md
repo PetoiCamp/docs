@@ -1,8 +1,8 @@
-# 🎮 Joystick with micro:bit
+# 🎮 Joystick with Micro: Bit
 
 This remote controller is a Micro: Bit-based gamepad. It includes a 4-direction joystick and four undefined buttons. To enhance the gaming experience, it is also paired with a buzzer and vibration motor. It is compact in appearance, comfortable in hand, and can be remotely controlled.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (557).png" alt=""><figcaption></figcaption></figure>
 
 ## Hardware
 
