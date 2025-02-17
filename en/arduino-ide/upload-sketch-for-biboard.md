@@ -78,12 +78,12 @@ No matter where you save the folder, the file structure should be:
 
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
 
-3. Install the latest version of libraries (**Seeed Arduino SSCMA**, **ICM42670P**) in the Library Manager:\
+3. Install the latest version of libraries (**ICM42670P, ArduinoJson**) in the Library Manager:\
    ![](<../.gitbook/assets/image (1) (1).png>)\
    \
-   ![](<../.gitbook/assets/image (2) (1).png>)\
+   ![](<../.gitbook/assets/image (3) (1).png>)\
    \
-   ![](<../.gitbook/assets/image (3) (1).png>)
+   ![](../.gitbook/assets/image.png)
 
 ### 2.6 [Connect to BiBoard](../upload-firmware.md#biboard) via USB type-C data cable
 
@@ -94,7 +94,15 @@ Set the serial port in the Arduino IDE:
 {% hint style="info" %}
 If you cannot find the serial port after connecting to your computer:
 
-* You may need to install [the driver](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) for the CP210x chip.&#x20;
+*   for BiBoard V0:
+
+    You need to install [the driver](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) for the CP210x chip.&#x20;
+*   For BiBoard V1:
+
+    You need to install the driver as below:
+
+    * Windows: [https://www.wch-ic.com/downloads/CH343SER\_EXE.html](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
+    * Mac: [https://www.wch-ic.com/downloads/CH34XSER\_MAC\_ZIP.html](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
 * If the battery powers on the BiBoard, please long-press the button on the battery >=3s to power off the mainboard so that the board is only powered through the USB cable and only the blue LED is lit up.&#x20;
 {% endhint %}
 
