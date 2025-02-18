@@ -18,7 +18,7 @@ Petoi AI Vision Module is based on the Arm Cortex-M55, and Ethos-U55 embedded vi
 
 <figure><img src="../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
 
-Fix the end connected to the camera to the robot's head (included in Bittle's / Bittle X's mouth or Bittle R's robotic arm).
+Fix the end connected to the camera to the robot's head (included in Bittle's / Bittle X's mouth or attached to Bittle R's robotic arm).
 
 ### Software setup <a href="#software-setup-1" id="software-setup-1"></a>
 

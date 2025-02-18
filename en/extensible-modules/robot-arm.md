@@ -1,6 +1,6 @@
 # Robot Arm
 
-Equipped with a robotic arm, **Bittle R** has more functions. It can perform more complex skills, such as grabbing objects for show or moving objects to different places.
+Bittle can be equipped with a robotic arm, which we will call Bittle R for short. This arm has more functions than Bittle and can perform more complex skills, such as grabbing objects for display or moving them to different places.
 
 {% hint style="danger" %}
 When the robot arm is in motion, please do not put your hands between the robot claws to avoid being pinched.
