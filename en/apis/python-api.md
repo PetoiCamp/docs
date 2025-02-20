@@ -13,11 +13,11 @@ description: How to use python scripts to have fun with the robots
 
 When using a [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c) to connect to the [NyBoard](https://docs.petoi.com/nyboard/overview) or USB type-C data cable to connect to the [BiBoard](https://docs.petoi.com/biboard/biboard-v0), there should be only one serial port number:
 
-![USB serial port number](<../.gitbook/assets/打开设备管理器03\_En (1).jpg>)
+![USB serial port number](<../.gitbook/assets/打开设备管理器03_En (1).jpg>)
 
 When using the Bluetooth function, there can be two serial port numbers:
 
-![Bluetooth serial port number](../.gitbook/assets/Device\_manager\_Bt\_en.png)
+![Bluetooth serial port number](../.gitbook/assets/Device_manager_Bt_en.png)
 
 Download a fresh ​OpenCat repository from GitHub:&#x20;
 
@@ -32,37 +32,6 @@ ardSerial.py contains the core communication functions. robot.py is a wrapper mo
 {% endhint %}
 
 ## **Run the scripts**
-
-### Run the **petoiRobotExample.py**
-
-```
-***\OpenCatPythonAPI>python3 petoiRobotExample.py
-```
-
-_**petoiRobotExample.py**_ demonstrates how to call the functions defined in _robot.py_（in the _\*\*\*/OpenCatPythonAPI/PetoiRobot_）
-
-When the system recognizes that there are multiple serial port numbers, the script will automatically identify all serial port numbers that have been connected to the robot (you can send serial commands to multiple robots at the same time). When the script starts running, it will print out the following prompt information:
-
-```python
-2024-11-15 15:14:51,357 PetoiRobot.ardSerial - INFO - ardSerial date: Jun. 20, 2024
-Mind+ date:  Oct 18, 2023
-C:\Users\***\.config\Petoi already exists
-C:\Users\***\.config\Petoi\SkillLibrary\Bittle already exists
-C:\Users\***\.config\Petoi\SkillLibrary\Nybble already exists
-C:\Users\***\.config\Petoi\SkillLibrary\BittleR already exists
-
-*** Available serial ports: ***
-COM3
-Bittle X
-B02_241105
-2024-11-15 15:14:54,634 PetoiRobot.ardSerial - INFO - Connect to the serial port list:
-2024-11-15 15:14:54,635 PetoiRobot.ardSerial - INFO - COM3
-modelName: Bittle
-*** The skill names you can call are as follows: ***
-*  skillFileName
-******************************
-2024-11-15 15:15:05,134 PetoiRobot.ardSerial - INFO - close the serial port.
-```
 
 ### Run  the _**ardSerialExample.py**_
 
@@ -93,7 +62,7 @@ Explanation of the serial port commands in the list **testSchedule**:
 * 2 indicates the postponed time after finishing the command in seconds.
 * m indicates the command to control the rotation of the joint servo&#x20;
 * 0 indicates the index number of joint servo&#x20;
-* \-20 indicates the rotation angle (this value is expressed relative to the reference 0 value used after calibration). The unit is in degrees.
+* -20 indicates the rotation angle (this value is expressed relative to the reference 0 value used after calibration). The unit is in degrees.
 * 1.5 indicates the postponed time after finishing the command in seconds. It can be a float number.
 
 #### **\['m', \[0, 45, 0, -45, 0, 45, 0, -45], 2]**
@@ -122,7 +91,7 @@ Using the 'M' control command, the index number of joint servo and rotation angl
 
 * c indicates the command to enter calibration mode&#x20;
 * 0 indicates the index number of joint servo&#x20;
-* \-9 indicates the rotation angle. The unit is in degrees.
+* -9 indicates the rotation angle. The unit is in degrees.
 * 2 indicates the postponed time after finishing the command in seconds
 
 Using this format, you can enter the calibration mode to calibrate the angle of a specific joint servo. <mark style="color:red;">**Note**</mark>: If you want the correction value in this command to take effect, you need to enter the "**s"** command after executing this command.&#x20;
@@ -133,7 +102,7 @@ The meaning of this example is that the joint servo with serial number 0 rotates
 
 * m indicates the command to control the rotation of the joint servo&#x20;
 * 0 indicates the index number of joint servo&#x20;
-* \-20 indicates the rotation angle (this angle refers to the origin rather than the additive). The unit is in degrees.
+* -20 indicates the rotation angle (this angle refers to the origin rather than the additive). The unit is in degrees.
 * 1.5 indicates the postponed time after finishing the command in seconds. It can be a float number.
 
 #### **\['m',  \[0, 45, 0, -45, 0, 45, 0, -45], 2]**
@@ -197,13 +166,13 @@ The meaning of this example is to play a simple melody and delay 3 seconds after
 
 ck = \[
 
-&#x20;   \-3, 0, 5, 1,
+&#x20;   -3, 0, 5, 1,
 
 &#x20;   0, 1, 2,
 
 &#x20;   45,   0,   0,   0,   0,   0,   0,   0,  45,  35,  38,  50, -30, -10,   0, -20,     6, 1, 0, 0,
 
-&#x20;  \-45,   0,   0,   0,   0,   0,   0,   0,  35,  45,  50,  38, -10, -30, -20,   0,     6, 1, 0, 0,
+&#x20;  -45,   0,   0,   0,   0,   0,   0,   0,  35,  45,  50,  38, -10, -30, -20,   0,     6, 1, 0, 0,
 
 &#x20;    0,   0,   0,   0,   0,   0,   0,   0,  30,  30,  30,  30,  30,  30,  30,  30,     5, 0, 0, 0,
 
@@ -217,5 +186,123 @@ ck = \[
 
 For the description of other serial port commands, please refer to [Serial Commands](https://docs.petoi.com/arduino-ide/serial-commands#arduino-ide-as-an-interface).
 
-Please help the robots find their sparks. Wish you have fun! 😍
+### Run the **petoiRobotExample.py**
 
+```
+***\OpenCatPythonAPI>python3 petoiRobotExample.py
+```
+
+_**petoiRobotExample.py**_ demonstrates how to call the functions defined in _robot.py_（in the _\*\*\*/OpenCatPythonAPI/PetoiRobot_）
+
+## Available APIs
+
+Below are the supported function calls in the library (_robot.py_):
+
+```python
+# use to print debug information
+def printH(head, value)
+
+# deactivate the Gyro
+def deacGyro()
+
+# get the current angle list of all joints
+def getAngleList()
+    return angleList
+
+# get the current angle value of a joint 
+def getCurAng(index)
+
+# creat an absolut value list
+def absValList(num1, num2)
+
+# rotate angle from relative value to absolute value
+# creat an offset value list
+def relativeValList(index, symbol, angle)
+
+# rotate the joints sequentially or simultaneously
+def rotateJoints(token, var, delayTime)
+
+# play tones
+def play(token, var, delayTime)
+
+# encode the character to bytes
+def encode(in_str, encoding='utf-8')
+ 
+def printSkillFileName()
+
+# open the serial port 
+def openPort(port)
+
+# auto connect serial ports
+def autoConnect()
+
+# send a short skill string
+def sendSkillStr(skillStr, delayTime)
+
+def loadSkill(fileName, delayTime):
+
+# send a command string
+def sendCmdStr(cmdStr, delayTime)
+
+def sendLongCmd(token, var, delayTime)
+
+# get the analog value of a pin
+def readAnalogValue(pin)
+
+# get the digital value of a pin
+def readDigitalValue(pin)
+
+# set the analog value of a pin
+def writeAnalogValue(pin, val)
+ 
+# set the digital value of a pin
+def writeDigitalValue(pin, val)
+
+# close the serial port
+def closePort()
+```
+
+Here is a sample code in the  _**petoiRobotExample.py**_:
+
+```python
+#!/usr/bin/python3
+#  -*- coding: UTF-8 -*-
+
+# MindPlus
+# Python
+from PetoiRobot import *
+
+autoConnect()
+# The list format is [joint index, angle, joint index, angle...]
+sendSkillStr('ksit',3)
+sendSkillStr('kup',3)
+rotateJoints('M', absValList(0, 60), 1)
+# The list format is [note, duration, note, duration...]
+play('B', [14,4,14,4,21,4,21,4,23,4,23,4,21,2], 1)
+closePort()
+```
+
+When the system recognizes that there are multiple serial port numbers, the script will automatically identify all serial port numbers that have been connected to the robot (you can send serial commands to multiple robots at the same time). When the script starts running, it will print out the following prompt information:
+
+```python
+2024-11-15 15:14:51,357 PetoiRobot.ardSerial - INFO - ardSerial date: Jun. 20, 2024
+Mind+ date:  Oct 18, 2023
+C:\Users\***\.config\Petoi already exists
+C:\Users\***\.config\Petoi\SkillLibrary\Bittle already exists
+C:\Users\***\.config\Petoi\SkillLibrary\Nybble already exists
+C:\Users\***\.config\Petoi\SkillLibrary\BittleR already exists
+
+*** Available serial ports: ***
+COM3
+Bittle X
+B02_241105
+2024-11-15 15:14:54,634 PetoiRobot.ardSerial - INFO - Connect to the serial port list:
+2024-11-15 15:14:54,635 PetoiRobot.ardSerial - INFO - COM3
+modelName: Bittle
+*** The skill names you can call are as follows: ***
+*  skillFileName
+******************************
+2024-11-15 15:15:05,134 PetoiRobot.ardSerial - INFO - close the serial port.
+```
+
+Please help the robots find their sparks. Wish you have fun! 😍

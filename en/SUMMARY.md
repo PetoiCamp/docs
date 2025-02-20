@@ -14,7 +14,7 @@
 ## Mobile App
 
 * [Introduction](mobile-app/introduction.md)
-* [Calibrator](mobile-app/app-guide.md)
+* [Calibrator](mobile-app/calibrator.md)
 * [Controller](mobile-app/controller.md)
 
 ## Desktop APP

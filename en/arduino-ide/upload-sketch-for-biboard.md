@@ -6,7 +6,10 @@ description: This chapter is for Advanced users with programming experience.
 
 ## 1. Read the Quick Start Guide
 
-For the specific parameters of each functional module of BiBoard, please refer to [Chapter 2](../biboard/biboard-v0.md#2.-modules-and-functions) of the BiBoard Quick Start Guide.
+For the specific parameters of each functional module of BiBoard, please refer to：
+
+* [BiBoard V0 Guide](https://docs.petoi.com/biboard/biboard-v0#id-2.-modules-and-functions)
+* [BiBoard V1 Guide](https://docs.petoi.com/biboard/biboard-v1-guide)
 
 ## 2. Set up BiBoard&#x20;
 
@@ -49,9 +52,9 @@ The BiBoard V1 uses an ESP32 with a **4M** flash.
 
 #### 4 MB partition
 
-You can use the default 4MB with spiffs. You can also use other partition schemes under the 4 MB flash limit, such as "No OTA" or "Huge APP".&#x20;
+You can use the **default 4MB with spiffs**. You can also use other partition schemes under the 4 MB flash limit, such as "No OTA" or "Huge APP".&#x20;
 
-<figure><img src="../.gitbook/assets/BiBoard4M.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (558).png" alt=""><figcaption></figcaption></figure>
 
 #### 16 MB partition
 
@@ -78,12 +81,15 @@ No matter where you save the folder, the file structure should be:
 
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
 
-3. Install the latest version of libraries (**ICM42670P, ArduinoJson**) in the Library Manager:\
-   ![](<../.gitbook/assets/image (1) (1).png>)\
-   \
-   ![](<../.gitbook/assets/image (3) (1).png>)\
-   \
-   ![](../.gitbook/assets/image.png)
+3.  Install the latest version of library (**ArduinoJson**) in the Library Manager:\
+
+
+    <figure><img src="../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
+
+    \
+
+
+    <figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.6 [Connect to BiBoard](../upload-firmware.md#biboard) via USB type-C data cable
 
@@ -103,28 +109,25 @@ If you cannot find the serial port after connecting to your computer:
 
     * Windows: [https://www.wch-ic.com/downloads/CH343SER\_EXE.html](https://www.wch-ic.com/downloads/CH343SER_EXE.html)
     * Mac: [https://www.wch-ic.com/downloads/CH34XSER\_MAC\_ZIP.html](https://www.wch-ic.com/downloads/CH34XSER_MAC_ZIP.html)
-* If the battery powers on the BiBoard, please long-press the button on the battery >=3s to power off the mainboard so that the board is only powered through the USB cable and only the blue LED is lit up.&#x20;
+* If the battery powers on the BiBoard, please long-press the button on the battery >=3s to power off the BiBoard, so that the BiBoard is only powered through the USB cable and only the blue LED is lit up.&#x20;
 {% endhint %}
 
 ### 2.7 Compile and upload the sketch
 
-Modify the device type macro definition in OpenCatEsp3&#x32;**.ino** according to the device type.
+Modify the device type macro definition in **OpenCatEsp32.ino** according to the device type.
 
-````cpp
+```cpp
 #define BITTLE    //Petoi 9 DOF robot dog: 1 on head + 8 on leg
 //#define NYBBLE  //Petoi 11 DOF robot cat: 2 on head + 1 on tail + 8 on leg
 //#define CUB
-```cpp
-
 ```
-````
 
-Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** according to [the motherboard version](../desktop-app/firmware-uploader.md#biboard-version).
+Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** according to the [mainboard (BiBoard) version](https://docs.petoi.com/desktop-app/firmware-uploader#biboard-for-bittle-x).
 
 ```cpp
 // #define BiBoard_V0_1  //ESP32 Board with 12 channels of built-in PWM for joints
-// #define BiBoard_V0_2
-#define BiBoard_V1_0
+#define BiBoard_V0_2
+// #define BiBoard_V1_0
 ```
 
 if the robot(Bittle R) with the robotic arm, you should also activate the macro definition as follows:
@@ -135,41 +138,90 @@ if the robot(Bittle R) with the robotic arm, you should also activate the macro 
 
 Otherwise, please comment out this line code.
 
-After the modification is completed, you can click the **Upload** button (as below) to upload OpenCatEsp32.ino, and the changes in the program will be automatically saved.
+After the modification is completed, you can click the **Upload** button (as below) to upload the sketch **OpenCatEsp32.ino**, and the changes in the code file will be automatically saved.
 
 <figure><img src="../.gitbook/assets/image (515).png" alt=""><figcaption></figcaption></figure>
 
-### 2.8 Swith mode via the serial commands (Optional)
+### 2.8 Program Initialization
 
-The default code runs the **Standard** mode (including the **Voice command** function). If you want to switch modes, Please [open the serial monitor](serial-monitor.md#biboard) and use the following serial commands:
+If the **version date** of the currently uploaded sketch is **newer** than the version date of the mainboard firmware, it will automatically enter the **initialization startup mode** after the sketch upload is completed.
 
-<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. The switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>XS</td><td>Enable the Serial 2(Tx2, Rx2). The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XB</td><td>Enable the back touch funtion. </td></tr><tr><td>X</td><td>Disable all the module functions above</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
+{% hint style="warning" %}
+Please open the serial monitor and set the configuration parameters of the serial port monitor to **115200** baud rate and **No line ending**.\
+![](<../.gitbook/assets/image (563).png>)\
 
-{% hint style="info" %}
-The behavior of the official modules is defined in separate header files in **OpenCat/src/**. You can find them in **OpenCat/src/io.h** **-> readSignal()**. The behavior of **Quick demo** mode is defined in **OpenCat/OpenCat.ino ->  quickDemo()**. You can study the example code to write your functions.&#x20;
 
-You can learn about the function of each module through the [**EXTENSIBLE MODULES**](https://docs.petoi.com/extensible-modules/introduction).
+<img src="../.gitbook/assets/image (561).png" alt="" data-size="original">
 {% endhint %}
 
-### 2.9 Do a factory reset (Optional)
 
-Open the serial monitor, Input the serial command '<mark style="color:red;">**!**</mark>', and press **Enter** to start over. You will see several questions:
+
+* You can check the version date of the currently uploaded sketch in the source code file (OpenCatEsp32/src/OpenCat.h):\
+  `#define DATE "250218"  // YYMMDD`
+* You can send the serial command "**?**" in the serial monitor to check the version date of the mainboard firmware:\
+  ![](<../.gitbook/assets/image (562).png>)
+
+When the mainboard is powered on, open the serial monitor and you will see the startup information:
+
+```
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0030,len:1344
+load:0x40078000,len:13964
+load:0x40080400,len:3600
+entry 0x400805f0
+k
+Flush the serial buffer...
+
+* Start *
+Bittle X
+Software version: B02_250121
+Scanning I2C network...
+- I2C device found at address 0x54:	EEPROM
+- I2C device found at address 0x5C:	Misc.
+- I2C device found at address 0x68:	MPU6050
+- I2C device found at address 0x69:	ICM42670
+- I2C device found at address 0x7E:	Misc.
+- done
+GroveVisionQ	0
+MuQ	0
+Set up the new board...
+Unmute and set volume to 5/10
+Using constants from I2C EEPROM
+- Name the new robot as: Bittle45
+```
+
+{% hint style="info" %}
+If you do not see the startup information after opening the serial monitor, please short press the **Reset** button on the mainboard.
+{% endhint %}
+
+Next you will see the following prompt questions:
 
 ```cpp
 Reset the joints' calibration offsets? (Y/n): 
 ```
 
-&#x20;Input '**Y**' to the question, which means resetting all servo corrections to zero.
+* Send '**Y**' to the question, which means resetting all servo corrections to zero.
+* &#x20;Send "**n**" to skip this step.
 
 {% hint style="info" %}
-If you want to keep the previous joint calibration data, please input '**n**'.
+If you want to keep the previous joint calibration data, please send '**n**'.
 {% endhint %}
 
 ```cpp
 - Calibrate the Inertial Measurement Unit (IMU)? (Y/n): 
 ```
 
-&#x20;Input '**Y**' to the question, which means calibrating the MPU6050, i.e. the gyro/accelerometer sensor.
+* Send '**Y**' to the question, which means calibrating the IMU, i.e. the gyro/accelerometer sensor.
+* &#x20;Send "**n**" to skip this step.
+
+{% hint style="info" %}
+If you want to keep the previous IMU calibration data, please send '**n**'.
+{% endhint %}
 
 {% hint style="warning" %}
 Halts at the connection stage. To restart it, you can close and reopen the serial monitor or press the reset button on BiBoard. Put the BiBoard **FLAT** on the table, and don't touch it during calibration.
@@ -183,79 +235,105 @@ The program starts calibration after playing the melody 6 times.
 Run factory quality assurance program? (Y/n)        
 ```
 
-Input '**n**' and press **Enter** to continue.
+Input '**n**' and press **Enter** to continue. Or you can do nothing, it will Auto skip in 5 seconds.
 
 The details of serial port printing information are as follows：
 
 ```cpp
 * Start *
-Bittle
-Software version: B01_231206
 Scanning I2C network...
 - I2C device found at address 0x54  !
 - I2C device found at address 0x68  !
 - done
 Set up the new board...
-- Name the new robot as: Bittle2E
-- Reset the joints' calibration offsets? (Y/n):   
+// 蓝牙连接时使用的设备名称
+- Name the new robot as: BittleED    
+Reset the joints' calibration offsets? (Y/n): 
 Y
-Initializing MPU...
-OK
-- Testing MPU connections...attempt 0
-- MPU6050 connection successful
-- Initializing DMP...
-- Calibrate the Inertial Measurement Unit (IMU)? (Y/n):    
+Buzzer volume: 5/10
+- Calibrate the Inertial Measurement Unit (IMU)? (Y/n): 
 Y
 
 Put the robot FLAT on the table and don't touch it during calibration.
+
+Initializing MPU6050...
+OK
+If the program stucks, reinstall Arduino ESP32 boards version 2.0.12. Newer version may cause bugs!
+- Testing MPU connections...attempt 0
+- MPU6050 connection successful
+- Initializing DMP...
+MPU offsets: 2691	1893	1181	72	-57	0	
+Calibrate MPU6050...
 >....................>....................
 MPU offsets:
 //           X Accel  Y Accel  Z Accel   X Gyro   Y Gyro   Z Gyro
-//OFFSETS     1447,    -349,    1298,      89,      90,      16
+//OFFSETS     2759,    1871,    1173,      73,     -56,      -4
 - Enabling DMP...
-- Enabling interrupt detection (Arduino external interrupt 26)...
 - DMP ready! Waiting for the first interrupt...
-Bluetooth name: Bittle2E
-Waiting for a client connection to notify...
-Bluetooth name: Bittle2E
-The device is started, now you can pair it with bluetooth!
+BLE:		Bittle45_BLE
+Waiting for a BLE client connection to notify...
+SSP:		Bittle45_SSP
+The SSP device is started, now you can pair it with Bluetooth!
 Setup ESP32 PWM servo driver...
 Calibrated Zero Position
-135 120 135 135 190 80 190 80 190 80 80 190
-Build skill list...60
+135	225	135	135	190	80	190	80	190	80	80	190	
+Build skill list...88
 Run factory quality assurance program? (Y/n)
-n
-Init voice
-Number of customized voice commands on the main board:
-10
+(Auto skip in 5 seconds)
+5...4...3...2...1...n
 TaskQ
-Ready!
 rest
+11
+Init voice
+Number of customized voice commands on the main board: 
+10
+Turn on the audio response
+Show Petoi Logo color
+S,	A,	T,	L,	D,	I,	B,	U,	G,	C,	Q,	
+0,	1,	0,	0,	0,	0,	0,	0,	0,	0,	0,	
+Ready!
 g
+rest
 d
+XAaXAc
+Switch English
 
 ```
 
-After the IMU calibration, the robot will enter the regular power-on program every time it is powered on.
+When the string "<mark style="color:green;">**Ready!**</mark>" is output in the serial monitor, the program will enter the **regular startup mode**.
+
+Every time the mainboard is powered on, it compares the BIRTHMARK in the EEPROM to determine whether the program has been initialized. If the program has already been initialized, it will **not enter** the **initialization startup mode** again.
 
 {% hint style="info" %}
-The main program of Bittle judges whether it has been initialized by comparing the **BIRTHMARK** in the EEPROM and whether it will not enter the initialization process again when it is turned on next time.
+**Note:** When the mainboard is powered on, the music melodies played in the **regular startup mode** and the **initialization startup mode** are completely different. This is convenient for users (no need to open the serial monitor) and can also identify the startup mode.&#x20;
+
+If you need to clear the calibration parameters of the servo and recalibrate the joint servo, or recalibrate the IMU, you can send the serial command "<mark style="color:red;">**!**</mark>" in the serial monitor, and the program will **re-enter** the **initialization startup mode**.
+{% endhint %}
+
+### 2.9 Swith working mode via the serial commands (Optional)
+
+The default code runs the **Standard** mode (including the **Voice command** function). If you want to switch modes, Please open the serial monitor and send the following serial commands:
+
+<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. The switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>XS</td><td>Enable the Serial 2(Tx2, Rx2). The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XB</td><td>Enable the back touch funtion. </td></tr><tr><td>X</td><td>Disable all the module functions above</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
+
+{% hint style="info" %}
+The behavior of the official modules is defined in separate header files in **OpenCat/src/**. You can find them in **OpenCat/src/io.h** **-> readSignal()**. The behavior of **Quick demo** mode is defined in **OpenCat/OpenCat.ino ->  quickDemo()**. You can study the example code to write your functions.&#x20;
+
+You can learn about the function of each module through the [**EXTENSIBLE MODULES**](https://docs.petoi.com/extensible-modules/introduction).
 {% endhint %}
 
 ### 2.10 Power on
 
-* Long-press the battery button and boot up the robot with one side up. It will enter the calibration state automatically. The picture below shows the upper and lower legs installed after the robot enters the calibration state.
+* Long-press the battery button and boot up the robot with one side up. It will enter the calibration state automatically in the **regular startup mode**. The picture below shows the head, the upper and lower legs installed after the robot enters the calibration state.
 
 ![](<../.gitbook/assets/SideUp (1).jpg>)
 
 Please refer to [Chapter 5 🔌 Connect Wires](https://bittle.petoi.com/5-connect-wires) and [Chapter 6 📐 Calibration](https://bittle.petoi.com/6-calibration) for the complete calibration process.
 
-* If you power on the robot and it is upright (with its back upward), the robot will start from the "rest" posture (fold the legs and unlock the servos).
+* If you power on the robot and it is upright (with its back upward), the robot will start from the "rest" posture (fold the legs and unlock the servos)  in the **regular startup mode**.
 
 ### 3. Configuration with App
 
-The BiBoard has built-in Bluetooth, and you can connect it with the new Android app to do joint calibration:
+The BiBoard has built-in Bluetooth, and you can connect it with the [mobile app](https://docs.petoi.com/mobile-app/introduction) to do [joint calibration](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/657/mobile-app/calibrator) and [remote control](https://docs.petoi.com/mobile-app/controller).
 
-&#x20;[App for BiBoard (Android 4.4+)](https://docs.petoi.com/mobile-app/app-guide)
-
-You can check the update history and added features in **ChangeLog.md** (BiBoard\ChangeLog.md)
+You can check the update history information in the [**ChangeLog.md**](https://github.com/PetoiCamp/OpenCatEsp32/blob/main/ChangeLog.md)**.**

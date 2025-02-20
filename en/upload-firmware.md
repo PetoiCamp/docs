@@ -21,7 +21,9 @@ Please download and install the USB driver:
 * Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER_EXE.html)
 * Linux: [http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](http://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html)
 
-### BiBoard V0
+### BiBoard
+
+#### BiBoard V0
 
 When you use a USB type-C data cable to upload the firmware for the **BiBoard**,  if there is **no** serial port in the port list of Device Manager.&#x20;
 
@@ -39,7 +41,7 @@ Please download and install the USB driver:
 
 For more details, please refer to the [BiBoard V0 USB Driver to access the serial port](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port).
 
-### BiBoard V1
+#### BiBoard V1
 
 When you use a USB type-C data cable to upload the firmware for the mainboard **BiBoard V1.**
 

@@ -4,7 +4,7 @@ description: 📚➡️🤖
 
 # Welcome to Petoi Doc Center
 
-This is the Petoi product documentation hub. We constantly iterate on our models and codes to bring bionic robotic pets to the world. Please read the notes regarding versions carefully before configuring your robot.&#x20;
+This is the Petoi robot product documentation hub. We constantly iterate on our models and codes to bring bionic robotic pets to the world. Please read the notes regarding versions carefully before configuring your robot.&#x20;
 
 If you need help, please write to support@petoi.com or post on our forum at [petoi.camp](https://www.petoi.camp).&#x20;
 
