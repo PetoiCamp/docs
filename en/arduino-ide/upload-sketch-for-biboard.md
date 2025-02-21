@@ -334,6 +334,6 @@ Please refer to [Chapter 5 🔌 Connect Wires](https://bittle.petoi.com/5-connec
 
 ### 3. Configuration with App
 
-The BiBoard has built-in Bluetooth, and you can connect it with the [mobile app](https://docs.petoi.com/mobile-app/introduction) to do [joint calibration](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/657/mobile-app/calibrator) and [remote control](https://docs.petoi.com/mobile-app/controller).
+The BiBoard has built-in Bluetooth, and you can connect it with the [mobile app](https://docs.petoi.com/mobile-app/introduction) to do [joint calibration](https://docs.petoi.com/mobile-app/calibrator) and [remote control](https://docs.petoi.com/mobile-app/controller).
 
 You can check the update history information in the [**ChangeLog.md**](https://github.com/PetoiCamp/OpenCatEsp32/blob/main/ChangeLog.md)**.**
