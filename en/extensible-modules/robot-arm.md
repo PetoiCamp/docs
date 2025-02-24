@@ -1,6 +1,6 @@
 # Robot Arm
 
-Bittle can be equipped with a robotic arm, which we will call Bittle R for short. This arm has more functions than Bittle and can perform more complex skills, such as grabbing objects for display or moving them to different places.
+Bittle can be equipped with a robotic arm, which we will call it Bittle X+Arm. This arm has more functions than Bittle and can perform more complex skills, such as grabbing objects for display or moving them to different places.
 
 {% hint style="danger" %}
 When the robot arm is in motion, please do not put your hands between the robot claws to avoid being pinched.
@@ -16,11 +16,11 @@ This robot arm is already fully assembled. You only need to install the servo wi
 
 ## Upload the firmware
 
-In the [**Petoi Desktop App**](https://docs.petoi.com/desktop-app/introduction), choose the model **Bittle R**, then click the **Firmware Uploader** button to upload the firmware for the robot with an arm.
+In the [**Petoi Desktop App**](https://docs.petoi.com/desktop-app/introduction), choose the model **Bittle X+Arm**, then click the **Firmware Uploader** button to upload the firmware for the robot with an arm.
 
-<div><figure><img src="../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/FirmwareUpload01.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/BittleX+Arm_FU01.jpeg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Joint Calibration
 
@@ -38,20 +38,20 @@ Then, install the battery and long-press the button on the battery to power the 
 
 After the robot is powered on, there are two methods to enter the calibration state:
 
-* It will enter the calibration state automatically when you click the **Joint Calibrator** button.
+*   It will enter the calibration state automatically when you click the **Joint Calibrator** button.\
+    \
 
-<figure><img src="../.gitbook/assets/image (527).png" alt=""><figcaption></figcaption></figure>
 
+    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 * Click the **Calibrate** button in the calibrator interface.
 
 **BiBoard\_V1\_\***
 
-<figure><img src="../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-BiBoard\_V0\_\*
-
-![](<../.gitbook/assets/image (549).png>)
+BiBoard\_V0\_\*\
+![](<../.gitbook/assets/image (4).png>)
 {% endhint %}
 
 {% hint style="info" %}

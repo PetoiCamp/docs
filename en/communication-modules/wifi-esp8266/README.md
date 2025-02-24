@@ -30,19 +30,19 @@ You must download and install [Arduino IDE](https://www.arduino.cc/en/software) 
 
 ### 2.1 Add ESP8266 source to the board manager
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 URL：[http://arduino.esp8266.com/stable/package\_esp8266com\_index.json](http://arduino.esp8266.com/stable/package_esp8266com_index.json). Paste it into the Additional Boards Manager URLs in the Arduino IDE preferences.
 
 Then open the **Board Manager** and input _ESP8266_ or _8266_ to search for the board support package:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 Download the latest version of ESP8266 from ESP8266 Community.
 
@@ -50,7 +50,7 @@ Download the latest version of ESP8266 from ESP8266 Community.
 
 After downloading the board support package, we select Board -> ESP8266 -> Generic ESP8266 Module.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Then we set the parameters：
 
