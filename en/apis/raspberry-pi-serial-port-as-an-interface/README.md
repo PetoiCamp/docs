@@ -12,7 +12,7 @@ You can solder a 2x5 socket on NyBoard to plug in a Raspberry Pi. Pi 3A+ is the 
 
 ### Nybble
 
-![](<../.gitbook/assets/\_B2L8832 Large.jpeg>)
+![](<../../.gitbook/assets/_B2L8832 Large.jpeg>)
 
 ### Bittle
 
@@ -20,11 +20,11 @@ You can solder a 2x5 socket on NyBoard to plug in a Raspberry Pi. Pi 3A+ is the 
 After you solder on the socket, you won't be able to install the back cover of Bittle.&#x20;
 {% endhint %}
 
-![](../.gitbook/assets/Pi01.jpg)
+![](../../.gitbook/assets/Pi01.jpg)
 
-The red [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle\_standoffPi.stl) can be 3D printed.&#x20;
+The red [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_standoffPi.stl) can be 3D printed.&#x20;
 
-![](<../.gitbook/assets/Pi3a (1).jpg>)
+![](<../../.gitbook/assets/Pi3a (1).jpg>)
 
 As shown in the [serial protocol](https://docs.petoi.com/arduino-ide/serial-commands), the arguments of tokens supported by Arduino IDE's serial monitor are all encoded as Ascii char strings for human readability. While a master computer (e.g. RasPi) supports extra commands, mostly encoded as binary strings for efficient encoding. For example, when encoding angle 65 degrees:
 
