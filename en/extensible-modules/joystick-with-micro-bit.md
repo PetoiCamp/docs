@@ -71,7 +71,11 @@ After a successful reconnection, you will hear a prompt tone, and the LED matrix
 
 ### To control Bittle X+Arm (with robot arm):
 
-<figure><img src="../.gitbook/assets/BittleR_en.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (568).png" alt=""><figcaption></figcaption></figure>
+
+### Demo
+
+{% embed url="https://youtu.be/QLI-x_8qO98" %}
 
 ### To control Bittle X:
 

@@ -4,7 +4,7 @@ description: ROS Interface
 
 # 🤖 ROS
 
-There's also a [ROS wrapper](https://github.com/PetoiCamp/ros_opencat) for developpers to easily connect to the [ROS](https://www.ros.org/) environment. It is recommended to use ROS with [Raspberry Pi](raspberry-pi-serial-port-as-an-interface/).
+There's also a [ROS wrapper](https://github.com/PetoiCamp/ros_opencat) for developpers to easily connect to the [ROS](https://www.ros.org/) environment. It is recommended to use ROS with [Raspberry Pi](raspberry-pi-serial-port-as-an-interface.md).
 
 ### Using ROS on Raspberry Pi
 
