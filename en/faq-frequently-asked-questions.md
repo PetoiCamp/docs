@@ -23,13 +23,13 @@ Please refer to the [**Buzzer beep meaning**](https://bittle.petoi.com/2-open-th
 
 Try turning off the Gyro in the [mobile app](https://docs.petoi.com/mobile-app/app-guide),  as shown in the following picture:
 
-<figure><img src="../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
 ### When using the mobile app, Bittle cannot turn back up now.
 
 Try turning on the Gyro in the [mobile app](https://docs.petoi.com/mobile-app/app-guide),  as shown in the following picture:
 
-<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
 ### Bittle doesn't walk very stable.
 
@@ -45,9 +45,9 @@ There's a known bug in one of the older firmware.  Please [upgrade to the latest
 
 The error that occurs when uploading the sketch is shown below:
 
-![](../.gitbook/assets/upload\_failed.png)
+![](.gitbook/assets/upload_failed.png)
 
-<figure><img src="../.gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 \[1]. Do the simple checks as follows:
@@ -136,33 +136,33 @@ BTW, you also can upload the firmware via the Petoi Desktop App:&#x20;
 
 Try to set "Bluetooth devices discovery" to "Advanced" as follows:
 
-<figure><img src="../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure>
 
 ### How to install the CP210x driver on Windows
 
 In the **Device Manager**, if you open the Other devices list, you may see a CP210X device with a triangle exclamation sign. Right-click it to find the "update driver" option, then select the enclosing folder of your [downloaded driver to install](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port).
 
-<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 ### When use mobile App connects to the robot, it indicates "The device doesn't seem to be a Petoi robot."
 
 When connecting, the app will send handshake signals to the robot, and the robot should be running the firmware in standard mode to respond correctly. If the app returns a "not Petoi robot" error, it's probably due to a firmware issue. Please follow this debugging process:
 
-<figure><img src="../.gitbook/assets/image (488).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (488).png" alt=""><figcaption></figcaption></figure>
 
 \[1]. Please check the version of the app as follows:
 
-<figure><img src="../.gitbook/assets/App version0100 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/App version0100 (1).jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/App version0200 (1).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/App version0200 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 * App Store
 
-<figure><img src="../.gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
 
 * Google Play
 
-<figure><img src="../.gitbook/assets/GooglePlay.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/GooglePlay.jpg" alt=""><figcaption></figcaption></figure>
 
 \[2]. For the startup melody in normal mode, please refer to the **00:13** in the video below:
 
@@ -197,7 +197,7 @@ Please refer to Bittle's instruction in [Final Assembly.](https://bittle.petoi.c
 
 ### Where can I get the bone shown in Bittle's picture?
 
-The little bone is included in the [Intelligent Camera Module](https://docs.petoi.com/extensible-modules/mu-camera) box, and it is not being sold separately. You may download its 3D-printable file at: [`https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_bone.stl`](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle\_bone.stl)
+The little bone is included in the [Intelligent Camera Module](https://docs.petoi.com/extensible-modules/mu-camera) box, and it is not being sold separately. You may download its 3D-printable file at: [`https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_bone.stl`](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_bone.stl)
 
 ### Does it come with a battery, or do you have to buy a lithium battery?
 
@@ -211,7 +211,7 @@ Read more at [https://docs.petoi.com/api/raspberry-pi-serial-port-as-an-interfac
 
 ### The robot servos don't seem to be working.  How to debug the servos?
 
-<figure><img src="../.gitbook/assets/Debug the servo.drawio.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Debug the servo.drawio.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 \[1]. [Re-upload the firmware](https://docs.petoi.com/arduino-ide/upload-sketch-for-nyboard#5.-upload-the-configuration-mode-sketch)
@@ -225,11 +225,11 @@ Read more at [https://docs.petoi.com/api/raspberry-pi-serial-port-as-an-interfac
 
 In some cases, the motor's output gear may disengage with the following gear. It will result in an abnormal buzzing sound inside the servo. You can take off the bottom of the servo and push the motor inward very hard until you hear a clicking sound.&#x20;
 
-<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 ### The camera module can't work after being connected to the BiBoard extension hat.
 
-Please refer to the [FAQ](../extensible-modules/mu-camera.md#faq) on the MU camera.
+Please refer to the [FAQ](extensible-modules/mu-camera.md#faq) on the MU camera.
 
 ### The serial port can't be found when using a USB type-C data cable to connect the BiBoard to the computer.&#x20;
 
@@ -239,8 +239,8 @@ Turn off the battery's power to see if the serial port can appear. Please refer 
 
 ### Driver for CH340 USB uploader
 
-* Mac: [http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html](http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html)
-* Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER\_EXE.html)
+* Mac: [http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html](http://www.wch-ic.com/download/CH341SER_MAC_ZIP.html)
+* Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER_EXE.html)
 
 ### Can I use block-based coding with any Petoi robot?  Do I need to purchase add-on components/modules?
 
@@ -248,4 +248,4 @@ You can use [Petoi Coding blocks](https://docs.petoi.com/graphical-programming-i
 
 There's nothing else to purchase.
 
-<figure><img src="../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>

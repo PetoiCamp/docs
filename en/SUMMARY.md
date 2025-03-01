@@ -2,6 +2,7 @@
 
 * [Welcome to Petoi Doc Center](README.md)
 * [Getting Started Guide](getting-started-guide.md)
+* [🙋‍♂️ FAQ(Frequently Asked Questions)](faq-frequently-asked-questions.md)
 * [Petoi robot joint index](petoi-robot-joint-index.md)
 * [Bluetooth Connection](bluetooth-connection.md)
 * [Upload Firmware](upload-firmware.md)
@@ -134,7 +135,6 @@
 ## Technical Support
 
 * [💾 Supporting Application and Software](technical-support/supporting-application-and-software.md)
-* [🙋‍♂️ FAQ(Frequently Asked Questions)](technical-support/faq-frequently-asked-questions.md)
 * [🔧 Burn Bootloader for NyBoard](technical-support/burn-bootloader-for-nyboard.md)
 * [🛠️ Useful Tools](technical-support/useful-tools.md)
 * [🔋 Battery](technical-support/battery.md)

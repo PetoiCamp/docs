@@ -14,15 +14,11 @@ You can also modify the source code (_**OpenCat.h**_) and [upload the sketch for
 ![](<../../.gitbook/assets/image (565).png>)
 {% endhint %}
 
-### For Raspberry Pi 5
-
-The serial port on Raspberry Pi 5 is **ttyAMA0**, So you need to modify the source code in _**ardSerial.py**_ as following:
-
-<figure><img src="../../.gitbook/assets/image (566).png" alt=""><figcaption></figcaption></figure>
+### Serial port name on Pi
 
 {% hint style="info" %}
+Generally, the serial port name on Raspberry **Pi 3 and 4** is "**/dev/ttyS0**," and the one on Raspberry **Pi 5** is "**/dev/ttyAMA0**." If the Pi can't open the serial port after it is connected to the mainboard, you can uncomment the line of code as follows to check all the serial ports on the Raspberry Pi in the terminal when the Python script(ardSerial.py) is running.
 
-
-
+![](<../../.gitbook/assets/image (570).png>)
 {% endhint %}
 
