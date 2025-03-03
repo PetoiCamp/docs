@@ -6,6 +6,12 @@
 
 Bittle and Bittle X are [from the same family](https://www.petoi.com/pages/bittle-smart-robot-dog-model-overview) and share a lot of common things, except for the microcontroller difference where Bittle X uses BiBoard and Bittle uses NyBoard.  So we just refer to Bittle most of the time without specifically mentioning Bittle X.
 
+## The difference of mainboards
+
+The differences in specifications of different mainboards are shown in the figure below:
+
+<figure><img src=".gitbook/assets/Mainboard_Difference.jpg" alt=""><figcaption></figcaption></figure>
+
 ## Sound
 
 ### What do different melodies from the board mean?
