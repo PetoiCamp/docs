@@ -130,7 +130,37 @@ For **BiBoard**, the firmware uploader calls the application **esptool** to uplo
 
 <div align="center"><img src="../.gitbook/assets/Main_FU-en.png" alt="Main interface"></div>
 
+### Auto Detect the Serial Port&#x20;
+
+If there is **no** serial port or **more than one** serial port are detected by the desktop app:
+
+<figure><img src="../.gitbook/assets/image (573).png" alt=""><figcaption></figcaption></figure>
+
+After clicking the **Firmware Uploader** button,  there will be a message box prompt as follows:
+
+<figure><img src="../.gitbook/assets/image (571).png" alt=""><figcaption></figcaption></figure>
+
+Please follow the prompts in the message box. \
+After clicking the **Confirm** button, If you complete the prompts within 10 seconds, the desktop app will automatically identify the serial port name connecting the robot to the computer.\
+If you complete the operation of unplugging and plugging the USB interface on the computer for more than 10 seconds, the desktop application will enter the manual selection of the serial port name mode：
+
+<figure><img src="../.gitbook/assets/image (574).png" alt=""><figcaption></figcaption></figure>
+
+Click the **OK** button in the Warning message box first, then you can refresh the serial port list or select one of them (e.g. **COM3**) and click the **OK** button in the **Manual mode** window to open the Firmware Uploader interface as follows:
+
 <figure><img src="../.gitbook/assets/image (270).png" alt=""><figcaption><p><strong>Firmware Uploader interface</strong></p></figcaption></figure>
+
+Once the Firmware Uploader interface is opened, you can also unplug and replug the USB cable from the COMPUTER side. The desktop app will automatically identify the serial port name connecting the robot to the computer.
+
+<figure><img src="../.gitbook/assets/image (576).png" alt=""><figcaption></figcaption></figure>
+
+If unplug the **COM5** and replug it on the computer side, it will be discovered by the desktop app as follows:
+
+<figure><img src="../.gitbook/assets/image (577).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (578).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (575).png" alt=""><figcaption></figcaption></figure>
 
 ### Select the correct options to upload the latest firmware.&#x20;
 
