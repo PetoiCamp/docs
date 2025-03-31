@@ -36,21 +36,21 @@ On Windows, add the Bluetooth device in the system settings.
 
 ![](../.gitbook/assets/bluetooth-config01.png) ![](../.gitbook/assets/bluetooth-config02.png)
 
-![](../.gitbook/assets/bluetooth-config\_en03.png)
+![](../.gitbook/assets/bluetooth-config_en03.png)
 
 ![](../.gitbook/assets/bluetooth-config04.png) ![](../.gitbook/assets/bluetooth-config-en05.png)
 
 ![](../.gitbook/assets/bluetooth-config06.png)
 
-![](<../.gitbook/assets/Device\_manager\_Bt\_en (1).png>)
+![](<../.gitbook/assets/Device_manager_Bt_en (1).png>)
 
 {% hint style="info" %}
 For Win10 users, the system will assign the "incoming" COM port and the "outgoing" COM port to Bluetooth. Please use the "outgoing" COM port. For details, please check in the "More Bluetooth options" of Win10 as below:
 {% endhint %}
 
-![](../.gitbook/assets/Bluetooth\_port\_check01\_en.jpg)
+![](../.gitbook/assets/Bluetooth_port_check01_en.jpg)
 
-![](../.gitbook/assets/Bluetooth\_port\_check02\_en.jpg)
+![](../.gitbook/assets/Bluetooth_port_check02_en.jpg)
 
 You can then select it under **Tools**->**Port** in the Arduino IDE, using the same method as the USB uploader. After opening the serial monitor, please select: **No line ending**, and the baud rate is set to **115200**.
 
@@ -66,13 +66,14 @@ If you want to configure the Bluetooth module, please refer to "JDY-23 AT Comman
 
 The commonly used commands are listed below:
 
-| Usage                    | Command     | Demo                                                                                            |
-| ------------------------ | ----------- | ----------------------------------------------------------------------------------------------- |
-| Check BT module version  | AT+VER      | <p>AT+VER</p><p>>+VER=JDY-23A-V2.21,Bluetooth V3.0+BLE</p><p>（BT module version infomation）</p> |
-| Check BT broadcast name  | AT+NAME     | <p>AT+NAME</p><p>>+NAME=BITTLE</p>                                                              |
-| Change BT broadcast name | AT+NAME(名字) | <p>AT+NAMEPiggy</p><p>>+OK</p><p>AT+NAME</p><p>>+NAME=Piggy</p>                                 |
-| Check serial baud rate   | AT+BAUD     | <p>AT+BAUD</p><p>>+BAUD=8 （8 = 115200， 7=57600）</p>                                             |
-| Change serial baud rate  | AT+BAUD     | <p>AT+BAUD7</p><p>>+OK （Set serial monitor to 57600）</p><p>AT+BAUD</p><p>>+BAUD=7</p>           |
+| Usage                        | Command                                           | Demo                                                                                            |
+| ---------------------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Check BT module version      | AT+VER                                            | <p>AT+VER</p><p>>+VER=JDY-23A-V2.21,Bluetooth V3.0+BLE</p><p>（BT module version infomation）</p> |
+| Check BT broadcast name      | AT+NAME                                           | <p>AT+NAME</p><p>>+NAME=BITTLE</p>                                                              |
+| Change BT broadcast name     | AT+NAME(name)                                     | <p>AT+NAMEPuppy</p><p>>+OK</p><p>AT+NAME</p><p>>+NAME=Puppy</p>                                 |
+| Change BT BLE broadcast name | AT+NAM<mark style="color:red;">**B**</mark>(name) | <p>AT+NAMBPuppy</p><p>>+OK</p><p>AT+NAMB</p><p>>+NAMB=Puppy</p>                                 |
+| Check serial baud rate       | AT+BAUD                                           | <p>AT+BAUD</p><p>>+BAUD=8 （8 = 115200， 7=57600）</p>                                             |
+| Change serial baud rate      | AT+BAUD                                           | <p>AT+BAUD7</p><p>>+OK （Set serial monitor to 57600）</p><p>AT+BAUD</p><p>>+BAUD=7</p>           |
 
 When you use the serial terminal like "Arduino serial monitor" to set JDY-23 with AT commands, you must set "**NL and CR**",  and the baud rate is set to **115200,** or the JDY-23 module will not identify any AT command you send.
 
