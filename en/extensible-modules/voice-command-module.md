@@ -199,7 +199,7 @@ When the robot works in **English mode**,  you can speak **Start learning** (or 
 If the module is **not** in English mode, you can speak **Bing-Bing** (or input the serial command _**`XAa`**_ in the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor)) to switch to **English mode**.
 {% endhint %}
 
-You can record up to 10 voice commands.&#x20;
+You can record up to 10 voice commands, <mark style="color:red;">each with no more than</mark> <mark style="color:red;"></mark><mark style="color:red;">**six**</mark> <mark style="color:red;"></mark><mark style="color:red;">syllables</mark>.
 
 To exit the custom voice command mode in the middle, you can speak **Stop learning** (or input the serial command **XAf** in the serial monitor).&#x20;
 
