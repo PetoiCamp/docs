@@ -14,7 +14,7 @@ Micro: Bit V1 has a smaller memory. So, the full functionality requires **Micro:
 
 The Joystick's source code is now open-sourced. It can control Bittle X, Bittle X+Arm (Bittle with a robotic arm), and Nybble Q. For more information, please refer to our [GitHub repository](https://github.com/PetoiCamp/ESP32_Microbit_Controller).
 
-You can download the program file([microbit-JoyStick.hex](https://github.com/PetoiCamp/ESP32_Microbit_Controller/blob/main/microbit-JoyStick.hex)), then import the program to [the programming platform MakeCode](https://makecode.microbit.org) as follows:
+You can download the program file([microbit-JoyStick.hex](https://raw.githubusercontent.com/PetoiCamp/ESP32_Microbit_Controller/refs/heads/main/microbit-JoyStick.hex)), then import the program to [the programming platform MakeCode](https://makecode.microbit.org) as follows:
 
 {% hint style="info" %}
 We recommend you use the **Chrome** browser.
