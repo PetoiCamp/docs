@@ -98,7 +98,7 @@ No matter where you save the folder, the file structure should be:
 
 <figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
-### 2.6 [Connect to BiBoard](../upload-firmware.md#biboard) via USB type-C data cable
+### 2.6 [Connect to BiBoard](../upload-firmware/#biboard) via USB type-C data cable
 
 Set the serial port in the Arduino IDE:
 

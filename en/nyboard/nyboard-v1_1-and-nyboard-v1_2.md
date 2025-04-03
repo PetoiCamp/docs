@@ -6,16 +6,16 @@
 
 NyBoard V1\_1 is a V1 refreshed version mainly focused on the shortage of the ATMEGA328P-MU in our supply chain.
 
-1. Replace the ATMEGA328P-MU（QFN32=）with the ATMEGA328P-AU（TQFP32）
+1. Replace the ATMEGA328P-MU（QFN32）with the ATMEGA328P-AU（TQFP32）
 2. Removed 7 WS2812 LEDs to optimize the area.&#x20;
 3. A green LED is connected to the D10 port with PWM functions.
 4. There's no changes of sockets and pin definitions from V1\_0, the bootloader and the OpenCat sketchs is fully compatible.&#x20;
 
 ## Overview
 
-![](../.gitbook/assets/IMG\_3025.jpg)
+![](../.gitbook/assets/IMG_3025.jpg)
 
-![](../.gitbook/assets/IMG\_3026.jpg)
+![](../.gitbook/assets/IMG_3026.jpg)
 
 NyBoard V1 is an upgraded version considering the users' feedback on NyBoard V0. It's compatible with previous versions, yet has some new design to make it easier to use.&#x20;
 

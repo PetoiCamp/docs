@@ -30,11 +30,14 @@ The principles are the same for Nybble and Bittle.&#x20;
 
 Entering calibration mode requires the following preparations: ‌
 
-1\. All servo circuits are connected to the motherboard&#x20;
+1\. All servo circuits are connected to the mainboard&#x20;
 
 2\. The battery is plugged into the controller board and is turned on (long-press the button on the battery to turn on/off the power)
 
-3\. The [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) or [Bluetooth dongle](https://docs.petoi.com/communication-modules/dual-mode-bluetooth) is used to connect the robot to a computer or mobile phone
+3\. Connect the robot to a computer or mobile phone
+
+* Fon NyBoard, the [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) or [Bluetooth dongle](https://docs.petoi.com/communication-modules/dual-mode-bluetooth) is used to connect the robot to a computer / mobile phone
+* For BiBoard, The USB data cable connection must be made directly to **the BiBoard** and NOT to the battery's outside charging port. You can also connect to the computer / mobile phone via [Bluetooth](https://docs.petoi.com/bluetooth-connection).
 
 {% hint style="info" %}
 If you build the robot from an unassembled kit, do not install the head and leg components before entering the calibration state.&#x20;

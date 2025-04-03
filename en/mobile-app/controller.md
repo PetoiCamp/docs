@@ -28,7 +28,7 @@ The built-in postures and behaviors can be triggered by pressing the buttons. Do
 
 After pressing the **Create Command** button, you can see the following interface:
 
-![](../.gitbook/assets/修改命令\_en.PNG)
+![](../.gitbook/assets/修改命令_en.PNG)
 
 After entering the editing state, there's a serial console to test the command and configure the robot.&#x20;
 
@@ -112,7 +112,7 @@ b14 4 14 4 21 4 21 4
 
 #### More common commands to be added
 
-Please see [this list of common commands](https://docs.google.com/spreadsheets/d/1Lr6Cd1T-H9sSdUi\_bI-OeMClkVOKjTQM/edit?usp=sharing\&ouid=106975882561093680387\&rtpof=true\&sd=true) that may be added as customized commands.  You can enter the "Voice command" column values as the "Name" values and the "Customized command code for Petoi mobile app" column values as the "Code" values.
+Please see [this list of common commands](https://docs.google.com/spreadsheets/d/1Lr6Cd1T-H9sSdUi_bI-OeMClkVOKjTQM/edit?usp=sharing\&ouid=106975882561093680387\&rtpof=true\&sd=true) that may be added as customized commands.  You can enter the "Voice command" column values as the "Name" values and the "Customized command code for Petoi mobile app" column values as the "Code" values.
 
 A more detailed command table can be found in the [Serial Protocol](https://docs.petoi.com/serial-protocol).&#x20;
 
@@ -127,28 +127,12 @@ You can send the skill file to your phone using Messenger or email and open the 
 #### Import new skills from the skill library on GitHub
 
 {% hint style="info" %}
-[The SkillLibrary folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary) in Github contains new skills for the OpenCat robot, which can be used for your reference. You can use your mobile browser to access the GitHub page of the OpenCat project, open the skill file (such as [Bittle\_Fold.md](https://github.com/PetoiCamp/OpenCat/blob/main/SkillLibrary/Bittle/Bittle\_Fold.md)), select the "Code" tab, and share it with [**Petoi Mobile App**](https://docs.petoi.com/mobile-app/introduction)(make sure the mobile app is connected to your Petoi robot first), as shown in the figures below.  Then you can execute this skill by pressing the newly created command button.
+[The SkillLibrary folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary) in Github contains new skills for the OpenCat robot, which can be used for your reference. You can use your mobile browser to access the GitHub page of the OpenCat project, open the skill file (such as [Bittle\_Fold.md](https://github.com/PetoiCamp/OpenCat/blob/main/SkillLibrary/Bittle/Bittle_Fold.md)), select the "Code" tab, and share it with [**Petoi Mobile App**](https://docs.petoi.com/mobile-app/introduction)(make sure the mobile app is connected to your Petoi robot first), as shown in the figures below.  Then you can execute this skill by pressing the newly created command button.
 {% endhint %}
 
-<div>
+<div><figure><img src="../.gitbook/assets/Share_skill01en_02.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill02en.jpg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Share_skill01en_02.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Share_skill02en.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div>
-
-<figure><img src="../.gitbook/assets/Share_skill03en.jpg" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/Share_skill04en.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/Share_skill03en.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill04en.jpg" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/Share_skill05en_03.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -176,7 +160,7 @@ Click the **Delete** button to Delete the group command.
 
 {% embed url="https://www.youtube.com/watch?v=nHLkE74Q3k8" %}
 
-If your robot doesn't have any random behavior, you may need to upgrade your robot to [the latest firmware](../desktop-app/firmware-uploader.md).&#x20;
+If your robot doesn't have any random behavior, you may need to upgrade your robot to [the latest firmware](../desktop-app/firmware-uploader/).&#x20;
 
 ## Updates and support
 

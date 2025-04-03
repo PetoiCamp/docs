@@ -62,9 +62,11 @@ When you use a USB type-C data cable to upload the firmware for the **mainboard.
 
 <figure><img src="../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
 
-* In Mac, open the **Terminal** program under the **Applications**-**Utilities** folder and type the following commands. If no serial device name starting with "_**tty.wchusbserial**_" is found:
+*   In Mac, open the **Terminal** program under the **Applications**-**Utilities** folder and type the following commands. If no serial device name starting with "_**tty.wchusbserial**_" or "_**cu.wchusbserial**_" is found:
 
-<figure><img src="../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure>
+    <pre><code>cd /dev
+    <strong>ls
+    </strong></code></pre>
 
 #### Please download and install the USB driver:
 

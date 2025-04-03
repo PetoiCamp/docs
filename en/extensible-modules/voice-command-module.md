@@ -137,7 +137,7 @@ Use the mobile app and create a new button with the code: _**`X65,99`**_, or inp
 {% endhint %}
 
 {% hint style="success" %}
-The voice command **Climb-up** is a challenge for you. You can [design the behavior](../desktop-app/skill-composer.md) by yourself. Then, you can post it on the [Petoi Forum Challenge](https://www.petoi.camp/forum/challenge) or email support@petoi.com. We may adopt it in our official firmware and send you a gift!
+The voice command **Climb-up** is a challenge for you. You can [design the behavior](../desktop-app/skill-composer/) by yourself. Then, you can post it on the [Petoi Forum Challenge](https://www.petoi.camp/forum/challenge) or email support@petoi.com. We may adopt it in our official firmware and send you a gift!
 
 For example, you can share your behavior like this:
 

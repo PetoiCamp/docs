@@ -1,38 +1,16 @@
 # Calibrate the joints with Arduino IDE
 
-### Prepare to Enter to the Calibration State
+## Prepare to Enter the Calibration State
 
-Entering the calibration state requires the following preparations: ‌
+Please refer to the [preparation section](../desktop-app/joint-calibrator/#prepare-for-calibration) in the Joint Calibrator of the Petoi Desktop App according to the robot's mainboard.
 
-### Prepare to Enter the Calibration State
+## Calibration process
 
-Entering the calibration state requires the following preparations: ‌
+### 1. Enter the calibration state
 
-1\. All servo circuits are connected to the motherboard&#x20;
+You must plug the servos and external batteries into the mainboard and check the position and direction of all servos.&#x20;
 
-2\. The battery is fully charged&#x20;
-
-3\. Connect the [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) and communicate normally&#x20;
-
-If you build the robot with an unassembled kit, do not install the head and leg components until calibrated.&#x20;
-
-You need to install the battery and long-press the button on the battery to power the robot.
-
-![](<../.gitbook/assets/assets_bittle_wire2 (3).jpeg>)
-
-The calibration has three steps:
-
-&#x20; 1\. Power on the robot with battery, and let servos rotate freely to zero angle/calibration state
-
-&#x20; 2\. Attach body parts to the servos
-
-&#x20; 3\. Fine-tune the offsets in the serial monitor
-
-## 1. Enter the calibration state
-
-You must plug the servos and external batteries into the NyBoard and check the position and direction of all servos.&#x20;
-
-&#x20;Type ‘c’ in the serial monitor to enter the calibration state.  Depending on their initial shaft direction, some may travel larger angles until stopping at the middle point.  There will be noise coming from the gear system of the servos. You will see a calibration table like the following:
+&#x20;Send the serial command ‘**c**’ in the serial monitor to enter the calibration state.  Depending on their initial shaft direction, some may travel larger angles until stopping at the middle point.  There will be noise coming from the gear system of the servos. You will see a calibration table like the following:
 
 ![](../.gitbook/assets/caliTable.png)
 
@@ -48,7 +26,7 @@ Initial values are “-1” or “0” and should be changed by later calibratio
 The servos use a potentiometer in the feedback loop for position control. When held at a static position, they tend to vibrate around the target angle. A Parkinson's-like vibration will develop after a short period of use. It won’t affect much during continuous motion. Better servos without these troubles could cost 10 times more, so replacing a failed unit is a more cost-effective solution. &#x20;
 {% endhint %}
 
-## 2. The rationale for calibration
+### 2. The rationale for calibration
 
 ### 2.1 Understand the zero state and the coordinate system
 
