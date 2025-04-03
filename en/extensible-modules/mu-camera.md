@@ -10,9 +10,9 @@ Petoi Intelligent Vision Sensor can recognize many objects with a deep-learning 
 
 ### Hardware setup
 
-After uploading the firmware, switch the dial switches on the MU Vision Sensor and connect to the mainboard with wire as shown in the following picture:
+After uploading the firmware, switch the dial (left: **down** and **up**; right: **down** and **down**) on the MU Vision Sensor and connect to the mainboard with wire as shown in the following picture:
 
-![](<../.gitbook/assets/Mu Camera.jpg>)
+![Figure 1](<../.gitbook/assets/Mu Camera.jpg>)
 
 ### Software setup
 
@@ -46,11 +46,7 @@ If unsure, you need to finish the [upload process for the standard mode](https:/
 
 If the camera code is uploaded correctly, Bittle maintains the rest position. Success messages are printed on the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor) of Arduino IDE. When the MU Vision Sensor recognizes a target, the two LEDs will turn blue, and Bittle's head can follow the target and swing left and right. The demo code will auto-switch the target between a yellow tennis ball and a human body if it fails to find any object.
 
-<div align="center">
-
-<img src="../.gitbook/assets/muInit.png" alt="">
-
-</div>
+<div align="center"><img src="../.gitbook/assets/muInit.png" alt=""></div>
 
 ### Arduino code demo
 
@@ -62,10 +58,16 @@ The demo video is as follows:
 
 ### Hardware setup
 
+#### BiBoard V0
+
 <figure><img src="../.gitbook/assets/camera.jpg" alt=""><figcaption></figcaption></figure>
 
+#### BiBoard V1
+
+<figure><img src="../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
-Note: The position of the left and right switches (left: down and up; right: down and down) must be dialed to the position shown in the figure.
+Note: The position of the left and right switches (left: **down** and **up**; right: **down** and **down**) must be dialed to the position shown in Figure 1.
 {% endhint %}
 
 Fix the end connected to the camera to the robot's head (included in Bittle's / Bittle X's mouth).
