@@ -6,21 +6,21 @@ Bittle can be equipped with a robotic arm, which we will call it Bittle X+Arm. T
 When the robot arm is in motion, please do not put your hands between the robot claws to avoid being pinched.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/001.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/001.png" alt=""><figcaption></figcaption></figure>
 
 ## Installation
 
 This robot arm is already fully assembled. You only need to install the servo with the neck structure in the servo slot with two M2\*5 self-tapping screws.
 
-<figure><img src="../.gitbook/assets/Neck.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Neck.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## Upload the firmware
 
 In the [**Petoi Desktop App**](https://docs.petoi.com/desktop-app/introduction), choose the model **Bittle X+Arm**, then click the **Firmware Uploader** button to upload the firmware for the robot with an arm.
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/BittleX+Arm_FU01.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/BittleX+Arm_FU01.jpeg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Joint Calibration
 
@@ -42,16 +42,16 @@ After the robot is powered on, there are two methods to enter the calibration st
     \
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 * Click the **Calibrate** button in the calibrator interface.
 
 **BiBoard\_V1\_\***
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 BiBoard\_V0\_\*\
-![](<../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4).png>)
 {% endhint %}
 
 {% hint style="info" %}
@@ -62,7 +62,7 @@ The servo slider is not available in the interface's light yellow background are
 
 Click the corresponding slider track of the robot arm and adjust the robot arm by calibrating the posture as shown below：
 
-<figure><img src="../.gitbook/assets/rotationDirections.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/rotationDirections.jpeg" alt=""><figcaption></figcaption></figure>
 
 The joint index corresponding to the claw is 2. It can be auto-calibrated by pressing the **Auto** button or inputting the serial command "**c-2**" on the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard) of Arduino IDE. You can also manually click the corresponding slider track and adjust the gear on the servo output shaft to the position shown in the figure above.
 
@@ -110,7 +110,7 @@ You can use the **Perform robot arm skill** block in the [**Petoi Coding Blocks*
 
 For example:
 
-<figure><img src="../.gitbook/assets/image (533).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (533).png" alt=""><figcaption></figcaption></figure>
 
 ### Serial command
 
@@ -152,13 +152,13 @@ After connecting the motherboard to the computer via a USB data cable or [Blueto
 
 You can use the [Skill Composer](https://docs.petoi.com/desktop-app/skill-composer) in the Petoi Desktop App to create new skills for the robot arm and [export](https://docs.petoi.com/desktop-app/skill-composer#export-the-skill) them to the mobile app, the [Mind+ program](https://docs.petoi.com/block-based-programming/petoi-coding-blocks#perform-the-skill-in-the-file),  or the [source code](https://docs.petoi.com/applications/skill-creation).
 
-<figure><img src="../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
 
 ### Extensional application
 
 This robot arm can be used in combination with other sensors. The installation method is shown in the figure below. e.g., adding the [Grove Vision AI V2](https://docs.petoi.com/extensible-modules/advanced-development-and-application-of-ai-vision-modules) module:
 
-<figure><img src="../.gitbook/assets/image (531).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (531).png" alt=""><figcaption></figcaption></figure>
 
 The source code also needs to be modified. The sample demo code is being written, so stay tuned.
 
