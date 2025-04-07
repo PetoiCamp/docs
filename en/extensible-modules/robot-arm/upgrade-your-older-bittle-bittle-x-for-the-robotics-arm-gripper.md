@@ -13,12 +13,39 @@ The older Bittle/Bittle X models have different hardware configurations. The fol
 | Bittle STEM kit     | <mark style="color:red;">NyBoard</mark>      | <mark style="color:red;">Lite(plastic) servos</mark>     | BiBoard V1 + alloy servos(with or without feedback) |
 | Bittle X V1         | <mark style="color:blue;">BiBoard V0</mark>  | <mark style="color:red;">Lite(plastic) servos</mark>     | Alloy servos(with or without feedback)              |
 
-The simplest solution is to buy the newest components to match the Bittle X+Arm configuration.
+The simplest solution is to buy the newest components to match the Bittle X+Arm configuration. We offer discounted combo kits to help you upgrade.
 
-## BiBoard V0 Re-configuration
+The following instructions will guide you in reconfiguring the BiBoard V0 for the Arm. **You must complete all the following steps.**
 
-The alloy servos on the arm require much more current. You must bypass the fuse (marked X30 or X70) by directly soldering its two ends.
+## 1. BiBoard V0 Re-configuration
 
-We will provide clear instructions very soon.\
+The arm's alloy servos require much more current. To bypass the fuse (marked X30 or X70), you must directly solder its two ends.
 
+<figure><img src="../../.gitbook/assets/V0 fuse.jpeg" alt=""><figcaption></figcaption></figure>
+
+## 2. Firmware
+
+### You will need to upgrade the firmware via Firmware Uploader with the following option:
+
+Model: Bittle X+Arm
+
+Board: BiBoard V0\_\*
+
+Mode: Standard\
+
+
+### Or via Arduino IDE with the following macro activated:
+
+\#define BITTLE\
+\#define BiBoard\_V0\_2\
+\#define ROBOT\_ARM
+
+<figure><img src="../../.gitbook/assets/arm Arduino.png" alt=""><figcaption></figcaption></figure>
+
+## 3. Wiring
+
+Please refer to the wiring diagram to attach the robotic arm。\
+
+
+<figure><img src="../../.gitbook/assets/BittleR0_Wire.jpeg" alt=""><figcaption></figcaption></figure>
 
