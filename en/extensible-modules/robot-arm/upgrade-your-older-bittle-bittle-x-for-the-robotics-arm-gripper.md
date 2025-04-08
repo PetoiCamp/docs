@@ -34,6 +34,8 @@ Board: BiBoard V0\_\*
 Mode: Standard\
 
 
+<figure><img src="../../.gitbook/assets/89081744076717_.pic.jpg" alt=""><figcaption></figcaption></figure>
+
 ### Or via Arduino IDE with the following macro activated:
 
 \#define BITTLE\
@@ -49,3 +51,6 @@ Please refer to the wiring diagram to attach the robotic arm。\
 
 <figure><img src="../../.gitbook/assets/BittleR0_Wire.jpeg" alt=""><figcaption></figcaption></figure>
 
+## 4. Calibration
+
+The robot arm needs to be calibrated to work correctly. Please refer to the [corresponding chapter](https://docs.petoi.com/extensible-modules/robot-arm#joint-calibration) for details.&#x20;
