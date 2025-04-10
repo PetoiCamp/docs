@@ -10,7 +10,11 @@ When the robot arm is in motion, please do not put your hands between the robot 
 
 ## Installation
 
-This robot arm is already fully assembled. You only need to install the servo with the neck structure in the servo slot with two M2\*5 self-tapping screws.
+You must use the neck part with a J-hook (as pictured below) to use this robot arm.
+
+<figure><img src="../../.gitbook/assets/image (594).png" alt=""><figcaption></figcaption></figure>
+
+This robot arm is already fully assembled. You need to install the servo with the neck structure in the servo slot with two M2\*5 self-tapping screws.
 
 <figure><img src="../../.gitbook/assets/Neck.jpeg" alt=""><figcaption></figcaption></figure>
 
