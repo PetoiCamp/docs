@@ -126,8 +126,10 @@ You can send the skill file to your phone using Messenger or email and open the 
 
 #### Import new skills from the skill library on GitHub
 
-{% hint style="info" %}
 [The SkillLibrary folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary) in Github contains new skills for the OpenCat robot, which can be used for your reference. You can use your mobile browser to access the GitHub page of the OpenCat project, open the skill file (such as [Bittle\_Fold.md](https://github.com/PetoiCamp/OpenCat/blob/main/SkillLibrary/Bittle/Bittle_Fold.md)), select the "Code" tab, and share it with [**Petoi Mobile App**](https://docs.petoi.com/mobile-app/introduction)(make sure the mobile app is connected to your Petoi robot first), as shown in the figures below.  Then you can execute this skill by pressing the newly created command button.
+
+{% hint style="warning" %}
+On the iOS device, you may not share the .md skill file on the Github via the Chrome browser. You can download the skill file and refer to the method - [Import your local customized skill](controller.md#import-your-local-customized-skill-created-by-the-skill-composer) to import it to this smartphone app.
 {% endhint %}
 
 <div><figure><img src="../.gitbook/assets/Share_skill01en_02.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill02en.jpg" alt=""><figcaption></figcaption></figure></div>
@@ -135,10 +137,6 @@ You can send the skill file to your phone using Messenger or email and open the 
 <div><figure><img src="../.gitbook/assets/Share_skill03en.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill04en.jpg" alt=""><figcaption></figcaption></figure></div>
 
 <figure><img src="../.gitbook/assets/Share_skill05en_03.jpg" alt=""><figcaption></figcaption></figure>
-
-{% hint style="warning" %}
-On the iOS device, you may not share the .md skill file on the Github via the Chrome browser. You can download the skill file and refer to the method - [Import your local customized skill](controller.md#import-your-local-customized-skill-created-by-the-skill-composer) to import it to this smartphone app.
-{% endhint %}
 
 {% hint style="info" %}
 You are welcome to create your new skills([using the Skill Composer](https://docs.petoi.com/desktop-app/skill-composer) or [modifying the source code](https://docs.petoi.com/applications/skill-creation)) and share them by sending merge requests to [this folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary).
