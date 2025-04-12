@@ -157,7 +157,7 @@
   * [Training on the COCO DIY dataset](extensible-modules/advanced-development-and-application-of-ai-vision-modules/training-on-the-coco-diy-dataset.md)
 * [Robot Arm](extensible-modules/robot-arm/README.md)
   * [Upgrade your older Bittle/Bittle X for the robotics arm gripper](extensible-modules/robot-arm/upgrade-your-older-bittle-bittle-x-for-the-robotics-arm-gripper.md)
-* [🎮 Joystick with Micro: Bit](extensible-modules/joystick-with-micro-bit.md)
+* [🎮 Joystick with Micro:Bit](extensible-modules/joystick-with-micro-bit.md)
 
 ## Applications
 

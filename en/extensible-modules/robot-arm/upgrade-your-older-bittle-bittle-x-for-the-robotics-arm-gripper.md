@@ -54,3 +54,8 @@ Please refer to the wiring diagram to attach the robotic arm。\
 ## 4. Calibration
 
 The robot arm needs to be calibrated to work correctly. Please refer to the [corresponding chapter](https://docs.petoi.com/extensible-modules/robot-arm#joint-calibration) for details.&#x20;
+
+## 5. Controller
+
+We have the [Micro:Bit controller](../joystick-with-micro-bit.md) to provide an intuitive and prompt control for the robot.
+
