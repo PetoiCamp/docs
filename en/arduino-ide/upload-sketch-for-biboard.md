@@ -137,7 +137,7 @@ Modify the motherboard model macro definition in OpenCatEsp3&#x32;**.ino** accor
 // #define BiBoard_V1_0
 ```
 
-if the robot(Bittle R) with the robotic arm, you should also activate the macro definition as follows:
+if the robot(Bittle X+Arm) with the robotic arm, you should also activate the macro definition as follows:
 
 ```cpp
 #define ROBOT_ARM                 // for attaching head clip arm
@@ -321,7 +321,7 @@ If you need to clear the calibration parameters of the servo and recalibrate the
 
 The default code runs the **Standard** mode (including the **Voice command** function). If you want to switch modes, Please open the serial monitor and send the following serial commands:
 
-<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. The switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>XS</td><td>Enable the Serial 2(Tx2, Rx2). The switch on the extension hat should be dialed to the <strong>Uart2</strong> side</td></tr><tr><td>XB</td><td>Enable the back touch funtion. </td></tr><tr><td>X</td><td>Disable all the module functions above</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
+<table><thead><tr><th width="172">Serial command</th><th>Function</th></tr></thead><tbody><tr><td>XA</td><td>Voice. For <strong>BiBoard V0</strong>, the switch on the extension hat should be dialed to the <strong>Voice command</strong> side （<strong>default mode</strong>）</td></tr><tr><td>XU</td><td>Ultrasonic. For <strong>BiBoard V0</strong>, the switch on the extension hat should be dialed to the <strong>Uart2</strong> side; voice control will not work.</td></tr><tr><td>XC</td><td>Camera</td></tr><tr><td>XL</td><td>Light</td></tr><tr><td>XT</td><td>Touch</td></tr><tr><td>XI</td><td>PIR</td></tr><tr><td>XG</td><td>Gesture</td></tr><tr><td>XD</td><td>IR distance</td></tr><tr><td>XQ</td><td>Quick demo</td></tr><tr><td>XS</td><td>Enable the Serial 2(Tx2, Rx2). For <strong>BiBoard V0</strong>, the switch on the extension hat should be dialed to the <strong>Uart2</strong> side; voice control will not work. </td></tr><tr><td>XB</td><td>Enable the back touch funtion. </td></tr><tr><td>X</td><td>Disable all the module functions above.</td></tr><tr><td>z</td><td>RandomMind (On/Off)</td></tr></tbody></table>
 
 {% hint style="info" %}
 The behavior of the official modules is defined in separate header files in **OpenCat/src/**. You can find them in **OpenCat/src/io.h** **-> readSignal()**. The behavior of **Quick demo** mode is defined in **OpenCat/OpenCat.ino ->  quickDemo()**. You can study the example code to write your functions.&#x20;
