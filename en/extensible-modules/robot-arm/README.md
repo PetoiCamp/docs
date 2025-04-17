@@ -76,19 +76,26 @@ The joint index corresponding to the claw is 2. It can be auto-calibrated by pre
 
 The robot program defaults to voice mode. Before controlling the robotic arm with voice commands, you must say "**Start learning**" to activate the custom voice command mode. Then, follow the voice prompts to [record your voice commands](https://docs.petoi.com/extensible-modules/voice-command-module#record-customized-voice-commands) in the following order to call predefined skill actions:
 
-1. "**Pick up**"
-2. "**Put it down**"
-3. "**Hunt**"
-4. "**Show off the object**"
-5. "**Put away**"
-6. "**Throw away**"
-7. "**Shoot**"
-8. "**Clap**"
-9. "**Throw out**"
+1. "**Learn skill**"
+2. "**Play skill**"
+3. "**Follow**"
+4. "**Pick up**"
+5. "**Put it down**"
+6. "**Hunt**"
+7. "**Show off the object**"
+8. "**Put away**"
+9. "**Throw away**"
+10. "**Shoot**"
 
 Once you have finished recording your voice commands, say "**Stop learning**" to exit the custom voice command mode.
 
 The meaning of the voice commands:
+
+"**Learn skill**": This command de-energizes the robot servos, enabling continuous manipulation of the robot's body pose for skill motion capture.
+
+"**Play skill**": This command allows for the playback of the captured skill motion.
+
+"**Follow**": This command de-energizes the robot servos, enabling you to manipulate any leg, with the other legs copying its motion.
 
 "**Pick up**": To pick up the object.
 
@@ -103,10 +110,6 @@ The meaning of the voice commands:
 "**Throw away**": To throw the object aside.
 
 &#x20;"**Shoot**":  To throw the object forward.
-
-"**Clap**": To clap the claw.
-
-**Throw out**": To throw the object out.
 
 ### Mind+
 
@@ -149,6 +152,12 @@ After connecting the motherboard to the computer via a USB data cable or [Blueto
 | hunt       |       |        |       |                |
 | showOff    |       |        |       |                |
 | clap       |       |        |       |                |
+
+{% hint style="info" %}
+**Note**:\
+When using the serial port commands in the table, you need to prepend a lowercase English letter "**k**", for example, "**kpick**", "**kpickF**".\
+When using serial port commands that do not end with a directional character ("F", "L", "R", "D"), such as "**kpick**", the robot will randomly execute any one of the four directional actions corresponding to this skill.
+{% endhint %}
 
 ## Advanced Usage
 
