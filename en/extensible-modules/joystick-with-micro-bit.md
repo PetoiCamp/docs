@@ -22,7 +22,7 @@ You can download the program file([microbit-JoyStick.hex](https://raw.githubuser
 We recommend you use the **Chrome** browser.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, you can click "New Project" and drag the program file into the coding window to load it.&#x20;
 
@@ -50,7 +50,7 @@ Click![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/intere
 
 Select `BBC micro:bit CMSIS-DAP` in the pop-up window and then select Connect. At this point, our Micro: Bit has connected successfully.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click to download the program.
 
@@ -60,7 +60,7 @@ Click to download the program.
 
 1. [Upload the newest firmware](https://docs.petoi.com/upload-firmware) to the robot (mainboard type: **BiBoard**)
 2. Install 2 x #7 AAA batteries and plug in the Micro: Bit V2 to the remote controller. Then power on the remote controller as follows:\
-   ![](<../.gitbook/assets/image (5) (1).png>)\
+   ![](<../.gitbook/assets/image (5) (1) (1).png>)\
 
 3. Power on the robot. During the bootup, it can connect to the controller automatically via Bluetooth.\
    If there are many remote controllers and robots, the connection is one-to-one and first-come-first-served.
