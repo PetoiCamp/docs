@@ -27,22 +27,26 @@ The arm's alloy servos require much more current. To bypass the fuse (marked X30
 
 ### You will need to upgrade the firmware via Firmware Uploader with the following option:
 
-Model: Bittle X+Arm
+Model: **Bittle X+Arm**
 
-Board: BiBoard V0\_\*
+Board: **BiBoard V0\_\***  (Select the corresponding option based on the robot's mainboard model)
 
-Mode: Standard\
+Mode: **Standard**\
 
 
 <figure><img src="../../.gitbook/assets/89081744076717_.pic.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Or via Arduino IDE with the following macro activated:
 
-\#define BITTLE\
-\#define BiBoard\_V0\_2\
-\#define ROBOT\_ARM
+{% code overflow="wrap" %}
+```cpp
+#define BITTLE
+#define BiBoard_V0_*  // Activate the corresponding macro definition statements in the code based on the actual mainboard model the robot uses.
+#define ROBOT_ARM
+```
+{% endcode %}
 
-<figure><img src="../../.gitbook/assets/arm Arduino.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. Wiring
 
@@ -57,5 +61,4 @@ The robot arm needs to be calibrated to work correctly. Please refer to the [cor
 
 ## 5. Controller
 
-We have the [Micro:Bit controller](../joystick-with-micro-bit.md) to provide an intuitive and prompt control for the robot.
-
+We have the [Micro:Bit controller](https://docs.petoi.com/extensible-modules/joystick-with-micro-bit) to provide an intuitive and prompt control for the robot.

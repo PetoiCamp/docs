@@ -1,4 +1,4 @@
-# BiBoard V0 Quick Start Guide
+# BiBoard V0 Guide
 
 ## 1. Introduction
 
@@ -47,7 +47,7 @@ Open “Preferences” in Arduino, add ESP32 development board URL:
 
 <figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
 
-![](<../.gitbook/assets/BiBoard_config_02 (1).png>)
+<figure><img src="../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure>
 
 Save it and then exit.
 
@@ -59,9 +59,9 @@ Please install the latest available version **2.0.12**. Installing version 2.0.1
 
 <figure><img src="../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
 
-![](../.gitbook/assets/BiBoard_config_05.png)
+<figure><img src="../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
 
-After shown “INSTALLED”, the BiBoard board support package is finished.
+After showing “INSTALLED”, the BiBoard board support package is finished.
 
 #### 3.2.2 USB Downloader
 
