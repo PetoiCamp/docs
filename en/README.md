@@ -18,6 +18,8 @@ If you need help, please write to support@petoi.com or post on our forum at [pet
 
 ### 🐶 [Bittle X User Manual](https://bittle-x.petoi.com/)
 
+### :cat: [Nybble Q User Manual](https://nybble-q.petoi.com)
+
 
 
 ![](<.gitbook/assets/NB copy.JPG>)
