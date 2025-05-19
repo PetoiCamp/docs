@@ -59,16 +59,24 @@ Click to download the program.
 ## How to use&#x20;
 
 1. [Upload the newest firmware](https://docs.petoi.com/upload-firmware) to the robot (mainboard type: **BiBoard**)
-2. Install 2 x #7 AAA batteries and plug in the Micro: Bit V2 to the remote controller. Then power on the remote controller as follows:\
+2. Install 2 x #7 AAA batteries and plug in the Micro: Bit V2 to the remote controller. Then, power on the remote controller as follows:\
    ![](<../.gitbook/assets/image (5) (1) (1).png>)\
 
-3. Power on the robot. During the bootup, it can connect to the controller automatically via Bluetooth.\
-   If there are many remote controllers and robots, the connection is one-to-one and first-come-first-served.
+3. Power on the robot. During bootup, it can connect to the controller automatically via Bluetooth.\
+   If there are many remote controllers and robots, the connection is one-to-one and first-come, first-served.
 
 {% hint style="info" %}
-After a successful Bluetooth connection, the robot automatically disconnects every 20 minutes (indicated by an hourglass animation on the LED matrix). To re-establish the Bluetooth connection, touch the Micro: Bit's logo (a touch button) and hold the controller vertically with the left joystick at the lower side, as shown in the figure:\
-![](<../.gitbook/assets/image (550).png>)\
-After a successful reconnection, you will hear a prompt tone, and the LED matrix will play an animated hourglass flowing reversely.
+**Timed lock feature**
+
+This feature limits the play time for each user during exhibitions or science festivals. It is deactivated by default.
+
+After normal startup and Bluetooth connection, you can activate the limited-time usage function for the controller by pressing and holding the middle Logo (touch button) on the Micro:bit while keeping the controller upright (with the left joystick at the bottom). Once activated, the controller will send a rest command to the robot every 20 minutes and no longer respond to subsequent operations. The LED indicator matrix will dynamically display an hourglass pattern, as shown in the figure below:
+
+<img src="../.gitbook/assets/image (550).png" alt="" data-size="original">
+
+You can reset the countdown and reactivate the controller using the same operation described above. The controller will play a prompt tone, and the LED indicator matrix will display an animation of an hourglass reversing.
+
+Once the limited-time feature is activated, it can only be turned off by rebooting the controller. After the controller restarts, you must reset the robot (by clicking the **reset** button on the mainboard) or reboot the robot to reconnect.
 {% endhint %}
 
 ## Controller function introduction
