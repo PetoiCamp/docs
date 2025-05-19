@@ -1,6 +1,6 @@
 # NyBoard
 
-Use the [**USB uploader for NyBoard**](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/650/upload-firmware/nyboard)**.**
+Use the [**USB uploader for NyBoard**](https://docs.petoi.com/upload-firmware/nyboard)**.**
 
 For more details, please refer to the [Connect NyBoard](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard) section in the USB uploader module for specific steps.
 

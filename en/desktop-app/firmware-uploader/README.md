@@ -21,7 +21,9 @@ For [**NyBoard**](https://docs.petoi.com/nyboard/overview), more detailed docume
 
 ## Connect the mainboard to the computer
 
-You can connect the computer to the motherboard via a USB cable according to the instructions on the following sub-pages based on the mainboard model you choose.
+You can connect the computer to the mainboard using a USB cable, following the instructions on the subsequent sub-pages, which are specific to the robot's mainboard model. To see the sub-pages as in the following picture:
+
+<figure><img src="../../.gitbook/assets/image (601).png" alt=""><figcaption></figcaption></figure>
 
 ## Upload the firmware using the Petoi Desktop app
 

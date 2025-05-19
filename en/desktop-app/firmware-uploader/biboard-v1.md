@@ -1,6 +1,6 @@
 # BiBoard V1
 
-Use the [**USB type-C data cable for BiBoard V1**](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/650/upload-firmware/biboard-v1)**.**
+Use the [**USB Type-C data cable for BiBoard V1**](https://docs.petoi.com/upload-firmware/biboard-v1)**.**
 
 ## **Check the BiBoard V1 version**
 
