@@ -6,7 +6,15 @@ description: It's simple to control Nybble / Bittle via the remote controller.
 
 ### 1. Preparation
 
-<figure><img src="../.gitbook/assets/IRnotes.jpeg" alt=""><figcaption></figcaption></figure>
+#### BiBoard V0
+
+The infrared receiver for **Bittle X** (mainboard type: BiBoard V0) is on the microcontroller near the neck of Bittle X.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>BiBoard V0_x</p></figcaption></figure>
+
+#### NyBoard V1
+
+<figure><img src="../.gitbook/assets/IRnotes.jpeg" alt=""><figcaption><p>NyBoard V1_*</p></figcaption></figure>
 
 The remote doesn't require pairing. Make sure its plastic insulation sheet is removed, and point the remote‘s transmitter to the receiver on the robot's back when operating. If the robot doesn't respond, you can use your phone‘s camera to check the transmitter. If it doesn't blink when clicking a button, you need to change its battery. If it blinks, it may indicate the program on the robot is not configured correctly.&#x20;
 
