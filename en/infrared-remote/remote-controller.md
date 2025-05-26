@@ -14,7 +14,11 @@ The infrared receiver for **Bittle X** (mainboard type: BiBoard V0) is on the mi
 
 #### NyBoard V1
 
+The infrared receiver for Nyboard is near the tail of the Bittle robot dog.
+
 <figure><img src="../.gitbook/assets/IRnotes.jpeg" alt=""><figcaption><p>NyBoard V1_*</p></figcaption></figure>
+
+Remote connection
 
 The remote doesn't require pairing. Make sure its plastic insulation sheet is removed, and point the remote‘s transmitter to the receiver on the robot's back when operating. If the robot doesn't respond, you can use your phone‘s camera to check the transmitter. If it doesn't blink when clicking a button, you need to change its battery. If it blinks, it may indicate the program on the robot is not configured correctly.&#x20;
 
