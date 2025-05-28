@@ -43,6 +43,12 @@ Entering calibration mode requires the following preparations: ‌
 If you build the robot from an unassembled kit, do not install the head and leg components before entering the calibration state.&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+If you have a pre-assembled kit with the feedback servos, you can do [automatic calibration](https://docs.petoi.com/apis/serial-protocol/feedback-servos) to save time.
+
+Note: For robots with robot arms, the automatic calibration function does **not** include the claw joint.
+{% endhint %}
+
 ## Enter the Calibration State
 
 The robot's legs may point to unknown angles when booting up. When entering the calibration state, the joints will be moved to their zero positions. You can see the output gears of the servos rotate and then stop. Then, you can attach the legs and fine-tune the joint offsets in the software interface. There are 3 software interfaces to enter the calibration state and fine-tune the joints.&#x20;
