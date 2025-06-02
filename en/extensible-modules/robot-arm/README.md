@@ -1,6 +1,6 @@
 # Robot Arm
 
-Bittle can be equipped with a robotic arm, which we will call it Bittle X+Arm. This arm has more functions than Bittle and can perform more complex skills, such as grabbing objects for display or moving them to different places.
+Bittle can be equipped with a robotic arm, which we will call it Bittle X+Arm. This robotic arm gripper has more functions than Bittle and can perform more complex skills, such as grabbing objects for display or moving them to different places.
 
 {% hint style="danger" %}
 When the robot arm is in motion, please do not put your hands between the robot claws to avoid being pinched.
