@@ -13,6 +13,8 @@ If you have a construction kit, you can follow the following instructions to bui
   * If you have a Bittle X V2 kit(as indicated on the package barcode label)
     * pay attention to [the BiBoard V1 servo wiring](https://bittle.petoi.com/4-connect-the-wires/biboard-v1)
     * select BiBoard V1 during the firmware upload process with [Petoi Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#biboard-for-bittle-x)
+* [Bittle X V2 + Arm](extensible-modules/robot-arm/)
+  * It's an extension of Bittle X V2.  So you can follow the instructions for Bittle X V2 pre-assembled version first.
 * [Nybble](https://nybble.petoi.com/chapter1)
 
 {% hint style="warning" %}
