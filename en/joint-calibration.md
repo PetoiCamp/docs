@@ -12,6 +12,12 @@ This is a cool tutorial video made by one of our users, which briefs the process
 
 {% embed url="https://youtu.be/IA4FbYpPtbI?t=139" %}
 
+{% hint style="info" %}
+We have published the 3D structure of the Bittle / Bittle X's calibration bracket online. If you have a 3D printer, you can print it by yourself. Please check this page: [https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl)\
+\
+<img src=".gitbook/assets/standWithCalibration.jpg" alt="" data-size="original">
+{% endhint %}
+
 ## \* The logic behind calibration is:
 
 1. &#x20;You don't know where the servos are pointing before they are powered and calibrated. So if you attach the legs, the legs will rotate to random angles and may collide with the robot's body or other legs and get stuck. If a servo is stuck for a long time, it may break.&#x20;
