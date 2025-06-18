@@ -12,9 +12,16 @@ This is a cool tutorial video made by one of our users, which briefs the process
 
 {% embed url="https://youtu.be/IA4FbYpPtbI?t=139" %}
 
+### Calibration Stand
+
 {% hint style="info" %}
-We have published the 3D structure of the Bittle / Bittle X's calibration bracket online. If you have a 3D printer, you can print it by yourself. Please check this page: [https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl)\
+We have published the 3D structure of the Bittle / Bittle X (Bittle X+Arm)'s calibration bracket online. If you have a 3D printer, you can print it by yourself. Please check this page:&#x20;
+
+[https://makerworld.com/en/models/1523424-calibration-and-test-stand-for-bittle-x-r-robot#profileId-1596686](https://makerworld.com/en/models/1523424-calibration-and-test-stand-for-bittle-x-r-robot#profileId-1596686)\
+<img src=".gitbook/assets/Cali_Stand01.png" alt="" data-size="original"><img src=".gitbook/assets/Cali_Stand02.png" alt="" data-size="original">\
 \
+OR:\
+[https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl)\
 <img src=".gitbook/assets/standWithCalibration.jpg" alt="" data-size="original">
 {% endhint %}
 

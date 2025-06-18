@@ -28,7 +28,7 @@ The previous one:
 <img src="../.gitbook/assets/Ultrasonic_Sensor.jpeg" alt="" data-size="original">
 {% endhint %}
 
-Attach the ultrasonic sensor to [Nybble's eye](https://youtu.be/g7\_ODr\_3DTc).
+Attach the ultrasonic sensor to [Nybble's eye](https://youtu.be/g7_ODr_3DTc).
 
 {% embed url="https://youtu.be/kV2UYbpfGic" %}
 
@@ -67,19 +67,27 @@ The demo video is as follows:
 
 #### Mind+ demo code
 
-#### [https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/avoidObs\_NyBoard.mp](https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/avoidObs\_NyBoard.mp)
+#### [https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/avoidObs\_NyBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/NyBoard/avoidObs_NyBoard.mp)
 
 ## BiBoard
 
 ### Hardware setup
 
-Connecting to the BiBoard with wire as shown in the following picture:
+#### BiBoard V0&#x20;
+
+Take Bittle X for example, connecting to the BiBoard with wire as shown in the following picture:
 
 <figure><img src="../.gitbook/assets/Ultrasonic_BiBoard.png" alt=""><figcaption></figcaption></figure>
 
 The dial switch on the bottom of the BiBoard extension hat is dialed to _**UART2**_ .
 
 <figure><img src="../.gitbook/assets/Switch.jpg" alt=""><figcaption></figcaption></figure>
+
+#### BiBoard V1
+
+The sensor should connect to the first Grove socket from the top.
+
+<figure><img src="../.gitbook/assets/Ultrasonsic_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Software setup
 
@@ -104,4 +112,4 @@ The dial switch on the bottom of the BiBoard extension hat is dialed to _**UART2
 
 #### Mind+ demo code
 
-[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/avoidObs\_BiBoard.mp](https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/avoidObs\_BiBoard.mp)
+[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/avoidObs\_BiBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/BiBoard/avoidObs_BiBoard.mp)
