@@ -21,7 +21,7 @@ We have published the 3D structure of the Bittle / Bittle X (Bittle X+Arm)'s cal
 <img src=".gitbook/assets/Cali_Stand01.png" alt="" data-size="original"><img src=".gitbook/assets/Cali_Stand02.png" alt="" data-size="original">\
 \
 OR:\
-[https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleStand/standWithCalibration.stl)\
+[https://makerworld.com/en/models/457162-test-stand-for-petoi-bittle-robotic-dog#profileId-365135](https://makerworld.com/en/models/457162-test-stand-for-petoi-bittle-robotic-dog#profileId-365135)\
 <img src=".gitbook/assets/standWithCalibration.jpg" alt="" data-size="original">
 {% endhint %}
 
