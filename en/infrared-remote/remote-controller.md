@@ -10,7 +10,7 @@ description: It's simple to control Nybble / Bittle via the remote controller.
 
 The infrared receiver for **Bittle X** (mainboard type: BiBoard V0) is on the microcontroller near the neck of Bittle X.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>BiBoard V0_x</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (602).png" alt=""><figcaption><p>BiBoard V0_x</p></figcaption></figure>
 
 #### NyBoard V1
 
