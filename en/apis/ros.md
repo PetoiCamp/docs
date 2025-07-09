@@ -98,3 +98,12 @@ rosrun opencat_examples opencat_examples_client_cpp
 # examples using opencat ros service in python
 rosrun opencat_examples opencat_examples_client_py
 ```
+
+### Projects
+
+There are some great projects from the users who contributed:
+
+* [Bittle\_ROS2](https://github.com/gravesreid/bittle_ros2)
+* [FinoBot](https://www.petoi.com/blogs/blog/finobot-ai-robot-dog-bittle-x-follows-someone)
+
+{% embed url="https://www.petoi.com/blogs/blog/finobot-ai-robot-dog-bittle-x-follows-someone" %}
