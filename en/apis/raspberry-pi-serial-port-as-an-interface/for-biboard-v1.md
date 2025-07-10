@@ -1,6 +1,6 @@
 # For BiBoard V1
 
-### Connection
+### Hardware Connection
 
 You can solder a 5-pin socket on BiBoard V1 to plug in a Raspberry Pi.
 
@@ -16,7 +16,11 @@ You can 3D print a new [back cover](https://github.com/PetoiCamp/NonCodeFiles/bl
 
 <figure><img src="../../.gitbook/assets/IMG_5885 2.jpeg" alt=""><figcaption></figcaption></figure>
 
-After plug in the Raspberry Pi board , power on the BiBoard via USB data cable or Battery. Then open the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard), and send serial command **XS** to enable the [Serail 2](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.9-swith-working-mode-via-the-serial-commands-optional) working mode.
+After plug in the Raspberry Pi board , power on the BiBoard via USB data cable or Battery.&#x20;
+
+### Software Setup
+
+Open the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard), and send serial command **XS** to enable the [Serail 2](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.9-swith-working-mode-via-the-serial-commands-optional) working mode.
 
 {% hint style="info" %}
 You can also modify the source code (_**OpenCat.h**_) and [upload the sketch for BiBoard](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard) to enable the Serail 2 working mode:
