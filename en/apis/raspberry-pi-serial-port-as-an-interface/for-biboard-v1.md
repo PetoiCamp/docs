@@ -10,9 +10,9 @@ You can solder a 5-pin socket on BiBoard V1 to plug in a Raspberry Pi.
 
 <div align="left"><figure><img src="../../.gitbook/assets/PANA3447.JPG" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/PANA3448.JPG" alt="" width="375"><figcaption></figcaption></figure></div>
 
-The white [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/RaspberryPiStandOff/Pi_StandOffRegular.stl) can be 3D printed.
+The white [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/RaspberryPiStandOff/Pi_StandOffRegular.stl) can be 3D printed.
 
-You can 3D print a new [back cover](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/BittleCover/Bittle_Cover_with_hole_for_Pi.stl) that fits the Raspberry Pi socket, as follows:
+You can 3D print a new [back cover](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/BittleCover/Bittle_Cover_with_hole_for_Pi.stl) that fits the Raspberry Pi socket, as follows:
 
 <figure><img src="../../.gitbook/assets/IMG_5885 2.jpeg" alt=""><figcaption></figcaption></figure>
 

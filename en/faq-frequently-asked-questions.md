@@ -203,7 +203,7 @@ Please refer to Bittle's instruction in [Final Assembly.](https://bittle.petoi.c
 
 ### Where can I get the bone shown in Bittle's picture?
 
-The little bone is included in the [Intelligent Camera Module](https://docs.petoi.com/extensible-modules/mu-camera) box, and it is not being sold separately. You may download its 3D-printable file at: [`https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_bone.stl`](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle_bone.stl)
+The little bone is included in the [Intelligent Camera Module](https://docs.petoi.com/extensible-modules/mu-camera) box, and it is not being sold separately. You may download its 3D-printable file at: [`https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/Bittle_bone/Bittle_bone.stl`](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/Bittle_bone/Bittle_bone.stl)
 
 ### Does it come with a battery, or do you have to buy a lithium battery?
 
