@@ -97,9 +97,9 @@
   * [Using the ESP-NOW protocol](apis/8266-micropython-controller/using-the-esp-now-protocol.md)
 * [🦎 8266 Arduino C Controller](apis/8266-arduino-c-controller.md)
 * [©️ C++ API](apis/c++-api.md)
-* [🍓 Raspberry Pi serial port as an interface](apis/raspberry-pi-serial-port-as-an-interface.md)
-  * [For BiBoard V1](apis/raspberry-pi-serial-port-as-an-interface/for-biboard-v1.md)
-  * [For BiBoard V0](apis/raspberry-pi-serial-port-as-an-interface/for-biboard-v0.md)
+* [🍓 Raspberry Pi serial port as an interfac](apis/raspberry-pi-serial-port-as-an-interfac/README.md)
+  * [For BiBoard V1](apis/raspberry-pi-serial-port-as-an-interfac/for-biboard-v1.md)
+  * [For BiBoard V0](apis/raspberry-pi-serial-port-as-an-interfac/for-biboard-v0.md)
 * [💻 Set up Development Environment on Chromebook](apis/set-up-development-environment-on-chromebook.md)
 * [🤖 ROS](apis/ros.md)
 
