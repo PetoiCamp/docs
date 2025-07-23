@@ -215,9 +215,26 @@ Play around with tones and duration sequences to create your own melodies. For m
 
 For example, using Gemini to give you a raw melody sequence to start with:
 
-{% embed url="https://g.co/gemini/share/137e88c37842" %}
+{% code overflow="wrap" fullWidth="false" %}
+```markup
+Understanding the Melody Rules:
 
-<div align="center"><figure><img src="../.gitbook/assets/geminiMelody (1).png" alt=""><figcaption><p>Screenshot of the AI generated response</p></figcaption></figure></div>
+You can think of this system as a simple way to program a buzzer to play music.
+Start Command: Every melody begins with the letter b.
+
+Notes: Each note is a number. The numbers are based on half-step increments, meaning an increase of 1 is a half tone and an increase of 2 is a whole tone. 0 is for silence. You can set middle C to 15.
+
+Duration: After each note number, a second number specifies its duration. The actual time is 1 second divided by this number. For example, a duration of 4 means the note lasts for 1/4 of a second.
+
+Format: The melody is written as a list of [note, duration] pairs, like "b, 15, 4, 17, 2,..."
+
+Following the rules, generate the melody for Jingle Bells.
+```
+{% endcode %}
+
+#### Screenshot:
+
+<figure><img src="../.gitbook/assets/geminiMelody.png" alt=""><figcaption></figcaption></figure>
 
 You may share your prompt, which works directly with our community, at [www.petoi.camp](https://www.petoi.camp).&#x20;
 
