@@ -171,9 +171,9 @@ Use this block to control one joint or multiple joints to rotate in sequence. Th
     <div align="left"><figure><img src="../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-- <img src="../../.gitbook/assets/image (308).png" alt="" data-size="original">, <img src="../../.gitbook/assets/image (274).png" alt="" data-size="original">represents a list consisting of a [joint index](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/285/petoi-robot-joint-index) and an angle value. For example, \[Head panning to 30 degrees] represents the list \[0, 30].
+- <img src="../../.gitbook/assets/image (308).png" alt="" data-size="original">, <img src="../../.gitbook/assets/image (274).png" alt="" data-size="original">represents a list consisting of a [joint index](https://docs.petoi.com/petoi-robot-joint-index) and an angle value. For example, \[Head panning to 30 degrees] represents the list \[0, 30].
 - <img src="../../.gitbook/assets/image (278).png" alt="" data-size="original">\
-  It consists of one or more pairs of[ joint index](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/285/petoi-robot-joint-index) + angle value, and the specific format is as follows: \
+  It consists of one or more pairs of[ joint index](https://docs.petoi.com/petoi-robot-joint-index) + angle value, and the specific format is as follows: \
   \[joint index, angle value, joint index, angle value...]
 {% endhint %}
 
@@ -217,7 +217,7 @@ Use this block to control all joints to rotate at the same time. Please use it w
 <div align="left"><figure><img src="../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-The "Action frame" block represents a list of 16 angle values. Each angle value corresponds to the absolute angle value to which the corresponding [joint index](https://app.gitbook.com/o/-M-_eWZUjFA4usjshHcZ/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/~/changes/285/petoi-robot-joint-index) servo rotates.
+The "Action frame" block represents a list of 16 angle values. Each angle value corresponds to the absolute angle value to which the corresponding [joint index](https://docs.petoi.com/petoi-robot-joint-index) servo rotates.
 {% endhint %}
 
 ### Play a melody
@@ -242,6 +242,10 @@ Consists of one or more pairs of Tone + Duration, the specific format is as foll
 
 \[tone, duration, tone, duration, tone, duration...]
 {% endhint %}
+
+#### Tutorials
+
+For more detailed tutorials, please refer to [Melody Creation](https://docs.petoi.com/applications/melody-creation).
 
 ### Execute a serial command
 
