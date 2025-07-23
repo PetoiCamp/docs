@@ -345,7 +345,7 @@ We provide some demos to download for reference in the GitHub repository (Petoi\
 
 <figure><img src="../../.gitbook/assets/image (249).png" alt=""><figcaption></figcaption></figure>
 
-### Free curricular
+### Free block-based robotics coding curriculum
 
 {% embed url="https://drive.google.com/drive/folders/1vcdMiLY90WVypL1oHU-082e1qkAn8qW7" %}
 
