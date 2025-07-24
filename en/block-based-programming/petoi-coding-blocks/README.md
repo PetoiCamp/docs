@@ -9,11 +9,15 @@ description: >-
 ## Prepare Mind+
 
 * Download the latest version from the [Mind+ official website](https://mindplus.cc/download-en.html)
-  * Windows: **>= V1.7.0**
-  * Ma&#x63;**:** version: **>= V1.7.3 RC2.0**
+  * For Windows: Mind+ version **>= V1.7.0**
+  * For Mac O&#x53;**:** Mind+ version **>= V1.7.3 RC2.0**
 
 {% hint style="warning" %}
-If you cannot download the software from Mind+'s official website, you can download a stable version from [the Google Drive folder](https://drive.google.com/drive/folders/1V9WSnNiEOKZznP05W_RPxUD0TqAFFK7T). However, we strongly recommend that you download and use the official latest version.
+If you can not download the software from Mind+'s official website, you can download a stable version from [the Google Drive folder](https://drive.google.com/drive/folders/1V9WSnNiEOKZznP05W_RPxUD0TqAFFK7T). However, we strongly recommend that you download and use the official latest version.
+{% endhint %}
+
+{% hint style="info" %}
+If you have already installed the old Mind+ version (**<=**&#x56;1.7.2 RC3.0) on macOS, we recommend that you uninstall it first and then download the latest version of **Mind+**.
 {% endhint %}
 
 * After the installation is complete, you can open Mind+
@@ -43,12 +47,6 @@ Paste the GitHub URL([https://github.com/PetoiCamp/Petoi\_MindPlusLib](https://g
 <figure><img src="../../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-For macOS (**<=V1.7.2 RC3.0**), you need to download [PetoiRobot.zip](https://github.com/PetoiCamp/Petoi_MindPlusLib/raw/main/PetoiRobot.zip) and copy the extracted folder (PetoiRobot) to /Users/{your username}/Documents/mindplus-py/environment/Python3.6.5-64/lib/python3.6/site-packages/
-
-![](<../../.gitbook/assets/image (403).png>)
-{% endhint %}
 
 ## Programming and Running
 
