@@ -17,7 +17,11 @@ If you can not download the software from Mind+'s official website, you can down
 {% endhint %}
 
 {% hint style="info" %}
-If you have already installed the old Mind+ version (**<=**&#x56;1.7.2 RC3.0) on macOS, we recommend that you uninstall it first and then download the latest version of **Mind+**.
+**For macOS only:** If you have already installed the old Mind+ version (**<=**&#x56;1.7.2 RC3.0), we recommend that
+
+1. You uninstall it first
+2. Delete this folder /Users/\[vour username]/Documents/mindplus-pv/environment/Python3.6.5.64/ib/python3.6/site-packages/
+3. Download and install the latest version of **Mind+**.
 {% endhint %}
 
 * After the installation is complete, you can open Mind+
