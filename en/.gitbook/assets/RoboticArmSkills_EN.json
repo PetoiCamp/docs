@@ -1,0 +1,79 @@
+{
+    "skills": [
+      {
+        "name": "Pick up Below",
+        "command": "kpickD",
+        "model": "Bittle"
+      },
+      {
+        "name": "Pick up Front",
+        "command": "kpickF",
+        "model": "Bittle"
+      },
+      {
+        "name": "Pick up Left",
+        "command": "kpickL",
+        "model": "Bittle"
+      },
+      {
+        "name": "Pick up Right",
+        "command": "kpickR",
+        "model": "Bittle"
+      },
+      {
+        "name": "Put Down Below",
+        "command": "kputD",
+        "model": "Bittle"
+      },
+      {
+        "name": "Put down Front",
+        "command": "kputF",
+        "model": "Bittle"
+      },
+      {
+        "name": "Put down Left",
+        "command": "kputL",
+        "model": "Bittle"
+      },
+      {
+        "name": "Put down Right",
+        "command": "kputR",
+        "model": "Bittle"
+      },
+      {
+        "name": "Launch",
+        "command": "klaunch",
+        "model": "Bittle"
+      },
+      {
+        "name": "Toss Front",
+        "command": "ktossF",
+        "model": "Bittle"
+      },
+      {
+        "name": "Toss Left",
+        "command": "ktossL",
+        "model": "Bittle"
+      },
+      {
+        "name": "Toss Right",
+        "command": "ktossR",
+        "model": "Bittle"
+      },
+      {
+        "name": "Hunt",
+        "command": "khunt",
+        "model": "Bittle"
+      },
+      {
+        "name": "Claw Clap",
+        "command": "kclap",
+        "model": "Bittle"
+      },
+      {
+        "name": "Show off",
+        "command": "kshowOff",
+        "model": "Bittle"
+      }
+    ]
+  }

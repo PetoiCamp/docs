@@ -111,6 +111,16 @@ The meaning of the voice commands:
 
 &#x20;"**Shoot**":  To throw the object forward.
 
+### Mobile app
+
+Please install the latest version of the [mobile app](https://docs.petoi.com/mobile-app/introduction) and download the robotic arm skill config file (as below) , and save it on your smartphone:
+
+{% file src="../../.gitbook/assets/RoboticArmSkills_EN.json" %}
+
+Then you can press the Import commands button in the menu list (as following) to import the skills via config file (.json) .
+
+<figure><img src="../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+
 ### Mind+
 
 You can use the **Perform robot arm skill** block in the [**Petoi Coding Blocks**](https://docs.petoi.com/block-based-programming/petoi-coding-blocks) to do some pre-defined skills.

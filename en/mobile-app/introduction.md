@@ -17,17 +17,27 @@ The app works on both Android and iOS devices.
 
 You can also download the Android APK and install it on your phone. You need to unzip it before installation.&#x20;
 
-{% file src="../.gitbook/assets/app-release-v1.2.2-26-1-universal-release.apk.zip" %}
+* The universal version
 
-If the Bluetooth dongle blinks while the connection panel within the App shows a blank Bluetooth connection list, first check if you have given the Bluetooth and location permission to the App. If it still shows a blank list, you may try to install the previous stable version.&#x20;
+{% file src="../.gitbook/assets/v1.3.1-33-1-app-universal-release-20250706.apk.zip" %}
 
 * The **v8a** version of the app mainly supports most of the current new mobile phone models
 
-{% file src="../.gitbook/assets/app-release-v1.2.0-25-1-arm64-v8a-release.apk.zip" %}
+{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-arm64-v8a.apk.zip" %}
 
 * The **v7a** version of the app is compatible with older mobile phone models
 
-{% file src="../.gitbook/assets/app-release-v1.2.0-25-1-armeabi-v7a-release.apk.zip" %}
+{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-armeabi-v7a.apk.zip" %}
+
+* The **x86\_64** version of the app indicates that the APK is designed for Android devices using Intel or AMD 64-bit processors. This means that the APK contains native code libraries optimized for the x86\_64 architecture, designed to provide better performance and compatibility.
+
+{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-x86_64.apk.zip" %}
+
+{% hint style="info" %}
+If the Bluetooth dongle (which is plugged in NyBoard) blinks while the connection panel within the App shows a blank Bluetooth connection list, first check if you have given the Bluetooth and location permission to the App. If it still shows a blank list, you may try to install the previous stable version.&#x20;
+
+{% file src="../.gitbook/assets/app-releasev1.2.4-1-universal.apk.zip" %}
+{% endhint %}
 
 ![](<../.gitbook/assets/image (243).png>)
 
