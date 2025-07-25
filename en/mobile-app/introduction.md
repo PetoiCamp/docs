@@ -17,7 +17,7 @@ The app works on both Android and iOS devices.
 
 You can also download the Android APK and install it on your phone. You need to unzip it before installation.&#x20;
 
-* The universal version
+* The universal version(try this one first)
 
 {% file src="../.gitbook/assets/v1.3.1-33-1-app-universal-release-20250706.apk.zip" %}
 
