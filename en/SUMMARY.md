@@ -105,7 +105,7 @@
   * [For BiBoard V1](apis/raspberry-pi-serial-port-as-an-interfac/for-biboard-v1.md)
   * [For BiBoard V0](apis/raspberry-pi-serial-port-as-an-interfac/for-biboard-v0.md)
 * [💻 Set up Development Environment on Chromebook](apis/set-up-development-environment-on-chromebook.md)
-* [🤖 ROS](apis/ros.md)
+* [🤖 ROS and ROS2](apis/ros-and-ros2.md)
 
 ## Nyboard
 
