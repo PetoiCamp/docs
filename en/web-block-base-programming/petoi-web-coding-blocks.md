@@ -35,8 +35,18 @@ The Petoi Web Coding Block allows you to control the robot via WiFi without comp
 2. &#x20;Control the robot
 3. &#x20;Close the serial port
 
+{% hint style="danger" %}
+When you plug in the USB data cable on the computer side of the Chromebook, if a **USB device detected** message window pops up in the bottom-right corner of the screen, as shown in the figure below, please <mark style="color:red;">DO NOT</mark> click the **Connect to Linux** button in the window.
+
+![](<../.gitbook/assets/image (607).png>)
+
+If you accidentally click this button, Chrome will not detect the serial port. To resolve the issue, go to the settings interface below, **turn off** the **USB Single Serial** option, and then unplug and reconnect the USB cable. This will cause the **USB device detected** message window to pop up again.
+
+![](<../.gitbook/assets/image (608).png>)
+{% endhint %}
+
 {% hint style="warning" %}
-If you use the **Chrome**, please make sure to turn on the permission settings:\
+If you use the **Chrome**, please make sure to turn on the permission settings first:\
 ![](<../.gitbook/assets/image (54).png>)\
 \
 ![](<../.gitbook/assets/image (55).png>)\
