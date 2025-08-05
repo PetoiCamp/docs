@@ -241,6 +241,16 @@ Please refer to the [FAQ](extensible-modules/mu-camera.md#faq) on the MU camera.
 
 Turn off the battery's power to see if the serial port can appear. Please refer to [Connect to BiBoard via USB type-C data cable](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.5-connect-to-biboard-via-usb-type-c-data-cable).
 
+#### **For** the BiBoard V0 mainboard, power on the robot via battery, and **the servos can not move.**
+
+After powering on the robot via battery, if you speak a voice command to the robot, there is only a voice response, but no action response. Or you send the [skill command](https://docs.petoi.com/apis/serial-protocol) to the robot, and the servos can not move.  Maybe the fuse(marked **X30** or **X70**) is damaged, it has a lower capability to handle current, which causes the LED light to blink and lowers power stability.&#x20;
+
+<figure><img src=".gitbook/assets/BiBoard_fuse.png" alt=""><figcaption></figcaption></figure>
+
+If you have a soldering iron, you can directly connect the two ends of the fuse as following:
+
+<figure><img src=".gitbook/assets/BiBoard_fuse02.png" alt=""><figcaption></figcaption></figure>
+
 ## Resources and links
 
 ### Driver for CH340 USB uploader
