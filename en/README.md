@@ -33,5 +33,5 @@ You can use the find (Cmd+K/Ctrl+K) feature on this site. It supports Lens, a Ch
 {% hint style="info" %}
 Note that this privacy notice refuses to disappear!
 
-<img src=".gitbook/assets/image (52).png" alt="" data-size="original">
+<img src=".gitbook/assets/image (52) (1).png" alt="" data-size="original">
 {% endhint %}

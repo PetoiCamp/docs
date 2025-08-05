@@ -106,7 +106,7 @@ Note:&#x20;
 
 If the uploading fails, the following message box will pop up:
 
-<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53) (1).png" alt=""><figcaption></figcaption></figure>
 
 The log file is located at:
 
@@ -114,14 +114,14 @@ The log file is located at:
     The log file is in the same directory as **UI.exe**\
 
 
-    <figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 *   For macOS:\
     You can check the log file as follows:\
 
 
-    <figure><img src="../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (56) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you contact our **support@petoi.com**, please attach the log file to your email.&#x20;
 

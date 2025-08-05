@@ -1,0 +1,110 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "make_connection",
+        "id": "#sY.r:SZ5kqoT#WA,f~C",
+        "x": 50,
+        "y": 50,
+        "deletable": false,
+        "fields": {
+          "IP_ADDRESS": "192.168.4.1"
+        },
+        "next": {
+          "block": {
+            "type": "gyro_control",
+            "id": "|Fx+5nUc=0SgdfzF!)3D",
+            "deletable": false,
+            "fields": {
+              "STATE": "0"
+            },
+            "next": {
+              "block": {
+                "type": "posture",
+                "id": ".HFfKE#J4[Qgs86,]$H/",
+                "fields": {
+                  "COMMAND": "ksit",
+                  "DELAY": 0.5
+                },
+                "next": {
+                  "block": {
+                    "type": "variables_set",
+                    "id": "`L)xf`IVIW5~mZuY9%l?",
+                    "fields": {
+                      "VAR": {
+                        "id": "k~;ESS)-X/m+/d//_)|l"
+                      }
+                    },
+                    "inputs": {
+                      "VALUE": {
+                        "block": {
+                          "type": "get_joint_angle",
+                          "id": "x}/Y05{p;3r?2bI7F*+n",
+                          "fields": {
+                            "JOINT": "9"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "set_joint_angle",
+                        "id": "-[O+-4,%xe0dJ,AN4]}1",
+                        "fields": {
+                          "DELAY": 1
+                        },
+                        "inputs": {
+                          "VARIABLE": {
+                            "block": {
+                              "type": "joint_absolute_angle_value",
+                              "id": "H-+5t4Q#m+@^z#?=irI.",
+                              "fields": {
+                                "JOINT": "0"
+                              },
+                              "inputs": {
+                                "ANGLE": {
+                                  "shadow": {
+                                    "type": "math_number",
+                                    "id": "zPf%JQWuH4E!*:vPs!G9",
+                                    "fields": {
+                                      "NUM": 0
+                                    }
+                                  },
+                                  "block": {
+                                    "type": "variables_get",
+                                    "id": "/Bul3UV]RemPMG98Sm9O",
+                                    "fields": {
+                                      "VAR": {
+                                        "id": "k~;ESS)-X/m+/d//_)|l"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "angle",
+      "id": "k~;ESS)-X/m+/d//_)|l"
+    }
+  ],
+  "skills": [],
+  "startBlockIds": [
+    "#sY.r:SZ5kqoT#WA,f~C",
+    "|Fx+5nUc=0SgdfzF!)3D"
+  ]
+}

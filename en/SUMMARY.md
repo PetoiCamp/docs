@@ -72,6 +72,10 @@
 * [Generic Arduino Uno Blocks ](block-based-programming/generic-arduino-uno-blocks.md)
 * [Install Mind+ on Chromebook](block-based-programming/install-mind+-on-chromebook.md)
 
+## WEB BLOCK-BASE PROGRAMMING
+
+* [Petoi Web Coding Blocks](web-block-base-programming/petoi-web-coding-blocks.md)
+
 ## Arduino IDE
 
 * [Upload Sketch for NyBoard](arduino-ide/upload-sketch-for-nyboard.md)

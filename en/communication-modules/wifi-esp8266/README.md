@@ -64,7 +64,7 @@ Then we set the parameters：
 | lwIP variant  | V2 Lower memory                                               |
 | Erase Flash   | Only sketch                                                   |
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Upload the test program.
 
@@ -72,9 +72,9 @@ After configuration, we used the Arduino classic "Blink" program to test the ESP
 
 Open the Blink project, configure the development board, plug the module into the communication module debugging interface of the USB uploader (USB Adapter), and upload the **Blink** sketch.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 Compared with the Arduino UNO, the compilation time is slightly longer. After Linking, the uploading progress will be displayed as follows:
 
@@ -162,9 +162,9 @@ After the sketch is uploaded to the WiFi module, we strongly recommend running i
 
 Open the serial monitor in Arduino IDE as follows. Then, unplug and re-plug the WiFi module into the USB uploader.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Open the serial monitor</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (2).png" alt=""><figcaption><p>Open the serial monitor</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (2).png" alt=""><figcaption></figcaption></figure>
 
 Open your smartphone's WiFi scanner and find an unencrypted access point named "Bittle-AP." Connect it.
 
@@ -190,7 +190,7 @@ On the WiFiManager page, Please click the **Configure WiFi** button. The WiFi mo
 
 After successfully connecting to the network, the WiFi module will print out the IP address assigned by DHCP through the serial port on the serial monitor.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Enter the WiFi module's IP address in the web browser, and you can now control the Bittle through WiFi! &#x20;
 

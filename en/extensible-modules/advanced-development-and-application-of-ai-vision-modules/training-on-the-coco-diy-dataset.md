@@ -112,11 +112,11 @@ _**`python .\coco_download.py`**_
 
 If you find that there is no way to download the full COCO dataset due to unstable network or other reasons during the download process, then please download the COCO dataset manually and unzip the zip archive to the appropriate location.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption><p>Enter the url directly into the browser to download the zip file</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (38) (1).png" alt=""><figcaption><p>Enter the url directly into the browser to download the zip file</p></figcaption></figure>
 
 The final dataset format is guaranteed to be:
 
-<figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 The COCO DIY dataset is extracted using the following script, which can be named coco\_remake.py&#x20;
 
@@ -307,11 +307,11 @@ names:
 
 This YAML file includes the paths to the train and val directories as well as the label order and corresponding labels. For local training, use absolute paths. For cloud training, this YAML file needs to be modified to the following format:
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 And, when training in the cloud, be sure to follow this organisation of the dataset below:
 
-<figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 Combined with the steps in the Model Training section, you can train your own model based on the COCO DIY dataset!
 

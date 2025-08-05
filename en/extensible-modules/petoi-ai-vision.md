@@ -4,7 +4,7 @@
 
 Petoi AI Vision Module is based on the Arm Cortex-M55, and Ethos-U55 embedded vision module. The Ethos-U55 has 64 to 512 GOP/s of arithmetic power to meet the growing demand for downloading machine learning.
 
-<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Hardware setup <a href="#hardware-setup-1" id="hardware-setup-1"></a>
 
@@ -14,9 +14,9 @@ Petoi AI Vision Module is based on the Arm Cortex-M55, and Ethos-U55 embedded vi
 
 ### BiBoard V1
 
-<figure><img src="../.gitbook/assets/image.png" alt="Bittle X: BiBoard V1 with AI vision module"><figcaption><p>Bittle X</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (605).png" alt="Bittle X: BiBoard V1 with AI vision module"><figcaption><p>Bittle X</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (605).png" alt="Bittle X+Arm: BiBoard V1 with AI vision module"><figcaption><p>Bittle X+Arm</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (605) (1).png" alt="Bittle X+Arm: BiBoard V1 with AI vision module"><figcaption><p>Bittle X+Arm</p></figcaption></figure>
 
 Fix the end connected to the camera to the robot's head (included in Bittle's / Bittle X's mouth or attached to Bittle X+Arm's robotic arm).
 

@@ -14,9 +14,9 @@ description: >-
 
 First of all, we need to get the pt model file. In ‘Model Training’, I explained that we can get the trained pt model file through local training and cloud training.
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption><p>local</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (34) (1).png" alt=""><figcaption><p>local</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption><p>cloud</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption><p>cloud</p></figcaption></figure>
 
 Here's the translation:
 
@@ -37,7 +37,7 @@ yolo export model=${your model path} format=tflite imgsz=192 int8
 
 You will see a `yolov8n_saved_model folder` in the current folder containing the `yolov8n_full_integer_quant.tflite` model file.
 
-<figure><img src="../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (36) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Model optimisation
 
@@ -99,5 +99,5 @@ Replace _**`${The path of the tflite model that needs to be optimised}`**_ with 
 
 You will then get the model ending in ‘\_vela’, which is the model file that can be used for deployment on Grove Vision V2.
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
