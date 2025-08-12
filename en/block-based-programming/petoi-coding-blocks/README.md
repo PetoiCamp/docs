@@ -304,19 +304,19 @@ For other ultrasonic sensor models (e.g., **HC-SR04** connects to the D6 and D7 
 
 ### Read the target coordinates <a href="#read-the-target-coordinates" id="read-the-target-coordinates"></a>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="510"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="510"><figcaption></figcaption></figure></div>
 
 Use this block to Read the coordinates of the identified target from the camera module([MU camera](https://docs.petoi.com/extensible-modules/mu-camera) / [Petoi AI Vision module](https://docs.petoi.com/extensible-modules/petoi-ai-vision-module)) which connect to the BiBoard.
 
 #### Test code screenshot
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can download this test code ([**testCamera.mp**](https://github.com/PetoiCamp/Petoi_MindPlusLib/raw/refs/heads/main/examples/BiBoard/testCamera.mp)) and run in the Mind+.
 
 ### Get the gesture value
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Use this block to Read the gesture value from the [gesture sensor](https://docs.petoi.com/extensible-modules/gesture-sensor#biboard) which connect to the BiBoard.
 
@@ -331,7 +331,7 @@ the gesture value meaning is as following:
 
 #### Test code screenshot
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 You can download this test code ([**testGesture.mp**](https://github.com/PetoiCamp/Petoi_MindPlusLib/raw/refs/heads/main/examples/BiBoard/testGesture.mp)) and run in the Mind+.
 

@@ -12,9 +12,9 @@ Download the source code from the GitHub repository ([OpenCatEsp32-Quadruped-Rob
 
 Open **OpenCatEsp32 > PetoiWebBlock > programblockly.html** to start programming with Petoi Web Coding Block on web.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 **Note:**&#x20;
@@ -79,7 +79,7 @@ Note: Since the Wi-Fi names have changed, all devices connected to this router n
 
 Connect the robot’s mainboard to your computer via **USB cable**.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 There are two methods to connect the robot to your 2.4GHz WiFi network:
 

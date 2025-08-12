@@ -30,40 +30,7 @@ When using battery power at 7.4V (maximum: 8.4V). Both servos and 5V power will 
 
 ### 3.2 On board modules
 
-#### 3.2.1 Set up ESP32 development environment
-
-{% hint style="info" %}
-Note:
-
-* Arduino IDE 2.0 **cannot** add the large\_spiffs\_16MB (4.5MB APP with OTA/6.93MB SPIFFS) configuration option currently.&#x20;
-* The [SPIFFS file upload plugin](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.0) in Arduino IDE 1.8.\* is written in Java. And Arduino IDE 2.0 is written in a different language (TypeScript + Golang), so the previous upload plugin cannot be used in Arduino IDE 2.0. There is no support for the Arduino IDE 2.0 SPIFFS file upload plugin currently.
-
-So it is recommended that you temporarily install and use the [Arduino IDE 1.8.\* IDE](https://www.arduino.cc/en/software).
-{% endhint %}
-
-Open “Preferences” in Arduino, add ESP32 development board URL:
-
-`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
-
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure>
-
-Save it and then exit.
-
-Open “Boards Manager...” and wait for updates from external board support links. Search “esp32” and install the support package.
-
-{% hint style="warning" %}
-Please install the latest available version **2.0.12**. Installing version 2.0.13 and above may cause the motherboard to fail to startup.
-{% endhint %}
-
-<figure><img src="../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
-
-After showing “INSTALLED”, the BiBoard board support package is finished.
-
-#### 3.2.2 USB Downloader
+#### 3.2.1 USB Downloader
 
 There’s no USB circuit in the ESP32, so we use the [CP2102 USB](https://docs.petoi.com/technical-support/useful-tools#biboard-driver-to-access-the-serial-port) bridge as officially recommended. The maximum download baud is 921600. The bridge is connected to serial 1 of the ESP32.
 
@@ -77,19 +44,19 @@ The transistors receive standard serial modem signals DTR and RTS and trigger a 
 
 ![](../.gitbook/assets/7.png)
 
-#### 3.2.3 IMU
+#### 3.2.2 IMU
 
 We use Invensense MPU6050, the most widely used IMU. Its I2C address is 0x68, and DMP’s interrupt is connected to IO26 of the ESP32.
 
 With the help of Jrowberg’s MPU6050 DMP library, you can easily get the motion status of the Bittle. The Jrowberg’s MPU6050 library must be modified to adapt ESP32. The data types of “int8” and “PGMSpace” should be pre-defined instead of 8-bit AVR macros. We offer the modified library of MPU6050. You can replace the original library so that both AVR boards and ESP boards would be worked normally.
 
-#### 3.2.4 EEPROM
+#### 3.2.3 EEPROM
 
 There is a 64Kbit EEPROM on the BiBoard. You can directly use the EEPROM read and write a program that is used on the Arduino UNO. You can use it to store calibration data.
 
 There is also an example program named “EEPROM” in the ESP32 support package. This is not the demo code of the I2C EEPROM. That’s the demo of the simulated EEPROM by ESP32’s QSPI flash memory.
 
-#### 3.2.5 DAC and audio applications
+#### 3.2.4 DAC and audio applications
 
 We use DAC output and a class-D amplifier instead of a PWM buzzer to make Bittle more vivid. You can use 3 ways to drive the audio module:
 
@@ -99,7 +66,7 @@ We use DAC output and a class-D amplifier instead of a PWM buzzer to make Bittle
 
 URL：[https://www.xtronical.com/basics/audio/dacs-on-esp32/](https://www.xtronical.com/basics/audio/dacs-on-esp32/)
 
-#### 3.2.6 IR modules
+#### 3.2.5 IR modules
 
 The IR sensor on Nyboard and BiBoard are the same, so you can directly use the sketch from the Nyboard. The BiBoard’s flash is large enough so that you don’t have to disable macros in IRremote.h.
 

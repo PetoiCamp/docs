@@ -15,7 +15,36 @@ For the specific parameters of each functional module of BiBoard, please refer t
 
 ### 2.1 Prepare the ESP32 development environment
 
-Please refer to [Chapter 3.2.1](https://docs.petoi.com/biboard/biboard-v0#id-3.2.1-set-up-esp32-development-environment) of the BiBoard Quick Start Guide.
+{% hint style="info" %}
+Note:
+
+* Arduino IDE 2.\*.\* **cannot** add the large\_spiffs\_16MB (4.5MB APP with OTA/6.93MB SPIFFS) configuration option currently.&#x20;
+* The [SPIFFS file upload plugin](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/tag/1.0) in Arduino IDE 1.8.\* is written in Java. And Arduino IDE 2.0 is written in a different language (TypeScript + Golang), so the previous upload plugin cannot be used in Arduino IDE 2.\*.\* There is no support for the Arduino IDE 2.0 SPIFFS file upload plugin currently.
+
+If you need to use more SPIFFS functions, it is recommended to install and use the [Arduino IDE 1.8](https://www.arduino.cc/en/software) temporarily; we strongly recommend the legacy version **1.8.19**. Otherwise, the latest version 2.\*.\* is OK.
+{% endhint %}
+
+Open **Preferences** in Arduino, add the ESP32 development board URL:
+
+`https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+
+<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure>
+
+Click **OK** button to save it.
+
+Open **Boards Manager...** and wait for updates from external board support links. Search “**esp32**” and install the support package.
+
+{% hint style="warning" %}
+Please install version **2.0.12**. Installing version 2.0.13 and above may cause the mainboard to fail to start up.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
+
+After showing **INSTALLED**, the BiBoard board support package is finished.
 
 ### 2.2 Modify the code file in the package
 
@@ -38,27 +67,27 @@ Append a line of code at the end of the file:
 
 ### 2.3 Setup the options
 
-Please refer to the option list to set up the board's upload speed, CPU frequency, etc.&#x20;
+Please review the option list to configure the board's (ESP32 Dev Module)  upload speed, CPU frequency, and other settings.&#x20;
 
 There is a setting for the **Flash Size** and **Partition Scheme** among the options. For more information, refer to the next section.&#x20;
 
-<figure><img src="../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.4 Choose hardware partition
 
-The BiBoard V0 uses an ESP32 with a **16M** flash. To simplify, you can use the **default** **4 MB** partition map without a problem. There's plenty of programming space for the standard OpenCatEsp32 firmware.&#x20;
+The **BiBoard V0** uses an ESP32 with a **16M** flash. To simplify, you can use the **Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)** partition map without a problem. There's plenty of programming space for the standard OpenCatEsp32 firmware.&#x20;
 
-The BiBoard V1 uses an ESP32 with a **4M** flash.
+The **BiBoard V1** uses an ESP32 with a **4M** flash.
 
 #### 4 MB partition
 
-You can use the **default 4MB with spiffs**. You can also use other partition schemes under the 4 MB flash limit, such as "No OTA" or "Huge APP".&#x20;
+You can use the **Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (558).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 16 MB partition
 
-Suppose you want to fully utilize the 16 MB flash of BiBoard (it's unnecessary and takes a longer uploading time). You can read the user manual for the [Add hardware partition configuration option in Arduino IDE](https://docs.petoi.com/biboard/demo-applications/13.-add-hardware-partition-configuration-option-in-arduino-ide).
+Suppose you want to fully utilize the 16 MB flash of **BiBoard V0** (it's unnecessary and takes a longer uploading time). You can read the user manual for the [Add hardware partition configuration option in Arduino IDE](https://docs.petoi.com/biboard/demo-applications/13.-add-hardware-partition-configuration-option-in-arduino-ide).
 
 ### 2.5 Download the source code & install the library
 
