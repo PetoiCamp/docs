@@ -36,6 +36,16 @@ After a successful connection, a disk drive named `MICROBIT` is recognized on th
 
 ![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/interesting-case/microbit-smart-climate-kit/cases-libraries/images/microbit-drive.png)
 
+There are two ways to download the program to the Micro: Bit V2. You can choose either of these methods.
+
+#### In the computer's file browser
+
+This way is quite simple. Using your computer's file browser, click and hold the `.hex` firmware file. Drag it to the MICROBIT drive, which is located on the left side of the window, and then release the mouse button. This will download the `.hex` firmware file to the Micro:Bit V2 board.
+
+<figure><img src="../.gitbook/assets/image (609).png" alt=""><figcaption></figcaption></figure>
+
+#### In the MakeCode web page
+
 Click on the bottom left corner of the ![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/interesting-case/microbit-smart-climate-kit/cases-libraries/images/download-01.png) button， Select `Connect Device`.
 
 ![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/interesting-case/microbit-smart-climate-kit/cases-libraries/images/download-02.png)
