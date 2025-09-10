@@ -57,3 +57,13 @@ Or you can install the library in the Library Manager of the Arduino IDE as foll
 \
 ![](<../.gitbook/assets/image (556).png>)
 {% endhint %}
+
+## More Application
+
+The Petoi AI vision module also supports taking photos and transmitting images via Wi-Fi, but it needs to be installed on a MCU with more powerful computing power (such as ESP32S3, ESP32C3, etc.). For the specific development process, please refer to the wiki technical documentation:
+
+{% embed url="https://wiki.seeedstudio.com/grove_vision_ai_v2_demo/" %}
+
+{% embed url="https://wiki.seeedstudio.com/grove_vision_ai_v2_webcamera/" %}
+
+{% embed url="https://wiki.seeedstudio.com/vision_ai_v2_crowd_heat_map/" %}
