@@ -16,11 +16,15 @@ Run the UI.exe in the unzipped folder.  Do NOT move the UI.exe to another locati
 
 ### Mac
 
-After downloading the Mac version, you must drag it into the Application folder.&#x20;
+After downloading the Mac version, you must drag it into the Applications folder.&#x20;
 
-If you see the error message that "Petoi Desktop App" cannot be opened because the developer cannot be verified, you can right-click the icon, hold the **Shift** key and click **Open**.
+If you see the error message that "Petoi Desktop App" cannot be opened because the developer cannot be verified, you can right-click the icon, hold the **Shift** key, and click **Open**. If it still doesn't open, go to your System Settings -> Privacy and Security and scroll down. There should be an option to allow the app to run.&#x20;
 
 ![](<../.gitbook/assets/right open.JPG>)
+
+{% hint style="warning" %}
+The upgraded macOS has introduced some incompatibility with the GUI library. To click/activate an element in the app's interface, you need to click the element, hold the click, and slightly move your finger, then release. Otherwise, the event cannot be recognized. Sorry for the inconvenience. It's been a known issue between macOS and the popular Tkinter library.
+{% endhint %}
 
 ### Linux
 
