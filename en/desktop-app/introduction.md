@@ -24,6 +24,8 @@ If you see the error message that "Petoi Desktop App" cannot be opened because t
 
 {% hint style="warning" %}
 The upgraded macOS has introduced some incompatibility with the GUI library. To click/activate an element in the app's interface, you need to click the element, hold the click, and slightly move your finger, then release. Otherwise, the event cannot be recognized. Sorry for the inconvenience. It's been a known issue between macOS and the popular Tkinter library.
+
+<img src="../.gitbook/assets/movingCursor.gif" alt="" data-size="original">
 {% endhint %}
 
 ### Linux
