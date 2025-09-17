@@ -30,33 +30,42 @@ The upgraded macOS has introduced some incompatibility with the GUI library. To 
 
 ### Linux
 
-Please see the next chapter to run the app from a terminal
+Please see the next chapter to run the app from a terminal.
 
 ## Run the app from the Terminal
 
 In the case of compatibility issues, or if you want to modify the source and test, you can also run the code from the Terminal.
 
-The Terminal is a built-in interface on Mac or Linux machines. The equivalent environment on Windows machines is called the Command-Line Tool (CMD). It's recommended that you install [Anaconda](https://www.anaconda.com/) to manage your Python environment. It can also provide the Powershell as a Terminal for older Windows machines.
+The Terminal is a built-in interface on macOS or Linux machines. The equivalent environment on Windows machines is called the Command-Line Tool (CMD). It's recommended that you install [Anaconda](https://www.anaconda.com/) to manage your Python environment. It can also provide the Powershell as a Terminal for the Windows machines.
 
-Depending on your existing Python configuration, you may need to upgrade to Python3 and install the following libraries:
+Depending on your existing Python configuration, you may need to upgrade to Python 3 and install the following libraries:
 
 * pyserial
 * pillow
 
-You can install them by entering `pip3 install pyserial pillow` in the Terminal or use the package manager in Anaconda.
+You can install them by entering `pip3 install pyserial pillow` in the Terminal or using the package manager in Anaconda.
 
 To run the code:
 
 1. In the Terminal, use the `cd` command to navigate to the `OpenCat/pyUI/` folder. You can use the Tab key to auto-complete the path name.
-2. After entering the pyUI/ folder, enter `ls` and ensure you can see the UI.py and other python source codes listed.
+2. After entering the pyUI/ folder, enter `ls` and ensure you can see the UI.py and other Python source codes listed.
 3. Enter `python3 UI.py`.
 
 {% hint style="info" %}
-For Linux system users,  if you encounter the python error message "\_tkinter.TclError: no display name and no $DISPLAY environment variable", you can try to install **python3-tk**, **tk-dev**, taking Debian / Ubuntu as an example, the command is as follows:
+If you encounter the Python error message "\_tkinter.TclError: no display name and no $DISPLAY environment variable", you can try to install **python3-tk**, **tk-dev**, and **idle3**. &#x20;
+
+For Linux users,  taking Debian / Ubuntu as an example, the command is as follows:
 
 `apt install python3-tk`
 
-`apt install tk-dev`
+`apt install tk-dev`&#x20;
+
+`apt install idle3`\
+
+
+For macOS users, use the following command to install the library:
+
+`brew install idle3`
 
 After the installation is complete, reboot the computer.
 {% endhint %}
@@ -75,4 +84,6 @@ UI.py is the general entry for all the modules:
 
 -> SkillComposer.py
 
--> translate.py provides multi-language support for the UI. You may help to translate the UI into your language.
+-> Debugger.py: provides some debugging tools for the Petoi robot.
+
+-> translate.py: provides multi-language support for the UI. You may help to translate the UI into your language.

@@ -2,7 +2,7 @@
 
 When you use a USB type-C data cable to upload the firmware for the mainboard **BiBoard V1.**
 
-\[picture of USB data connection]
+<figure><img src="../.gitbook/assets/BiBoard V1_USB cable.jpg" alt=""><figcaption></figcaption></figure>
 
 * On Windows, if there is **no** serial port in the port list of **Device Manager**:
 
