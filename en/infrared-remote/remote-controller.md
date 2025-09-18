@@ -1,5 +1,5 @@
 ---
-description: It's simple to control Nybble / Bittle via the remote controller.
+description: It's simple to control Nybble / Bittle via the infrared remote controller.
 ---
 
 # Remote Controller
@@ -8,7 +8,9 @@ description: It's simple to control Nybble / Bittle via the remote controller.
 
 #### BiBoard V0
 
-The infrared receiver for **Bittle X** (mainboard type: BiBoard V0) is on the microcontroller near the neck of Bittle X.
+The infrared receiver for **Bittle X** (mainboard type: BiBoard V0) is on the microcontroller near the neck of Bittle X.&#x20;
+
+Note that Bittle X V2 comes with BiBoard Vo and doesn't support the infrared remote controller.
 
 <figure><img src="../.gitbook/assets/image (602).png" alt=""><figcaption><p>BiBoard V0_x</p></figcaption></figure>
 
