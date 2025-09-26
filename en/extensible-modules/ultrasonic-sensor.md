@@ -34,10 +34,16 @@ Attach the ultrasonic sensor to [Nybble's eye](https://youtu.be/g7_ODr_3DTc).
 
 ### Software setup
 
+There are two methods to upload the ultrasonic mode firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 * You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.\
-  Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Ultrasonic**, so press the **Upgrade the Firmware** button. for example, Nybble, NyBoard\_V1\_2, COM5 as follows:
+  Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Ultrasonic**, so press the **Upgrade the Firmware** button. \
+  For example, Nybble, NyBoard\_V1\_2, COM5 as follows:
 
 <figure><img src="../.gitbook/assets/image (489).png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +73,7 @@ The demo video is as follows:
 
 #### Mind+ demo code
 
-#### [https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/avoidObs\_NyBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/NyBoard/avoidObs_NyBoard.mp)
+[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/avoidObs\_NyBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/NyBoard/avoidObs_NyBoard.mp)
 
 ## BiBoard
 
@@ -75,7 +81,7 @@ The demo video is as follows:
 
 #### BiBoard V0&#x20;
 
-Take Bittle X for example, connecting to the BiBoard with wire as shown in the following picture:
+Take Bittle X for example, connecting to the BiBoard with a wire as shown in the following picture:
 
 <figure><img src="../.gitbook/assets/Ultrasonic_BiBoard.png" alt=""><figcaption></figcaption></figure>
 
@@ -91,14 +97,18 @@ The sensor should connect to the first Grove socket from the top.
 
 ### Software setup
 
+There are two methods to upload the firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 *   You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.\
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Standard**, so press the **Upgrade the Firmware** button. \
+    For example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
     <figure><img src="../.gitbook/assets/image (513).png" alt=""><figcaption></figcaption></figure>
-
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XU**_" to switch to using the ultrasonic sensor mode.
 
 #### Arduino IDE
 
@@ -108,7 +118,16 @@ The sensor should connect to the first Grove socket from the top.
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XU**_" to switch to using the ultrasonic sensor mode.
+
+
+After uploading, there are two methods to _**activate/deactivate**_ the ultrasonic mode:
+
+* Serial Monitor
+  * [Open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XU**_" to activate the ultrasonic mode.
+  * Open the serial monitor and use the serial command "_**Xu**_" to deactivate the ultrasonic mode.
+* Mobile App
+  * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate ultrasonic**" and use the code: _`X85`_
+  * Create a mobile app command called "**Deactivate ultrasonic**" and use the code: _`X117`_
 
 #### Mind+ demo code
 

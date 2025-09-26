@@ -22,7 +22,7 @@ You can download the program file([microbit-JoyStick.hex](https://raw.githubuser
 We recommend you use the **Chrome** browser.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Alternatively, you can click "New Project" and drag the program file into the coding window to load it.&#x20;
 
@@ -60,7 +60,7 @@ Click![](https://wiki-media-ef.oss-cn-hongkong.aliyuncs.com/docs/microbit/intere
 
 Select `BBC micro:bit CMSIS-DAP` in the pop-up window and then select Connect. At this point, our Micro: Bit has connected successfully.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click to download the program.
 

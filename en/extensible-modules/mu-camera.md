@@ -16,10 +16,16 @@ After uploading the firmware, switch the dial (left: **down** and **up**; right:
 
 ### Software setup
 
+There are two methods to upload the camera mode firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 *   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Camera**, so press the **Upgrade the Firmware** button. for example, Bittle, NyBoard\_V1\_2, COM5 as follows:\
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Camera**, so press the **Upgrade the Firmware** button. \
+    For example, Bittle, NyBoard\_V1\_2, COM5 as follows:\
 
 
     <figure><img src="../.gitbook/assets/image (491).png" alt=""><figcaption></figcaption></figure>
@@ -58,31 +64,42 @@ The demo video is as follows:
 
 ### Hardware setup
 
+&#x20;Switch the dial (left: **down** and **up**; right: **down** and **down**) on the MU Vision Sensor and connect to the mainboard with wire
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### BiBoard V0
 
 <figure><img src="../.gitbook/assets/camera.jpg" alt=""><figcaption></figcaption></figure>
 
 #### BiBoard V1
 
-<figure><img src="../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note: The position of the left and right switches (left: **down** and **up**; right: **down** and **down**) must be dialed to the position shown in Figure 1.
+If you use the version of Petoi Desktop App <= **V1.2.5**,  you need to connect the camera module to the following Grove socket:
+
+<img src="../.gitbook/assets/image (591).png" alt="" data-size="original">
 {% endhint %}
 
 Fix the end connected to the camera to the robot's head (included in Bittle's / Bittle X's mouth).
 
 ### Software setup
 
+There are two methods to upload the firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.
 
-Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
+Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Standard**, so press the **Upgrade the Firmware** button.&#x20;
+
+For example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
 <figure><img src="../.gitbook/assets/image (513).png" alt=""><figcaption></figcaption></figure>
-
-After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XC**_" to switch to using the camera mode.
 
 #### Arduino IDE
 
@@ -99,7 +116,14 @@ Use the latest OpenCatESP32 source code to finish the setup. For example,  to mo
 
 <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
-After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XC**_" to switch to using the camera mode.
+After uploading, there are two methods to _**activate/deactivate**_ the camera mode:
+
+* Serial Monitor
+  * [Open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XC**_" to activate the camera mode.
+  * Open the serial monitor and use the serial command "_**Xc**_" to deactivate the camera mode.
+* Mobile App
+  * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate camera**" and use the code: _`X67`_
+  * Create a mobile app command called "**Deactivate camera**" and use the code: _`X99`_
 
 ## FAQ
 

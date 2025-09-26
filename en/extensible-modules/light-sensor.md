@@ -12,17 +12,28 @@ The sensor integrates two photoresistors (depending on the light intensity adjus
 
 ### Hardware setup
 
-Connecting to the NyBoard with wire as shown in the following picture:
+Connecting to the NyBoard with a wire as shown in the following picture:
 
 <figure><img src="../.gitbook/assets/PANA0504 拷贝.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Software setup
 
+There are two methods to upload the light mode firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
+#### Petoi Desktop App
+
 *   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Light**, so press the **Upgrade the Firmware** button. for example, Nybble, NyBoard\_V1\_2, COM5 as follows:\
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Light**, so press the **Upgrade the Firmware** button. \
+    For example, Nybble, NyBoard\_V1\_2, COM5 as follows:\
 
 
     <figure><img src="../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
+
+#### Arduino IDE
+
 * You can use [Arduino IDE](https://www.arduino.cc/en/software)  to upload and modify the source code.&#x20;
 
 The code using this sensor has been integrated into the [**OpenCat**](https://github.com/PetoiCamp/OpenCat) project. Uncomment the line **`#define DOUBLE_LIGHT`**  In the **OpenCat.ino**, as shown in the figure below, use the Arduino IDE to upload the sketch to the robot main board, which can reproduce the example function of integrating the robot action.
@@ -53,24 +64,46 @@ This test code implements real-time printing of the analog values of the two ana
 
 ### Hardware setup
 
+#### BiBoard V0&#x20;
+
 <figure><img src="../.gitbook/assets/DoubleLight_BiBoard (1).png" alt=""><figcaption></figcaption></figure>
+
+#### BiBoard V1
+
+<figure><img src="../.gitbook/assets/光传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity according to your needs.
 
 ### Software setup
 
+There are two methods to upload the firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
+#### Petoi Desktop App
+
 *   You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.\
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Standard**, so press the **Upgrade the Firmware** button. \
+    For example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
     <figure><img src="../.gitbook/assets/image (513).png" alt=""><figcaption></figcaption></figure>
 
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XL**_" to switch to using the light sensor mode.
+#### Arduino IDE
+
 *   You can use [Arduino IDE](https://www.arduino.cc/en/software) to [upload the sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.-set-up-biboard)(_**OpenCatEsp32.ino**_). \
     Use the latest OpenCatESP32 source code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:\
 
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XL**_" to switch to using the light sensor mode.
 
-###
+
+After uploading, there are two methods to _**activate/deactivate**_ the light mode:
+
+* Serial Monitor
+  * [Open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XL**_" to activate the light mode.
+  * Open the serial monitor and use the serial command "_**Xl**_" to deactivate the light mode.
+* Mobile App
+  * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate light**" and use the code: _`X76`_
+  * Create a mobile app command called "**Deactivate light**" and use the code: _`X108`_

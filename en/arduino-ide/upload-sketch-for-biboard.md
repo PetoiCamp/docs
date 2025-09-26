@@ -40,7 +40,7 @@ Open **Boards Manager...** and wait for updates from external board support link
 Please install version **2.0.12**. Installing version 2.0.13 and above may cause the mainboard to fail to start up.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
 
@@ -71,7 +71,7 @@ Please review the option list to configure the board's (ESP32 Dev Module)  uploa
 
 There is a setting for the **Flash Size** and **Partition Scheme** among the options. For more information, refer to the next section.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.4 Choose hardware partition
 
@@ -83,7 +83,7 @@ The **BiBoard V1** uses an ESP32 with a **4M** flash.
 
 You can use the **Minimal SPIFFS (1.9MB APP with OTA/190KB SPIFFS)**.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 16 MB partition
 

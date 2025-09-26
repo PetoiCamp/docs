@@ -18,10 +18,16 @@ Connecting to the NyBoard with wire as shown in the following picture, connect t
 
 ### Software setup
 
+There are two methods to upload the touch mode firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 * You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
-  Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Touch**, so press the **Upgrade the Firmware** button. for example, Nybble, NyBoard\_V1\_2, COM5 as follows:
+  Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Touch**, so press the **Upgrade the Firmware** button. \
+  For example, Nybble, NyBoard\_V1\_2, COM5 as follows:
 
 <figure><img src="../.gitbook/assets/image (493).png" alt=""><figcaption></figcaption></figure>
 
@@ -77,27 +83,37 @@ For BiBoard, you can skip this step.
 
 #### Mind+ Demo code
 
-[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/DoubleTouch\_NyBoard.mp](https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/DoubleTouch\_NyBoard.mp)
+[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/NyBoard/DoubleTouch\_NyBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/NyBoard/DoubleTouch_NyBoard.mp)
 
 ## BiBoard
 
 ### Hardware setup
 
+#### BiBoard V0&#x20;
+
 <figure><img src="../.gitbook/assets/DoubleTouch_BiBoard (1).png" alt=""><figcaption></figcaption></figure>
+
+#### BiBoard V1
+
+<figure><img src="../.gitbook/assets/触摸传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity according to your needs.
 
 ### Software setup
 
+There are two methods to upload the firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 *   You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.
 
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Standard**, so press the **Upgrade the Firmware** button. \
+    For example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
     <figure><img src="../.gitbook/assets/image (513).png" alt=""><figcaption></figcaption></figure>
-
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XT**_" to switch to using the touch sensor mode.
 
 #### Arduino IDE
 
@@ -108,7 +124,16 @@ For specific use, the end connected to the sensor can be fixed on the robot's he
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
-    After uploading,  [open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XT**_" to switch to using the touch sensor mode.
+
+
+After uploading, there are two methods to _**activate/deactivate**_ the touch mode:
+
+* Serial Monitor
+  * [Open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XT**_" to activate the touch mode.
+  * Open the serial monitor and use the serial command "_**Xt**_" to deactivate the touch mode.
+* Mobile App
+  * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate touch**" and use the code: _`X84`_
+  * Create a mobile app command called "**Deactivate touch**" and use the code: _`X116`_
 
 #### Arduino module test code
 
@@ -116,5 +141,5 @@ The test code is in the **OpenCatESP32** project source code ([ModuleTests/testD
 
 #### Mind+ Demo code
 
-[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/DoubleTouch\_BiBoard.mp](https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/DoubleTouch\_BiBoard.mp)
+[https://github.com/PetoiCamp/Petoi\_MindPlusLib/blob/main/examples/BiBoard/DoubleTouch\_BiBoard.mp](https://github.com/PetoiCamp/Petoi_MindPlusLib/blob/main/examples/BiBoard/DoubleTouch_BiBoard.mp)
 

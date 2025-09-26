@@ -1,4 +1,4 @@
-# IR Distance Sensor
+# IR Distance Sensor(Double Infrared Reflection Sensor)
 
 {% embed url="https://youtu.be/oVxrlVOkKWA" %}
 
@@ -12,9 +12,16 @@ This module integrates two IR distance sensors; it measures distance through ref
 
 ### Software setup
 
+There are two methods to upload the infrared distance mode firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 *   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **InfraredDistance**, so press the **Upgrade the Firmware** button. \
+    For example, Nybble, NyBoard\_V1\_2, COM5 as follows:\
 
 
     <figure><img src="../.gitbook/assets/image (496).png" alt=""><figcaption></figcaption></figure>
@@ -51,14 +58,19 @@ Connecting to the NyBoard with wire as shown in the following picture:
 
 ### Software setup
 
+There are two methods to upload the firmware :
+
+* Using the Petoi Desktop App
+* Using the Arduino IDE
+
 #### Petoi Desktop App
 
 *   You can use the [Firmware Uploader](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware) within the Petoi Desktop App.\
-    Please select the correct _**Product**_ type, _**Borard version**_, and _**Serial port**_. The mode should be **Standard**, so press the **Upgrade the Firmware** button. for example, Bittle, BiBoard\_V0\_2, COM5 as follows:
+    Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Standard**, so press the **Upgrade the Firmware** button. \
+    For example, Bittle, BiBoard\_V0\_2, COM5 as follows:\
+
 
     <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FaleqWtxk5PSH9bWe9CfF%252Fimage.png%3Falt%3Dmedia%26token%3Dc92b21ff-992f-4163-a981-86078e26eedd&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=308febb4&#x26;sv=1" alt=""><figcaption></figcaption></figure>
-
-    After uploading, [open the serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard) and use the serial command "_**XD**_" to switch to using the IR distance sensor mode.
 
 #### Arduino IDE
 
@@ -68,13 +80,26 @@ Connecting to the NyBoard with wire as shown in the following picture:
 
     <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FGu37FwV2ge9LKHORqrUl%252Fimage.png%3Falt%3Dmedia%26token%3D6b0f5ed3-eb4b-4668-8f5a-3e7462718519&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=fa49fffa&#x26;sv=1" alt=""><figcaption></figcaption></figure>
 
-    \
-    After uploading, open the [serial monitor](https://docs.petoi.com/arduino-ide/serial-monitor#biboard) and use the serial command "_**XD**_" to switch to using the IR distance sensor mode.\
 
+
+After uploading, there are two methods to _**activate/deactivate**_ the infrared distance mode:
+
+* Serial Monitor
+  * [Open the serial monitor](../arduino-ide/serial-monitor.md#biboard) and use the serial command "_**XD**_" to activate the infrared distance mode.
+  * Open the serial monitor and use the serial command "_**Xd**_" to deactivate the infrared distance mode.
+* Mobile App
+  * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate infrared distance**" and use the code: _`X68`_
+  * Create a mobile app command called "**Deactivate infrared distance**" and use the code: _`X100`_
 
 ### Hardware setup
 
+#### BiBoard V0
+
 <figure><img src="../.gitbook/assets/DoubleIRdistance_BiBoard.png" alt=""><figcaption></figcaption></figure>
+
+#### BiBoard V1
+
+<figure><img src="../.gitbook/assets/红外传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity according to your needs.
 
