@@ -58,8 +58,20 @@ After uploading, there are two methods to _**activate/deactivate**_ the camera m
   * Create [a mobile app command](https://docs.petoi.com/mobile-app/controller#create-a-single-command) called "**Activate camera**" and use the code: _`X67`_
   * Create a mobile app command called "**Deactivate camera**" and use the code: _`X99`_
 
+### Web debug GUI
+
+Combined with the empowerment of the web debug GUI ([SenseCraft AI Model Assistant](https://sensecraft.seeed.cc/ai/device/local/36)), you can easily upload a wide variety of co-created models and directly observe the results.
+
 {% hint style="info" %}
-If the camera mode can't be activated, as following:
+The camera is already plugged in. After opening the web debug GUI, simply connect Petoi AI Vision to your computer using a Type-C cable and then click the **Connect** button.
+{% endhint %}
+
+For how to use this web debug GUI, please refer to:
+
+[https://wiki.seeedstudio.com/grove\_vision\_ai\_v2\_software\_support/#step-2-connect-the-module-and-upload-a-suitable-model](https://wiki.seeedstudio.com/grove_vision_ai_v2_software_support/#step-2-connect-the-module-and-upload-a-suitable-model)
+
+{% hint style="info" %}
+If the camera mode can't be activated, as follows:
 
 <img src="../.gitbook/assets/image (551).png" alt="" data-size="original">
 
