@@ -113,13 +113,11 @@ The meaning of the voice commands:
 
 ### Mobile app
 
-Please install the latest version of the [mobile app](https://docs.petoi.com/mobile-app/introduction) and download the robotic arm skill config file (as below) , and save it on your smartphone:
+Please install the latest version of the [mobile app](https://docs.petoi.com/mobile-app/introduction) and download the robotic arm command config file (as below) , and save it on your smartphone:
 
 {% file src="../../.gitbook/assets/RoboticArmSkills_EN.json" %}
 
-Then you can press the Import commands button in the menu list (as following) to import the skills via config file (.json) .
-
-<figure><img src="../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+You can [batch import](../../mobile-app/controller.md#import-commands-in-batches) multiple command buttons related to the robotic arm at one time.
 
 ### Mind+
 

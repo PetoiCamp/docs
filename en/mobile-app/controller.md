@@ -16,6 +16,12 @@ The left panel sets both the robot's gaits and directions and send combined comm
 
 The built-in postures and behaviors can be triggered by pressing the buttons. Don't press the button too frequently and repeatedly. Allow some time for the robot to finish its current tasks.&#x20;
 
+## Import commands in batches&#x20;
+
+You can press the Import commands button in the menu list (as follows) to import the command buttons via a config file (\*.json) .
+
+<figure><img src="../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+
 ## Customized commands
 
 * **Press and hold** the button and drag to change the button position.&#x20;
