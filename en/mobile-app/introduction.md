@@ -17,26 +17,18 @@ The app works on both Android and iOS devices.
 
 You can also download the Android APK and install it on your phone. You need to unzip it before installation.&#x20;
 
-* The universal version(try this one first)
-
-{% file src="../.gitbook/assets/v1.3.1-33-1-app-universal-release-20250706.apk.zip" %}
-
-* The **v8a** version of the app mainly supports most of the current new mobile phone models
-
-{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-arm64-v8a.apk.zip" %}
-
-* The **v7a** version of the app is compatible with older mobile phone models
-
-{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-armeabi-v7a.apk.zip" %}
-
-* The **x86\_64** version of the app indicates that the APK is designed for Android devices using Intel or AMD 64-bit processors. This means that the APK contains native code libraries optimized for the x86\_64 architecture, designed to provide better performance and compatibility.
-
-{% file src="../.gitbook/assets/v1.3.1-33-1-app-release-20250706-x86_64.apk.zip" %}
+* The universal version(try this one first)\
+  [v1.4.0-37-1-app-release-20251006.apk](https://github.com/ling-shan/petoi/releases/download/v1.4.0/v1.4.0-37-1-app-release-20251006.apk)
+* The **v8a** version of the app mainly supports most of the current new mobile phone models\
+  [v1.4.0-37-1-20251006-app-arm64-v8a-release.apk](https://github.com/ling-shan/petoi/releases/download/v1.4.0/v1.4.0-37-1-20251006-app-arm64-v8a-release.apk)
+* The **v7a** version of the app is compatible with older mobile phone models\
+  [v1.4.0-37-1-20251006-app-armeabi-v7a-release.apk](https://github.com/ling-shan/petoi/releases/download/v1.4.0/v1.4.0-37-1-20251006-app-armeabi-v7a-release.apk)
+* The **x86\_64** version of the app indicates that the APK is designed for Android devices using Intel or AMD 64-bit processors. This means that the APK contains native code libraries optimized for the x86\_64 architecture, designed to provide better performance and compatibility.\
+  [v1.4.0-37-1-20251006-app-x86\_64-release.apk](https://github.com/ling-shan/petoi/releases/download/v1.4.0/v1.4.0-37-1-20251006-app-x86_64-release.apk)
 
 {% hint style="info" %}
-If the Bluetooth dongle (which is plugged in NyBoard) blinks while the connection panel within the App shows a blank Bluetooth connection list, first check if you have given the Bluetooth and location permission to the App. If it still shows a blank list, you may try to install the previous stable version.&#x20;
-
-{% file src="../.gitbook/assets/app-releasev1.2.4-1-universal.apk.zip" %}
+If the Bluetooth dongle (which is plugged in NyBoard) blinks while the connection panel within the App shows a blank Bluetooth connection list, first check if you have given the Bluetooth and location permission to the App. If it still shows a blank list, you may try to install the previous stable version. \
+[v1.3.1-33-1-app-universal-release-20250706.apk](https://github.com/ling-shan/petoi/releases/download/v1.3.1/v1.3.1-33-1-app-release-20250706.apk)
 {% endhint %}
 
 ![](<../.gitbook/assets/image (243).png>)
