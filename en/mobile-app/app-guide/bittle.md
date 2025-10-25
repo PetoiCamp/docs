@@ -14,7 +14,7 @@ This interfaces will be displayed when you calibrate for the first time. You can
 ![](../../.gitbook/assets/Control_Cali_en.jpg)
 {% endhint %}
 
-**After** the robot enter the calibration state, do the following steps:
+**After** the robot enters the calibration state, do the following steps:
 
 ### Install the head
 

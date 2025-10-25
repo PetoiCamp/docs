@@ -33,6 +33,7 @@
 * [Calibrator](mobile-app/app-guide/README.md)
   * [Nybble](mobile-app/app-guide/nybble.md)
   * [Bittle](mobile-app/app-guide/bittle.md)
+  * [Bittle X+Arm](mobile-app/app-guide/bittle-x+arm.md)
 * [Controller](mobile-app/controller.md)
 
 ## Desktop APP

@@ -10,6 +10,13 @@ For **NyBoard**:
 * You need to connect the [**Bluetooth module**](https://docs.petoi.com/communication-modules/dual-mode-bluetooth#connection-with-nyboard) with computer, install the battery and long-press the button on the battery to power the robot.
 {% endhint %}
 
+We recommend that you quickly browse the page's general content first. Then, based on the product type you are actually using, you can check the corresponding sub-page for more specific instructions.
+
+You can refer to the sub-page of **Calibrator** in the **MOBILE APP**:
+
+![](<../../.gitbook/assets/image (615).png>)\
+
+
 ## Enter the calibration state
 
 After the robot is powered on by the battery, there are 2 methods to enter the calibration state.&#x20;

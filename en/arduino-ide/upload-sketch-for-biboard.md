@@ -95,12 +95,12 @@ Suppose you want to fully utilize the 16 MB flash of **BiBoard V0** (it's unnece
 We keep updating the codes as an open-source project. You can star-mark and follow our GitHub repository to get the newest features and bug fixes. You can also share your codes with worldwide OpenCatEsp32 users.&#x20;
 {% endhint %}
 
-1. Download the ​OpenCatEsp32 repository from GitHub repository: [https://github.com/PetoiCamp/OpenCatEsp32](https://github.com/PetoiCamp/OpenCatEsp32)\
-   We suggest you utilize GitHub’s version control feature. Otherwise, make sure you download the **WHOLE OpenCatEsp32 FOLDER** every time. All the codes have to be the same version to work together.&#x20;
+#### Download the ​OpenCatEsp32-Quadruped-Robot source code
 
-<figure><img src="../.gitbook/assets/downloadEsp32Repo.png" alt=""><figcaption></figcaption></figure>
+The GitHub repository is : [https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot](https://github.com/PetoiCamp/OpenCatEsp32-Quadruped-Robot)\
+We suggest you utilize GitHub’s version control feature. Otherwise, make sure you download the **WHOLE OpenCatEsp32 FOLDER** every time. All the codes have to be the same version to work together.&#x20;
 
-2. If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino** so that the two names match.&#x20;
+If you download the Zip file of the codes, you will get an **OpenCatEsp32-main** folder after unzipping. Please rename it to **OpenCatEsp32** before opening the **OpenCatEsp32.ino** so that the two names match.&#x20;
 
 {% hint style="warning" %}
 No matter where you save the folder, the file structure should be:
@@ -110,22 +110,30 @@ No matter where you save the folder, the file structure should be:
 
 * There are several **test\*\*\*.ino** codes in the **ModuleTests** folder. You can upload them separately to test specific modules (I recommend using **testBuzzer.ino** as your first test sketch).
 
-3.  Install the libraries:&#x20;
+#### Install the libraries
 
-    1. Download and install the [MU Vision Sensor library](https://github.com/mu-opensource/MuVisionSensor3) into the Arduino IDE.
+*   Download and install the [MU Vision Sensor library](https://github.com/mu-opensource/MuVisionSensor3) into the Arduino IDE.
 
     <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FrwlwHLV03mwtrtqVazop%252FmuLib.png%3Falt%3Dmedia%26token%3Df7721966-efb2-4388-9563-002c9aa93c3a&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=852f24b1&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
+
+
     <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252FRN0NyFXOV0ct9IOI0AqU%252FaddZipLib.png%3Falt%3Dmedia%26token%3D4803980c-41cf-406c-907c-3aaff81672ec&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=13cd3321&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-    b. Install **ArduinoJson** in the Library Manager:
 
-<figure><img src="../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
+*   Install **ArduinoJson** in the Library Manager.
 
-\
+    <figure><img src="../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
+
+    \
 
 
-<figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
+
+
+*   Install **WiFiManager** in the Library Manager.
+
+    <figure><img src="../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.6 [Connect to BiBoard](../upload-firmware/#biboard) via USB type-C data cable
 

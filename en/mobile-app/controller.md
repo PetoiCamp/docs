@@ -20,7 +20,7 @@ The built-in postures and behaviors can be triggered by pressing the buttons. Do
 
 You can press the Import commands button in the menu list (as follows) to import the command buttons via a config file (\*.json) .
 
-<figure><img src="../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
 
 ## Customized commands
 
