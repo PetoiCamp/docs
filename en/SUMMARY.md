@@ -75,7 +75,8 @@
 
 ## WEB BLOCK-BASE PROGRAMMING
 
-* [Petoi Web Coding Blocks](web-block-base-programming/petoi-web-coding-blocks.md)
+* [Petoi Web Coding Blocks](web-block-base-programming/petoi-web-coding-blocks/README.md)
+  * [Setup on NyBoard](web-block-base-programming/petoi-web-coding-blocks/setup-on-nyboard.md)
 
 ## Arduino IDE
 

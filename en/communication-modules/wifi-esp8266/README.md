@@ -10,13 +10,11 @@ The module is fully opened. You can program it separately. This is not a simple,
 
 The module includes an automatic upload circuit and a communication module. The automatic upload circuit recommends using 2 S8050 transistors to receive the RTS and DTR signals from the [USB uploader](../usb-downloader-ch340c.md) (CH340C or CH343G) and trigger the upload sequence.
 
-## Assembly
+## Hardware setup
 
-Connect to the NyBoard：
+### 1. Connection
 
-![](<../../.gitbook/assets/0 (3).jpeg>)
-
-Update sketches through USB uploader：
+Plug the WiFi module into the communication module debugging socket of the USB uploader, then connect the USB uploader to the computer via the USB data cable as follows, and be ready to upload the sketch for the WiFi module：
 
 ![](../../.gitbook/assets/1.jpeg)
 
@@ -25,7 +23,7 @@ Update sketches through USB uploader：
 We use the Arduino IDE as the development environment.
 
 {% hint style="info" %}
-You must download and install [Arduino IDE](https://www.arduino.cc/en/software) first.&#x20;
+You'll need to download and install the [Arduino IDE](https://www.arduino.cc/en/software) first.&#x20;
 {% endhint %}
 
 ### 2.1 Add ESP8266 source to the board manager
@@ -46,7 +44,7 @@ Then open the **Board Manager** and input _ESP8266_ or _8266_ to search for the 
 
 Download the latest version of ESP8266 from ESP8266 Community.
 
-### Configuration of the Module
+### 2.2 Configuration of the Module
 
 After downloading the board support package, we select Board -> ESP8266 -> Generic ESP8266 Module.
 
@@ -66,11 +64,11 @@ Then we set the parameters：
 
 <figure><img src="../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
-### Upload the test program.
+### 2.3 Upload the test program
 
 After configuration, we used the Arduino classic "Blink" program to test the ESP8266 development board.&#x20;
 
-Open the Blink project, configure the development board, plug the module into the communication module debugging interface of the USB uploader (USB Adapter), and upload the **Blink** sketch.&#x20;
+Open the Blink project, configure the development board, plug the WiFi module into the communication module debugging socket of the USB uploader (USB Adapter), then connect the USB uploader to the computer via the USB data cable, and upload the **Blink** sketch to the WiFi module.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -130,7 +128,7 @@ Hard resetting via RTS pin...
 ```
 ````
 
-## Upload the WiFi Firmware to the ESP8266 module.
+## Upload the WiFi Firmware to the WiFi module
 
 Project URL：[https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController](https://github.com/PetoiCamp/OpenCat/tree/main/ModuleTests/ESP8266WiFiController)
 
@@ -192,7 +190,11 @@ After successfully connecting to the network, the WiFi module will print out the
 
 <figure><img src="../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
-Enter the WiFi module's IP address in the web browser, and you can now control the Bittle through WiFi! &#x20;
+Now, please unplug the WiFi module from the USB uploader and plug it into the NyBoard as follows：
+
+![](<../../.gitbook/assets/0 (3).jpeg>)
+
+Power on the robot and enter the WiFi module's IP address in the web browser, and you can now control the robot through WiFi! &#x20;
 
 <figure><img src="../../.gitbook/assets/home.jpeg" alt=""><figcaption><p>Home page</p></figcaption></figure>
 
