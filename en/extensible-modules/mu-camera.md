@@ -66,7 +66,7 @@ The demo video is as follows:
 
 &#x20;Switch the dial (left: **down** and **up**; right: **down** and **down**) on the MU Vision Sensor and connect to the mainboard with wire
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### BiBoard V0
 
@@ -74,7 +74,7 @@ The demo video is as follows:
 
 #### BiBoard V1
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 If you use the version of Petoi Desktop App <= **V1.2.5**,  you need to connect the camera module to the following Grove socket:

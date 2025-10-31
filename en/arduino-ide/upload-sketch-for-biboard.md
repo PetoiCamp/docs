@@ -71,7 +71,7 @@ Please review the option list to configure the board's (ESP32 Dev Module)  uploa
 
 There is a setting for the **Flash Size** and **Partition Scheme** among the options. For more information, refer to the next section.&#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 2.4 Choose hardware partition
 
@@ -131,9 +131,9 @@ No matter where you save the folder, the file structure should be:
     <figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
 
-*   Install **WiFiManager** in the Library Manager.
+*   Install **WebSockets** in the Library Manager.
 
-    <figure><img src="../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### 2.6 [Connect to BiBoard](../upload-firmware/#biboard) via USB type-C data cable
 

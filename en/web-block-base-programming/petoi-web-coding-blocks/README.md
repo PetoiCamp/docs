@@ -12,7 +12,7 @@ Download the source code from the GitHub repository ([OpenCatEsp32-Quadruped-Rob
 
 Open **OpenCatEsp32 > PetoiWebBlock > programblockly.html** to start programming with Petoi Web Coding Block on web.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
