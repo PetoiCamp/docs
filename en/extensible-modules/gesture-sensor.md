@@ -96,6 +96,8 @@ After uploading, there are two methods to _**activate/deactivate**_ the gesture 
 
 <figure><img src="../.gitbook/assets/手势传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/Gesture_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
+
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head); of course, you can also use your creativity according to your needs.
 
 ## Testing code

@@ -41,9 +41,17 @@ The module code is integrated into the [**OpenCat**](https://github.com/PetoiCam
 
 ### Hardware setup
 
+#### BiBoard V0
+
 It is built into the [**BiBoard V0's extension hat**](https://docs.petoi.com/biboard/biboard-extension-hat#peripherals) as follows:
 
 <figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+
+#### BiBoard V1
+
+It is built into the [BiBoard V1](https://docs.petoi.com/biboard/biboard-v1-guide) board as follows:
+
+<figure><img src="../.gitbook/assets/image (627).png" alt=""><figcaption></figcaption></figure>
 
 ### Software setup
 

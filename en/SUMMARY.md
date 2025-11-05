@@ -150,7 +150,7 @@
 * [Introduction](extensible-modules/introduction.md)
 * [MU Camera](extensible-modules/mu-camera.md)
 * [Ultrasonic Sensor](extensible-modules/ultrasonic-sensor.md)
-* [Light Sensor](extensible-modules/light-sensor.md)
+* [Light SensorA](extensible-modules/light-sensora.md)
 * [Touch Sensor](extensible-modules/touch-sensor.md)
 * [Gesture Sensor](extensible-modules/gesture-sensor.md)
 * [PIR Motion Sensor](extensible-modules/pir-motion-sensor.md)

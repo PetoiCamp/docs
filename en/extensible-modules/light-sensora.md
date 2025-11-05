@@ -1,4 +1,4 @@
-# Light Sensor
+# Light SensorA
 
 {% embed url="https://youtu.be/3KiVuz6DP2U" %}
 
@@ -71,6 +71,8 @@ This test code implements real-time printing of the analog values of the two ana
 #### BiBoard V1
 
 <figure><img src="../.gitbook/assets/光传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Light_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
 
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity according to your needs.
 

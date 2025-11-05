@@ -95,6 +95,8 @@ After uploading, there are two methods to _**activate/deactivate**_ the PIR mode
 
 <figure><img src="../.gitbook/assets/PIR运动传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/PIR_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
+
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity to meet your needs.
 
 ## Testing code

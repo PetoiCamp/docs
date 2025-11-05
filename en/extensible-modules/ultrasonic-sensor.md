@@ -93,7 +93,7 @@ The dial switch on the bottom of the BiBoard extension hat is dialed to _**UART2
 
 The sensor should connect to the first Grove socket from the top.
 
-<figure><img src="../.gitbook/assets/Ultrasonsic_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Ultrasonic_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Software setup
 

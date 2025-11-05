@@ -97,6 +97,8 @@ For BiBoard, you can skip this step.
 
 <figure><img src="../.gitbook/assets/触摸传感器连接图.png" alt="" width="375"><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/Double_Tonch_BiBoard_V1.jpg" alt=""><figcaption></figcaption></figure>
+
 For specific use, the end connected to the sensor can be fixed on the robot's head (included in Bittle's mouth or attached to the top of Nybble's head). Of course, you can also use your creativity according to your needs.
 
 ### Software setup
