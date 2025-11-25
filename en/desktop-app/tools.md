@@ -1,6 +1,6 @@
 # Tools
 
-### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/OpenCat/releases). \*\* <a href="#download-the-latest-version-of-the-petoi-desktop-app" id="download-the-latest-version-of-the-petoi-desktop-app"></a>
+### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/DesktopAppRelease/releases). \*\* <a href="#download-the-latest-version-of-the-petoi-desktop-app" id="download-the-latest-version-of-the-petoi-desktop-app"></a>
 
 * After downloading the compressed file(.zip), please unzip it first.
 * Do **NOT** move the UI.exe to another location in Windows.

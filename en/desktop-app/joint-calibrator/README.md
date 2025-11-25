@@ -4,7 +4,7 @@ description: Robots can be precisely calibrated using the Petoi Desktop App.
 
 # Joint Calibrator
 
-### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/OpenCat/releases). \*\*
+### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/DesktopAppRelease/releases). \*\*
 
 {% hint style="info" %}
 * After you download the compressed file(.zip), please unzip it first.
@@ -33,8 +33,7 @@ You must connect the battery to the mainboard and long-press the battery button 
 
 &#x20;After the robot is powered on by a battery, there are two methods to enter the calibration state:
 
-*   It will enter the calibration state automatically when you click the **Joint Calibrator** button.\
-
+*   It will enter the calibration state automatically when you click the **Joint Calibrator** button.<br>
 
     <figure><img src="../../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
 * Click the **Calibrate** button in the calibrator interface. Take Bittle for example:

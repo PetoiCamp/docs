@@ -21,7 +21,7 @@ The robot must be powered by the battery and running the OpenCat 2.0 firmware to
 
 To connect the robot's mainboard to the computer, please follow the instructions in the subpages according to the kind of mainboard you have.
 
-### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/OpenCat/releases). \*\*
+### \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/DesktopAppRelease/releases). \*\*
 
 {% hint style="info" %}
 * After downloading the compressed file(.zip), please unzip it first.

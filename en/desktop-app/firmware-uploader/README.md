@@ -6,7 +6,7 @@ description: >-
 
 # Firmware Uploader
 
-## \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/OpenCat/releases). \*\*
+## \*\* Download the latest version of the [Petoi Desktop APP](https://github.com/PetoiCamp/DesktopAppRelease/releases). \*\*
 
 {% hint style="info" %}
 * After downloading the compressed file(.zip), please unzip it first.
@@ -111,13 +111,11 @@ If the uploading fails, the following message box will pop up:
 The log file is located at:
 
 *   For Windows: \
-    The log file is in the same directory as **UI.exe**\
-
+    The log file is in the same directory as **UI.exe**<br>
 
     <figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
 *   For macOS:\
-    You can check the log file as follows:\
-
+    You can check the log file as follows:<br>
 
     <figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 

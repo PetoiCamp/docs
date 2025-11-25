@@ -6,7 +6,7 @@ Petoi Desktop App provides a neat graphical user interface to configure the firm
 
 ## Download & Installation
 
-You can download the [latest version](https://github.com/PetoiCamp/OpenCat/releases) of the desktop App and unzip it.
+You can download the [latest version](https://github.com/PetoiCamp/DesktopAppRelease/releases) of the desktop App and unzip it.
 
 Before running the app, you must use the included USB adapter or the Bluetooth dongle to connect to a Petoi robot.  You may need to [install drivers](https://docs.petoi.com/technical-support/useful-tools#nyboard-usb-driver-to-access-the-usb-uploader-adapter) for USB connection.
 
@@ -60,8 +60,7 @@ For Linux users,  taking Debian / Ubuntu as an example, the command is as follow
 
 `apt install tk-dev`&#x20;
 
-`apt install idle3`\
-
+`apt install idle3`<br>
 
 For macOS users, use the following command to install the library:
 
@@ -72,7 +71,7 @@ After the installation is complete, reboot the computer.
 
 ## Open Source Codes
 
-The source code is written with Tkinker in Python3 and is[ open source](https://github.com/PetoiCamp/OpenCat/tree/main/pyUI).
+The source code is written with Tkinker in Python 3 and is [open-sourced](https://github.com/PetoiCamp/DesktopAppRelease).
 
 UI.py is the general entry for all the modules:
 
