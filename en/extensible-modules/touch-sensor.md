@@ -76,8 +76,7 @@ For BiBoard, you can skip this step.
 &#x20;2\.    Follow [the instructions](https://docs.petoi.com/block-based-programming/petoi-coding-blocks#import-petoi-mind+-extension-library) to import the Petoi Coding Blocks in the app **Mind+**, and load the Mind+ code file.
 
 3. &#x20;Connect the robot and computer with the [USB adapter](https://docs.petoi.com/communication-modules/usb-downloader-ch340c)(USB uploader) or [Bluetooth module](https://docs.petoi.com/communication-modules/dual-mode-bluetooth).
-4. &#x20;Power on the robot and click the **Run** button ![](<../.gitbook/assets/image (208).png>) in **Mind+.**\
-
+4. &#x20;Power on the robot and click the **Run** button ![](<../.gitbook/assets/image (208).png>) in **Mind+.**<br>
 
 <figure><img src="../.gitbook/assets/Touch_mind+.png" alt=""><figcaption></figcaption></figure>
 
@@ -121,8 +120,7 @@ There are two methods to upload the firmware :
 
 *   You can use [Arduino IDE](https://www.arduino.cc/en/software) to [upload the sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.-set-up-biboard)(_**OpenCatEsp32.ino**_).&#x20;
 
-    Use the latest OpenCatESP32 code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:\
-
+    Use the latest OpenCatESP32 code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:<br>
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 

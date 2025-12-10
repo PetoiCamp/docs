@@ -15,8 +15,7 @@ Note:&#x20;
 
 For **NyBoard V1\_1**, the board version number is here:
 
-![](<../../.gitbook/assets/NyBoardV1_1 (3).jpg>)\
-
+![](<../../.gitbook/assets/NyBoardV1_1 (3).jpg>)<br>
 
 Dial the I2C switch(Sw2) to the "**Arduino**" side
 
@@ -48,8 +47,7 @@ After clicking the **Upgrade the Firmware** button, the uploading process starts
 
 After the **Parameters** firmware has been successfully uploaded, the board runs the configuration program. Some message windows will pop up in sequence for you to confirm or cancel:
 
-*   Reset joint offsets? (Y/N)\
-
+*   Reset joint offsets? (Y/N)<br>
 
     <figure><img src="../../.gitbook/assets/image (408).png" alt=""><figcaption></figcaption></figure>
 
@@ -70,8 +68,7 @@ If you upload this version of the software for the first time,  be sure to selec
 For software version **2.0**, this choice is automatically processed as Y in the background.&#x20;
 {% endhint %}
 
-*   Calibrate IMU? (Y/N)\
-
+*   Calibrate IMU? (Y/N)<br>
 
     <figure><img src="../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
 

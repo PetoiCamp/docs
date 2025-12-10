@@ -3,12 +3,10 @@
 ## Connection steps
 
 1. Power on the mainboard via the battery (plug in the battery to the mainboard, and long-press the battery button > 3 seconds); after powering on, the mainboard's <mark style="color:blue;">blue</mark> LED and <mark style="color:yellow;">yellow</mark> LED should be on.
-2.  For **Windows**, Open the Bluetooth & other devices  setting page, and turn on the Bluetooth button as follows:\
-
+2.  For **Windows**, Open the Bluetooth & other devices  setting page, and turn on the Bluetooth button as follows:<br>
 
     <figure><img src="../.gitbook/assets/image (502).png" alt=""><figcaption></figcaption></figure>
-3.  Add the BiBoard Bluetooth for the first time as follows:\
-
+3.  Add the BiBoard Bluetooth for the first time as follows:<br>
 
     <figure><img src="../.gitbook/assets/image (503).png" alt=""><figcaption></figcaption></figure>
 
@@ -49,7 +47,6 @@ Then re-do the _**Step 3**_.
 Click the button _**Cancel**_ to quit.
 {% endhint %}
 
-4.  Test in Mind+:\
-
+4.  Test in Mind+:<br>
 
     <figure><img src="../.gitbook/assets/image (510).png" alt=""><figcaption></figcaption></figure>

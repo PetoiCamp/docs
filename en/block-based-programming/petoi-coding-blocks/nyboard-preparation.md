@@ -2,8 +2,7 @@
 
 For [Nyboard](https://docs.petoi.com/nyboard/overview) products ([**Nybble**](https://nybble.petoi.com), [**Bittle**](https://bittle.petoi.com)), there are two ways to upload the firmware (Mind+ mode), which supports the Mind+ extension library:
 
-*   [Using the Petoi Desktop App](../../desktop-app/firmware-uploader/)\
-
+*   [Using the Petoi Desktop App](../../desktop-app/firmware-uploader/)<br>
 
     <figure><img src="../../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure>
 

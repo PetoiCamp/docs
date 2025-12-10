@@ -25,8 +25,7 @@ There are two methods to upload the camera mode firmware :
 
 *   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
     Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Camera**, so press the **Upgrade the Firmware** button. \
-    For example, Bittle, NyBoard\_V1\_2, COM5 as follows:\
-
+    For example, Bittle, NyBoard\_V1\_2, COM5 as follows:<br>
 
     <figure><img src="../.gitbook/assets/image (491).png" alt=""><figcaption></figcaption></figure>
 
@@ -111,8 +110,7 @@ For example, Bittle, BiBoard\_V0\_2, COM5 as follows:
 
 2\. Use Arduino IDE to [upload the sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.-set-up-biboard)(_**OpenCatEsp32.ino**_).&#x20;
 
-Use the latest OpenCatESP32 source code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:\
-
+Use the latest OpenCatESP32 source code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:<br>
 
 <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 

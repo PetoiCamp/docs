@@ -72,6 +72,7 @@ A simple web interface based on ESP32CAM module for controlling the Petoi Bittle
 
 A repository for workshops, resources, tools, and various other items related to STEM (Science, Technology, Engineering, Mathematics) education.
 
-\
 
+
+<br>
 

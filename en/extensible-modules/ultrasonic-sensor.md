@@ -113,8 +113,7 @@ There are two methods to upload the firmware :
 #### Arduino IDE
 
 *   You can use [Arduino IDE](https://www.arduino.cc/en/software) to [upload the sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.-set-up-biboard)(_**OpenCatEsp32.ino**_). \
-    Use the latest OpenCatESP32 code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:\
-
+    Use the latest OpenCatESP32 code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:<br>
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 

@@ -125,8 +125,7 @@ No matter where you save the folder, the file structure should be:
 
     <figure><img src="../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
 
-    \
-
+    <br>
 
     <figure><img src="../.gitbook/assets/image (560).png" alt=""><figcaption></figcaption></figure>
 
@@ -192,8 +191,7 @@ If the **version date** of the currently uploaded sketch is **newer** than the v
 
 {% hint style="warning" %}
 Please open the serial monitor and set the configuration parameters of the serial port monitor to **115200** baud rate and **No line ending**.\
-![](<../.gitbook/assets/image (563).png>)\
-
+![](<../.gitbook/assets/image (563).png>)<br>
 
 <img src="../.gitbook/assets/image (561).png" alt="" data-size="original">
 {% endhint %}

@@ -22,8 +22,7 @@ Fix the end connected to the camera to the robot's head (included in Bittle's / 
 
 {% hint style="info" %}
 If you use the version of Petoi Desktop App <= **V1.2.5**,  you need to connect the Petoi AI vision module to the following Grove socket:\
-<img src="../.gitbook/assets/image (597).png" alt="Bittle X" data-size="original">\
-
+<img src="../.gitbook/assets/image (597).png" alt="Bittle X" data-size="original"><br>
 
 <img src="../.gitbook/assets/image (595).png" alt="Bittle X+Arm" data-size="original">
 {% endhint %}

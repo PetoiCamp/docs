@@ -28,12 +28,10 @@ OR:\
 ## \* The logic behind calibration is:
 
 1. &#x20;You don't know where the servos are pointing before they are powered and calibrated. So if you attach the legs, the legs will rotate to random angles and may collide with the robot's body or other legs and get stuck. If a servo is stuck for a long time, it may break.&#x20;
-2.  &#x20;The robot has a "**calib**" posture with all joints set at zero degrees. You can [put the robot to the **calib** posture](joint-calibration.md#enter-the-calibration-state) so that you know all the joints should be rotated to their zero points (though you cannot see because the legs are not attached to the servos yet). Then, you can attach the legs to the servos **one joint by one joint**, perpendicular to their nearby references on the body frame. \
-
+2.  &#x20;The robot has a "**calib**" posture with all joints set at zero degrees. You can [put the robot to the **calib** posture](joint-calibration.md#enter-the-calibration-state) so that you know all the joints should be rotated to their zero points (though you cannot see because the legs are not attached to the servos yet). Then, you can attach the legs to the servos **one joint by one joint**, perpendicular to their nearby references on the body frame. <br>
 
     <figure><img src=".gitbook/assets/image (320).png" alt=""><figcaption><p>Calib Posture</p></figcaption></figure>
-3.  &#x20;Because the servo's gear teeth are discrete, aligning the legs to the right angles perfectly is impossible. So, you will need to fine-tune the offsets within the software. \
-
+3.  &#x20;Because the servo's gear teeth are discrete, aligning the legs to the right angles perfectly is impossible. So, you will need to fine-tune the offsets within the software. <br>
 
     <figure><img src=".gitbook/assets/image (145).png" alt=""><figcaption><p>Servo gear</p></figcaption></figure>
 

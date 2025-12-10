@@ -13,13 +13,11 @@ Use the following command to check the processor architecture in the terminal:\
 The output will be similar to "i686", "x86\_64" or "armv7":\
 i686 (or similar) - 32-bit Intel/AMD processor (common in older computers).\
 x86\_64 (or similar) - 64-bit Intel/AMD processors (modern laptops, desktops, and most Chromebooks).\
-armv7 (or higher) - ARM processor. (Mobile phones, tablets, 2nd and 3rd generation Raspberry Pis running Ubuntu Mate, and some Chromebooks. Most are 32-bit now)\
-
+armv7 (or higher) - ARM processor. (Mobile phones, tablets, 2nd and 3rd generation Raspberry Pis running Ubuntu Mate, and some Chromebooks. Most are 32-bit now)<br>
 
 ## Download package
 
-According to different  architectures to download different versions:[https://mindplus.dfrobot.com/linux](https://mindplus.dfrobot.com/linux)\
-
+According to different  architectures to download different versions:[https://mindplus.dfrobot.com/linux](https://mindplus.dfrobot.com/linux)<br>
 
 ## Installation
 

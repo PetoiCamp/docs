@@ -24,8 +24,7 @@ Connecting to the NyBoard with wire as shown in the following picture, connect t
 
 #### Petoi Desktop App
 
-*   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
-
+*   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.<br>
 
     <figure><img src="../.gitbook/assets/image (497).png" alt=""><figcaption></figcaption></figure>
 

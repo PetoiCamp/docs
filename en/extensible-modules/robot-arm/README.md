@@ -43,8 +43,7 @@ Then, install the battery and long-press the button on the battery to power the 
 After the robot is powered on, there are two methods to enter the calibration state:
 
 *   It will enter the calibration state automatically when you click the **Joint Calibrator** button.\
-    \
-
+    <br>
 
     <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Click the **Calibrate** button in the calibrator interface.

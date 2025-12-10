@@ -70,8 +70,7 @@ Click to download the program.
 
 1. [Upload the newest firmware](https://docs.petoi.com/upload-firmware) to the robot (mainboard type: **BiBoard**)
 2. Install 2 x #7 AAA batteries and plug in the Micro: Bit V2 to the remote controller. Then, power on the remote controller as follows:\
-   ![](<../.gitbook/assets/image (5) (1) (1) (1).png>)\
-
+   ![](<../.gitbook/assets/image (5) (1) (1) (1).png>)<br>
 3. Power on the robot. During bootup, it can connect to the controller automatically via Bluetooth.\
    If there are many remote controllers and robots, the connection is one-to-one and first-come, first-served.
 

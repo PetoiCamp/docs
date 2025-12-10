@@ -14,8 +14,7 @@ We recommend that you quickly browse the page's general content first. Then, bas
 
 You can refer to the sub-page of **Calibrator** in the **MOBILE APP**:
 
-![](<../../.gitbook/assets/image (615).png>)\
-
+![](<../../.gitbook/assets/image (615).png>)<br>
 
 ## Enter the calibration state
 
@@ -23,12 +22,10 @@ After the robot is powered on by the battery, there are 2 methods to enter the c
 
 Use **Bittle** for example:
 
-*   Click the **Start Calibration** button.\
-
+*   Click the **Start Calibration** button.<br>
 
     <figure><img src="../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
-*   Click the **Calibration** button in the calibration interface.\
-
+*   Click the **Calibration** button in the calibration interface.<br>
 
     <figure><img src="../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
 

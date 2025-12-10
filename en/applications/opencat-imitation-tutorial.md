@@ -25,12 +25,10 @@ Requirements
 {% endhint %}
 
 1. It is recommended to install the [Anaconda3](https://www.anaconda.com/products/distribution) IDE. For the specific installation method, please refer to the following link:\
-   [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)\
-
+   [https://docs.anaconda.com/anaconda/install/](https://docs.anaconda.com/anaconda/install/)<br>
 2. Open the **Anaconda Prompt** (Windows) or the **Terminal** (Linux / macOS) and enter the following commands to create and activate a virtual environment (the environment name is "venv", and can also be customized to other names):\
    `conda create --name venv`\
-   `conda activate venv`\
-
+   `conda activate venv`<br>
 3. Follow [the guide](https://github.com/axinc-ai/ailia-models/blob/master/TUTORIAL.md) to install the **Ailia SDK**, it will be used for pose detection. The guide mainly includes the following steps: download and install the ailia SDK and the related python library files.\
    \
    When downloading the **Ailia SDK**, you need to enter the correct email address to receive the download link address and license file. The free license is valid for only one month. The SDK is about 2GB, so it takes time to download. \
@@ -61,7 +59,7 @@ You may want to run the demo on a Jetson Nano to experiment with some GPU featur
 
 The developer kit uses a microSD card as a boot device and for main storage. It’s important to have a card that’s fast and large enough for your projects; the minimum requirement is a 32GB UHS-1 card. Many projects with Jetson Nano 2GB Developer Kit will utilize swap space on the MicroSD Card due to only 2GB physical memory. For this reason, we recommend 64GB or larger microSD cards. High-endurance microSD cards are also recommended.
 
-1. &#x20;Please refer to [the user guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write) to record the system image file ([JetPack 4.6](https://developer.nvidia.com/embedded/l4t/r32\_release\_v6.1/jeston\_nano\_2gb/jetson-nano-2gb-jp46-sd-card-image.zip)) into the microSD card and complete the system initialization.
+1. &#x20;Please refer to [the user guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write) to record the system image file ([JetPack 4.6](https://developer.nvidia.com/embedded/l4t/r32_release_v6.1/jeston_nano_2gb/jetson-nano-2gb-jp46-sd-card-image.zip)) into the microSD card and complete the system initialization.
 
 {% hint style="info" %}
 The system image file link in the user guide ([https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-2gb-devkit#write)) points to JetPack 4.6.1, download and burn it to a microSD card After that, system initialization may fail when the Jetson Nano is started. So we recommend using the earlier version: **JetPack 4.6**.

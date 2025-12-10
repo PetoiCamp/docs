@@ -47,4 +47,4 @@ Note that all the tutorials work on Bittle/Bittle X robot dogs and Nybble robot 
 
 **Answer:** We reuse the packaging for Bittle and BIttle X.  If you order a Bittle but receive a package with “**Bittle X**” marking, or vice versa,  you can check the text label with the barcode.  That text identifies what’s inside the packaging.
 
-Check [other FAQs](https://www.petoi.com/pages/faq) on our official website or [those](https://docs.petoi.com/technical-support/faq-frequently-asked-questions) in the Petoi Doc Center.\
+Check [other FAQs](https://www.petoi.com/pages/faq) on our official website or [those](https://docs.petoi.com/technical-support/faq-frequently-asked-questions) in the Petoi Doc Center.<br>

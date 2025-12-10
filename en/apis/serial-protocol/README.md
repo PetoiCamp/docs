@@ -51,4 +51,4 @@ const char* skillNameWithType[]={"bdFI","bkI","bkLI","crFI","crLI","hlwI","mhFI"
 ```
 {% endcode %}
 
-All the skill names in the list can be called by adding a 'k' to the front and deleting the suffix. For example, there's "sitI" in the list. You can send "ksit" to call the sitting posture. If a skill has "F" or "L" as the second last character, it's a gait. It means walking forward or left. Walking right is a mirror of walking left. So you can send "kwkF", "kwkL", "kwkR" to make the robot walk. Similarly, there are other gaits like trot ("tr"), crawl ("cr"), and stepping ("vt").\
+All the skill names in the list can be called by adding a 'k' to the front and deleting the suffix. For example, there's "sitI" in the list. You can send "ksit" to call the sitting posture. If a skill has "F" or "L" as the second last character, it's a gait. It means walking forward or left. Walking right is a mirror of walking left. So you can send "kwkF", "kwkL", "kwkR" to make the robot walk. Similarly, there are other gaits like trot ("tr"), crawl ("cr"), and stepping ("vt").<br>

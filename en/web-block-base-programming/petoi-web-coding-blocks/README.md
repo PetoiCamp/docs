@@ -219,8 +219,7 @@ Without a USB cable connection between the robot and computer, serial data canno
 
 Left-click any category in the Toolbox to reveal all its blocks. Drag and place them in the Workspace, then link to blocks under `Connect with IP` to assemble your program.
 
-The **Communication**, **Motion**, **Console**, and **Music** categories contain blocks created and provided by Petoi. All other blocks are default functional blocks from Blockly.\
-
+The **Communication**, **Motion**, **Console**, and **Music** categories contain blocks created and provided by Petoi. All other blocks are default functional blocks from Blockly.<br>
 
 ## 4 The instructions for blocks
 
@@ -228,7 +227,7 @@ The **Communication**, **Motion**, **Console**, and **Music** categories contain
 
 The blocks in **Communication** are used for interacting with various modules of the robot.
 
-For detailed instructions on sensor connections, please refer to the individual sensor documentation in the "[EXTENSIBLE MODULES](broken-reference)" section. Only basic connection diagrams and pin number references are provided here for your guidance.
+For detailed instructions on sensor connections, please refer to the individual sensor documentation in the "[EXTENSIBLE MODULES](/broken/pages/CnhBSyOt20PZ5qCUAtIJ)" section. Only basic connection diagrams and pin number references are provided here for your guidance.
 
 <figure><img src="../../.gitbook/assets/传感器连接图简洁版.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -344,8 +343,7 @@ Tips: you can also copy & paste the [SkillLibrary](https://github.com/PetoiCamp/
 The folder **.config** is a hidden directory on MacOS/Linux but can be visited in the terminal or through a specific view setting:
 
 *   MacOS\
-    open the directory /Users/{username} in Finder, then press the “**Command**” + “**Shift**” + “**.**” (period) keys at the same time.\
-
+    open the directory /Users/{username} in Finder, then press the “**Command**” + “**Shift**” + “**.**” (period) keys at the same time.<br>
 
     <figure><img src="../../.gitbook/assets/image (423).png" alt=""><figcaption></figcaption></figure>
 {% endhint %}

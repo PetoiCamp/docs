@@ -165,6 +165,9 @@
 * [Robot Arm](extensible-modules/robot-arm/README.md)
   * [Upgrade your older Bittle/Bittle X for the robotics arm gripper](extensible-modules/robot-arm/upgrade-your-older-bittle-bittle-x-for-the-robotics-arm-gripper.md)
 * [🎮 Joystick with Micro:Bit](extensible-modules/joystick-with-micro-bit.md)
+* [Back Touch Sensor](extensible-modules/back-touch-sensor/README.md)
+  * [Bittle X V2 / Bittle X+Arm](extensible-modules/back-touch-sensor/bittle-x-v2-bittle-x+arm.md)
+  * [Nybble Q](extensible-modules/back-touch-sensor/nybble-q.md)
 
 ## Applications
 

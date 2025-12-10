@@ -45,10 +45,10 @@ int main(int argc, char *argv[])
 }
 ```
 
-see [examples](https://github.com/PetoiCamp/opencat\_serial\_cpp/blob/main/examples/serial\_examples.cpp) for a more comprehensive example.
+see [examples](https://github.com/PetoiCamp/opencat_serial_cpp/blob/main/examples/serial_examples.cpp) for a more comprehensive example.
 
 ### Free curricular
 
 {% embed url="https://drive.google.com/drive/folders/1ruNTqkof_I59IxUCbyAfxss7LYySJsoL" %}
 
-\
+<br>

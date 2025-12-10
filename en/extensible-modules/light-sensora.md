@@ -27,8 +27,7 @@ There are two methods to upload the light mode firmware :
 
 *   You can use the [Firmware Uploader ](https://docs.petoi.com/desktop-app/firmware-uploader#select-the-correct-options-to-upload-the-latest-firmware)within the Petoi Desktop App.\
     Please select the correct _**Product**_ type, _**Board version**_, and _**Serial port**_ according to your actual use. The mode should be **Light**, so press the **Upgrade the Firmware** button. \
-    For example, Nybble, NyBoard\_V1\_2, COM5 as follows:\
-
+    For example, Nybble, NyBoard\_V1\_2, COM5 as follows:<br>
 
     <figure><img src="../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
 
@@ -94,8 +93,7 @@ There are two methods to upload the firmware :
 #### Arduino IDE
 
 *   You can use [Arduino IDE](https://www.arduino.cc/en/software) to [upload the sketch](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.-set-up-biboard)(_**OpenCatEsp32.ino**_). \
-    Use the latest OpenCatESP32 source code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:\
-
+    Use the latest OpenCatESP32 source code to finish the setup. For example,  to modify the code for _**Bittle**_ as shown below:<br>
 
     <figure><img src="../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 

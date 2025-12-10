@@ -11,7 +11,7 @@ Linux is a feature that lets you develop software using your Chromebook. Install
 Linux is off by default. You can turn it on at any time from Settings.
 
 1. On your Chromebook, at the bottom right, select the time.
-2. Select Settings ![](https://storage.googleapis.com/support-kms-prod/EhnJKCYnCpUVMQvn9LxVpGRY4fJAjUYOfZGt) ![and then](https://lh3.googleusercontent.com/3\_l97rr0GvhSP2XV5OoCkV2ZDTIisAOczrSdzNCBxhIKWrjXjHucxNwocghoUa39gw=w36-h36) **Advanced** ![and then](https://lh3.googleusercontent.com/3\_l97rr0GvhSP2XV5OoCkV2ZDTIisAOczrSdzNCBxhIKWrjXjHucxNwocghoUa39gw=w36-h36) **Developers**.
+2. Select Settings ![](https://storage.googleapis.com/support-kms-prod/EhnJKCYnCpUVMQvn9LxVpGRY4fJAjUYOfZGt) ![and then](https://lh3.googleusercontent.com/3_l97rr0GvhSP2XV5OoCkV2ZDTIisAOczrSdzNCBxhIKWrjXjHucxNwocghoUa39gw=w36-h36) **Advanced** ![and then](https://lh3.googleusercontent.com/3_l97rr0GvhSP2XV5OoCkV2ZDTIisAOczrSdzNCBxhIKWrjXjHucxNwocghoUa39gw=w36-h36) **Developers**.
 3. Next to "Linux development environment," select **Turn On**.
 4. Follow the on-screen instructions(default settings). Setup can take 10 minutes or more.
 5. A terminal window opens. You have a Debian 11 (Bullseye) environment. You can run Linux commands, install more tools using the APT package manager, and customize your shell.
@@ -26,8 +26,7 @@ Linux is off by default. You can turn it on at any time from Settings.
     ![](<../.gitbook/assets/image (475).png>)
 
     <figure><img src="../.gitbook/assets/image (476).png" alt=""><figcaption></figcaption></figure>
-*   You can set the shared folders in the file browser and manage them in the Settings![](<../.gitbook/assets/image (485).png>):\
-
+*   You can set the shared folders in the file browser and manage them in the Settings![](<../.gitbook/assets/image (485).png>):<br>
 
     <figure><img src="../.gitbook/assets/image (478).png" alt=""><figcaption></figcaption></figure>
 

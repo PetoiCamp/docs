@@ -37,8 +37,7 @@ The old version:
 
 
 
-<img src="../.gitbook/assets/simpleBootloader.png" alt="" data-size="original">\
-
+<img src="../.gitbook/assets/simpleBootloader.png" alt="" data-size="original"><br>
 
 {% embed url="https://youtu.be/ExJ0LOG8z9I" %}
 {% endhint %}
@@ -49,12 +48,10 @@ If the light ends up <mark style="color:red;">red</mark>, it means the resetting
 
 ## Use Arduino UNO Board
 
-1.  &#x20;Open the sketch **ArduinoISP.ino**.\
-
+1.  &#x20;Open the sketch **ArduinoISP.ino**.<br>
 
     <figure><img src="../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure>
-2.  &#x20;Select the items in the menu bar **Tools > Board** (Arduino UNO) and **Port** that connect to the UNO board.\
-
+2.  &#x20;Select the items in the menu bar **Tools > Board** (Arduino UNO) and **Port** that connect to the UNO board.<br>
 
     <figure><img src="../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
 
@@ -65,20 +62,16 @@ If the light ends up <mark style="color:red;">red</mark>, it means the resetting
 
 
     <figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure>
-3.  &#x20;Upload the sketch **ArduinoISP.ino** to the **UNO** board.\
-
+3.  &#x20;Upload the sketch **ArduinoISP.ino** to the **UNO** board.<br>
 
     <figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure>
-4.  &#x20;Wire the UNO board with NyBoard.\
-
+4.  &#x20;Wire the UNO board with NyBoard.<br>
 
     <figure><img src="../.gitbook/assets/ConnectWire03.png" alt=""><figcaption></figcaption></figure>
-5.  &#x20;Select the **Arduino as ISP** in the menu bar **Tools>Programmer**.\
-
+5.  &#x20;Select the **Arduino as ISP** in the menu bar **Tools>Programmer**.<br>
 
     <figure><img src="../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
-6.  &#x20;Click the menu **Burn Bootloader**.\
-
+6.  &#x20;Click the menu **Burn Bootloader**.<br>
 
     <figure><img src="../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
@@ -132,8 +125,7 @@ While Burning the bootloader, you'd better push the UsbtinyISP with your fingers
 {% embed url="https://youtu.be/NrZt8MZRhMc" %}
 
 * USBasp\
-  ![](<../.gitbook/assets/image (218).png>)    ![](https://ci5.googleusercontent.com/proxy/JDotWsy3hqC5zFUgWHgEh\_QkMlCo2TmRtADW7Eh7WLIRFkQh-DrosRejloNvdrr7\_AeIn86uQkZXJHhEp4d0kc0HJtkS-7LIq8Of-bd1uhAr6vdWmKUuXNmJTnik3h6WZp\_ce3Aj5tjsH3DRRTzIKsg3lt\_vLUBRZ-WBI9YlrpqAbfYUIbBPVp4Wo7GIZ2dvc-47qvoPqm84eyoqyT5Jia1JMgo\_M1CyubNaM\_owb67L07RpJcoNIARFLGC0W1kS6INgWCieLpt7oKdISR0NaQ=s0-d-e1-ft#https://static.wixstatic.com/media/4a8c7f\_b354037432ea4fe38fca66734cf29fa9\~mv2.png/v1/fill/w\_820,h\_303,al\_c,q\_85,usm\_0.66\_1.00\_0.01,enc\_auto/4a8c7f\_b354037432ea4fe38fca66734cf29fa9\~mv2.png)\
-
+  ![](<../.gitbook/assets/image (218).png>)    ![](https://ci5.googleusercontent.com/proxy/JDotWsy3hqC5zFUgWHgEh_QkMlCo2TmRtADW7Eh7WLIRFkQh-DrosRejloNvdrr7_AeIn86uQkZXJHhEp4d0kc0HJtkS-7LIq8Of-bd1uhAr6vdWmKUuXNmJTnik3h6WZp_ce3Aj5tjsH3DRRTzIKsg3lt_vLUBRZ-WBI9YlrpqAbfYUIbBPVp4Wo7GIZ2dvc-47qvoPqm84eyoqyT5Jia1JMgo_M1CyubNaM_owb67L07RpJcoNIARFLGC0W1kS6INgWCieLpt7oKdISR0NaQ=s0-d-e1-ft#https://static.wixstatic.com/media/4a8c7f_b354037432ea4fe38fca66734cf29fa9~mv2.png/v1/fill/w_820,h_303,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4a8c7f_b354037432ea4fe38fca66734cf29fa9~mv2.png)<br>
 
 Connect the USBasp programmer and NyBoard. The pins connection map is as follows:
 
@@ -157,7 +149,7 @@ With NyBoard V1\_\*, you can simply choose **Arduino Uno** under the **Tool** me
 
 {% hint style="info" %}
 The socket from the USBasp programmer to ICSP on NyBoard is not compatible. In this case, You need to use female-to-male jumper wires to connect the pins on each side as follows (It's a one-time operation, so there is no need for soldering)\
-![](https://ci3.googleusercontent.com/proxy/AwPSNxZRSxTM8CZe4FvW2yiSG\_b3uJGubsn5NZ7SpcaPhDg9sYQI3ATc8OrfN1NU59q3ToloLyus6eaeWl-LzVM26QakPcOz2LIpSbx1-VYudmlPqg0GTESyden7JbXWypgzX4JMj10GNmJ0RaFc9OL5K9cfA\_77yOf2wdObKXXoxGLaZ1CH2Aji6HfEWM4qVOEO0wsnvKI4-bIkh6a\_5fN7946iwvJcJtd8KbTwiwvJELaJFIauwKmyk8tKN2UdwRh-YrsO5\_FgyvaX4N\_gFQ=s0-d-e1-ft#https://static.wixstatic.com/media/4a8c7f\_74acbb2a822e461886e7969a1ac92f3a\~mv2.png/v1/fill/w\_820,h\_568,al\_c,q\_90,usm\_0.66\_1.00\_0.01,enc\_auto/4a8c7f\_74acbb2a822e461886e7969a1ac92f3a\~mv2.png)
+![](https://ci3.googleusercontent.com/proxy/AwPSNxZRSxTM8CZe4FvW2yiSG_b3uJGubsn5NZ7SpcaPhDg9sYQI3ATc8OrfN1NU59q3ToloLyus6eaeWl-LzVM26QakPcOz2LIpSbx1-VYudmlPqg0GTESyden7JbXWypgzX4JMj10GNmJ0RaFc9OL5K9cfA_77yOf2wdObKXXoxGLaZ1CH2Aji6HfEWM4qVOEO0wsnvKI4-bIkh6a_5fN7946iwvJcJtd8KbTwiwvJELaJFIauwKmyk8tKN2UdwRh-YrsO5_FgyvaX4N_gFQ=s0-d-e1-ft#https://static.wixstatic.com/media/4a8c7f_74acbb2a822e461886e7969a1ac92f3a~mv2.png/v1/fill/w_820,h_568,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/4a8c7f_74acbb2a822e461886e7969a1ac92f3a~mv2.png)
 
 While Burning the bootloader, make sure they have good contact. You can press the jumpers slightly to ensure the connections.
 {% endhint %}

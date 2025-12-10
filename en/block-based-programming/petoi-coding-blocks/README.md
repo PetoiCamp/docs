@@ -143,8 +143,7 @@ Tips: you can also copy & paste the [SkillLibrary](https://github.com/PetoiCamp/
 The folder **.config** is a hidden directory on MacOS/Linux but can be visited in the terminal or through a specific view setting:
 
 *   MacOS\
-    open the directory /Users/{username} in Finder, then press the “**Command**” + “**Shift**” + “**.**” (period) keys at the same time.\
-
+    open the directory /Users/{username} in Finder, then press the “**Command**” + “**Shift**” + “**.**” (period) keys at the same time.<br>
 
     <figure><img src="../../.gitbook/assets/image (423).png" alt=""><figcaption></figcaption></figure>
 {% endhint %}
@@ -155,20 +154,16 @@ The folder **.config** is a hidden directory on MacOS/Linux but can be visited i
 
 Use this block to control one joint or multiple joints to rotate in sequence. There are several ways to use the blocks for reference:
 
-*   Controls individual joint rotations to an absolute angle value.\
-
+*   Controls individual joint rotations to an absolute angle value.<br>
 
     <figure><img src="../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
-*   Controls individual joint rotations to a relative angle value.\
-
+*   Controls individual joint rotations to a relative angle value.<br>
 
     <figure><img src="../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
-*   Control multiple joints to rotate sequentially to **absolute** angle values or **relative** angle values.\
-
+*   Control multiple joints to rotate sequentially to **absolute** angle values or **relative** angle values.<br>
 
     <figure><img src="../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
-*   Use the joint angle list to control multiple joints to rotate to absolute angle values in a sequence.\
-
+*   Use the joint angle list to control multiple joints to rotate to absolute angle values in a sequence.<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -185,12 +180,10 @@ Use this block to control one joint or multiple joints to rotate in sequence. Th
 
 Using this block can control multiple joints to rotate at the same time. There are several ways to use the blocks for reference:
 
-*   Control multiple joints to rotate to absolute angle values or relative angle values at the same time\
-
+*   Control multiple joints to rotate to absolute angle values or relative angle values at the same time<br>
 
     <figure><img src="../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure>
-*   Use the joint angle list to control the simultaneous rotation of multiple joints to absolute angle values.\
-
+*   Use the joint angle list to control the simultaneous rotation of multiple joints to absolute angle values.<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -228,12 +221,10 @@ The "Action frame" block represents a list of 16 angle values. Each angle value 
 
 Use this block to control the robot to play music. There are several ways to use  blocks together for reference:
 
-*   A list made up of multiple "Tone + Duration" blocks\
-
+*   A list made up of multiple "Tone + Duration" blocks<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure></div>
-*   Using a tone duration list\
-
+*   Using a tone duration list<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -287,12 +278,10 @@ Use this block to read the distance value from the ultrasonic sensor.
 
 For the [Petoi RGB Ultrasonic Sensor](https://docs.petoi.com/extensible-modules/ultrasonic-sensor) (or **RUS-04**), you can set the two pins ( Trigger and Echo) like this:
 
-*   **NyBoard** (connects to the D6 and D7 pins)\
-
+*   **NyBoard** (connects to the D6 and D7 pins)<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure></div>
-*   **BiBoard** (connects to the Rx and Tx pins)\
-
+*   **BiBoard** (connects to the Rx and Tx pins)<br>
 
     <div align="left"><figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure></div>
 

@@ -15,8 +15,7 @@ This robotic arm is already fully assembled.
   \[robotic arm installation image 0]
 *   For the **pre-assembled** kit
 
-    &#x20;You only need to install the servo with the neck structure in the servo slot with two M2\*5 self-tapping screws.\
-
+    &#x20;You only need to install the servo with the neck structure in the servo slot with two M2\*5 self-tapping screws.<br>
 
     <figure><img src="https://docs.petoi.com/~gitbook/image?url=https%3A%2F%2F1565080149-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-MQ6a951Q6Jn1Zzt5Ajr-887967055%252Fuploads%252Ft8gnaABbmIwaMjHivgYX%252FNeck.jpeg%3Falt%3Dmedia%26token%3D83a08d4b-db61-4635-ac52-8c7a69d61d06&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=4addb956&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 

@@ -31,8 +31,7 @@ Model: **Bittle X+Arm**
 
 Board: **BiBoard V0\_\***  (Select the corresponding option based on the robot's mainboard model)
 
-Mode: **Standard**\
-
+Mode: **Standard**<br>
 
 <figure><img src="../../.gitbook/assets/89081744076717_.pic.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -50,8 +49,7 @@ Mode: **Standard**\
 
 ## 3. Wiring
 
-Please refer to the wiring diagram to attach the robotic arm。\
-
+Please refer to the wiring diagram to attach the robotic arm。<br>
 
 <figure><img src="../../.gitbook/assets/BittleR0_Wire.jpeg" alt=""><figcaption></figcaption></figure>
 
