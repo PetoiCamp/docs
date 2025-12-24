@@ -21,21 +21,21 @@ Quick Software Setup Guide
 
 Find the version information for your board on NyBoard. As shown below:
 
-![](<../.gitbook/assets/NyBoardV1\_1 (2).jpg>)
+![](<../.gitbook/assets/NyBoardV1_1 (2).jpg>)
 
 #### Nybble
 
-Find the version info on NyBoard. Read the user manual for [NyBoard V0\_1](https://github.com/PetoiCamp/OpenCat-Old/blob/master/Resources/NyBoard/NyBoardV0\_1.pdf), [NyBoard V0\_2](https://github.com/PetoiCamp/OpenCat-Old/blob/master/Resources/NyBoard/NyBoardV0\_2.pdf) , [NyBoard V1\_0](https://docs.petoi.com/nyboard/nyboard-v1\_0), or [NyBoard V1\_1](https://docs.petoi.com/nyboard/nyboard-v1\_1) (a light revision) accordingly.&#x20;
+Find the version info on NyBoard. Read the user manual for [NyBoard V0\_1](https://github.com/PetoiCamp/OpenCat-Old/blob/master/Resources/NyBoard/NyBoardV0_1.pdf), [NyBoard V0\_2](https://github.com/PetoiCamp/OpenCat-Old/blob/master/Resources/NyBoard/NyBoardV0_2.pdf) , [NyBoard V1\_0](https://docs.petoi.com/nyboard/nyboard-v1_0), or [NyBoard V1\_1](https://docs.petoi.com/nyboard/nyboard-v1_1) (a light revision) accordingly.&#x20;
 
 #### Bittle
 
-Find the version info on NyBoard. Read the user manual for [NyBoard V1\_0](https://docs.petoi.com/nyboard/nyboard-v1\_0) or [NyBoard V1\_1](https://docs.petoi.com/nyboard/nyboard-v1\_1) (a light revision) accordingly.
+Find the version info on NyBoard. Read the user manual for [NyBoard V1\_0](https://docs.petoi.com/nyboard/nyboard-v1_0) or [NyBoard V1\_1](https://docs.petoi.com/nyboard/nyboard-v1_1) (a light revision) accordingly.
 
 Take NyBoard V1\_0 as an example, as shown in the following figure:
 
-![NyBoard V1\_0 Top side](../.gitbook/assets/assets\_-MPQ2vWEZUH7ol6XE55o\_-Mafr-LQL8D20NOtf8CC\_-Mafr2YhCeDW2NsKIqde\_NyBoardV1new\_A.png)
+![NyBoard V1\_0 Top side](../.gitbook/assets/assets_-MPQ2vWEZUH7ol6XE55o_-Mafr-LQL8D20NOtf8CC_-Mafr2YhCeDW2NsKIqde_NyBoardV1new_A.png)
 
-![NyBoard V1\_0 Bottom side](../.gitbook/assets/assets\_-MPQ2vWEZUH7ol6XE55o\_-Mafr-LQL8D20NOtf8CC\_-Mafr2YgZpKEumQgfq4g\_NyBoardV1new\_B.png)
+![NyBoard V1\_0 Bottom side](../.gitbook/assets/assets_-MPQ2vWEZUH7ol6XE55o_-Mafr-LQL8D20NOtf8CC_-Mafr2YgZpKEumQgfq4g_NyBoardV1new_B.png)
 
 {% hint style="danger" %}
 Wrong operations may damage your NyBoard!
@@ -134,9 +134,9 @@ set zeros all the way down the list
 
 Go to [jrowberg/i2cdevlib: I2C device library collection for AVR/Arduino or other C++-based MCUs](https://github.com/jrowberg/i2cdevlib), download the zip file, and unzip. You can also git clone the whole repository.
 
-​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL\_ki%2F-MShiEL\_0GPAts9ACczD%2Fi2clib.png?alt=media\&token=8ca5fe1a-f495-489e-96f1-28cfb72178b7)​
+​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL_ki%2F-MShiEL_0GPAts9ACczD%2Fi2clib.png?alt=media\&token=8ca5fe1a-f495-489e-96f1-28cfb72178b7)​
 
-Use **Add .ZIP Library** to find **Arduino/MPU6050/** and **Arduino/I2Cdev/**. Click on the folders and **add them one by one**.​ They don’t have to be **.ZIP** files.​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL\_ki%2F-MShib4HQig6HgqGRJsv%2FaddZip.png?alt=media\&token=7776ef7d-fe5b-402c-b1d5-531f70a5bff0)![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL\_ki%2F-MShiRFpswuKffXOzjmI%2Fi2cdev.png?alt=media\&token=d69d977b-c273-4bbc-80d8-9cd2bcdb5c6a)
+Use **Add .ZIP Library** to find **Arduino/MPU6050/** and **Arduino/I2Cdev/**. Click on the folders and **add them one by one**.​ They don’t have to be **.ZIP** files.​![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL_ki%2F-MShib4HQig6HgqGRJsv%2FaddZip.png?alt=media\&token=7776ef7d-fe5b-402c-b1d5-531f70a5bff0)![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MPQ2vWEZUH7ol6XE55o%2F-MSheLOJxnCi0ljNL_ki%2F-MShiRFpswuKffXOzjmI%2Fi2cdev.png?alt=media\&token=d69d977b-c273-4bbc-80d8-9cd2bcdb5c6a)
 {% endhint %}
 
 ### 2.3. Add NyBoard support to Arduino IDE&#x20;
@@ -283,7 +283,7 @@ pro.menu.cpu.20MHzatmega328.build.f_cpu=20000000L
 ## --------------------------------------------------
 ```
 
-●      Download [ATmega328\_20MHz.hex](https://raw.githubusercontent.com/PetoiCamp/OpenCat/master/Resources/NyBoard/bootloaders/atmega/ATmega328\_20MHz.hex) and put it in your Arduino folder ./bootloaders/atmega/. You should see other bootloaders with the **.hex** suffix in the same folder.
+●      Download [ATmega328\_20MHz.hex](https://raw.githubusercontent.com/PetoiCamp/OpenCat/master/Resources/NyBoard/bootloaders/atmega/ATmega328_20MHz.hex) and put it in your Arduino folder ./bootloaders/atmega/. You should see other bootloaders with the **.hex** suffix in the same folder.
 
 Restart your Arduino IDE. In **Tools->Boards**, select Arduino Pro or Pro Mini. You should find ATmega328P (5V, **20** MHz) in the Processor menu.
 
@@ -331,7 +331,7 @@ This step does not require the Nyboard to be mounted on the robot.
 
 ![](<../.gitbook/assets/usbAdapter1 (1).jpg>)
 
-![](<../.gitbook/assets/Plug\_in\_usb\_uploader (5).jpeg>) ![](<../.gitbook/assets/usbAdapter2 (4).jpg>)
+![](<../.gitbook/assets/Plug_in_usb_uploader (5).jpeg>) ![](<../.gitbook/assets/usbAdapter2 (4).jpg>)
 
 {% hint style="info" %}
 The following picture shows two  FTDI boards in previous kits for Nybble.
@@ -342,7 +342,7 @@ On the red board, the jumper selector should be put on 5V (not 3.3V) on the uplo
 
 ![](../.gitbook/assets/FTDIconnection.jpg)
 
-![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LygA-EAoP4h8Q2BOGHR%2F-LzrYmnztRT1Ker56wMm%2F-Lztna2R\_dI864XK\_KDt%2FFTDIonNybble.jpg?alt=media\&token=e99d7553-83fb-4b98-a43e-e1f80c9337ed)
+![](https://files.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LygA-EAoP4h8Q2BOGHR%2F-LzrYmnztRT1Ker56wMm%2F-Lztna2R_dI864XK_KDt%2FFTDIonNybble.jpg?alt=media\&token=e99d7553-83fb-4b98-a43e-e1f80c9337ed)
 
 First connect the computer and the FTDI uploader with a miniUSB-USB cable. The red model uploader has three LED lights, power, Tx and Rx, and the blue model uploader has no power light. At the moment when the computer USB is connected, the Tx and Rx lights will flash and then go out, indicating that there is an initial information transmission. Then you can find the corresponding serial port “/dev/cu.usbserial-xxxxxxxx” (Mac OS) or “COM#” (Windows OS) in Tools->Port of Arduino IDE.
 {% endhint %}
@@ -452,7 +452,7 @@ You can solder a 2x5 socket on NyBoard to plug in a Raspberry Pi. Pi 3A+ is the 
 
 ### Nybble
 
-![](<../.gitbook/assets/\_B2L8832 Large.jpeg>)
+![](<../.gitbook/assets/_B2L8832 Large.jpeg>)
 
 ### Bittle
 
@@ -464,7 +464,7 @@ You need to unplug the 6-pin programmer for the NyBoard before mounting the Pi t
 
 ![](../.gitbook/assets/Pi01.jpg)
 
-The red [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/standoffPi.stl) can be 3D printed.&#x20;
+The red [Pi standoff](https://github.com/PetoiCamp/NonCodeFiles/tree/master/stl/Bittle%20%26%20BittleX/RaspberryPiStandOff) can be 3D printed.&#x20;
 
 ![](<../.gitbook/assets/Pi3a (1).jpg>)
 
@@ -634,7 +634,7 @@ Be careful with the polarity when connecting the power supply. Make sure you can
 
 Loosen the screws of the power block. Insert the wires of the battery holder then tighten the screws. When turning the switch on, both the blue LED (for the chip) and the yellow LED (for servo) should lit up.&#x20;
 
-![](<../.gitbook/assets/Nybble\_battery (1).jpg>)
+![](<../.gitbook/assets/Nybble_battery (1).jpg>)
 
 In the kit shipped after Jan.1st, the terminal is replaced with an anti-reverse socket, so you won't be able to plug in the wrong direction.&#x20;
 
