@@ -6,7 +6,7 @@ description: 📚➡️🤖
 
 This is the Petoi robot product documentation hub for **Petoi legacy robot Bittle, Bittle X(but not Bittle X V2), and Nybble**. We constantly iterate on our models and codes to bring bionic robotic pets to the world. Please read the notes regarding versions carefully before configuring your robot.&#x20;
 
-If you need help, please [contact us](https://www.petoi.com/pages/contact-us) or post on our forum at [petoi.camp](https://www.petoi.camp).&#x20;
+If you need help, please [contact us](https://www.petoi.com/pages/contact-us) or post on [our forum](https://www.petoi.camp/).
 
 ![](<.gitbook/assets/NB copy.JPG>)
 
