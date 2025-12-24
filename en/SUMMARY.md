@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Petoi Doc Center](README.md)
+* [Welcome to Petoi Doc Center for Bittle, Bittle X & Nybble](README.md)
 * [Getting Started Guide](getting-started-guide.md)
 * [🙋‍♂️ FAQ(Frequently Asked Questions)](faq-frequently-asked-questions.md)
 * [Petoi robot joint index](petoi-robot-joint-index/README.md)
