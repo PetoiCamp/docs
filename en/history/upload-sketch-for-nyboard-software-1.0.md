@@ -477,7 +477,7 @@ As shown in the [serial protocol](https://bittle.petoi.com/4-configuration#4-3-a
 What about value -113? It takes four bytes as an Ascii string but still takes only one byte in binary encoding, though the content will no longer be printable as a character.&#x20;
 {% endhint %}
 
-Obviously, binary encoding is much more efficient than the Ascii string. However, the message transferred will not be directly human-readable. In the OpenCat repository, I have put a simple Python script [ardSerial.py](https://github.com/PetoiCamp/OpenCat/blob/main/serialMaster/ardSerial.py) that can handle the serial communication between NyBoard and Pi.
+Obviously, binary encoding is much more efficient than the Ascii string. However, the message transferred will not be directly human-readable. In the OpenCat repository, I have put a simple Python script [ardSerial.py](https://github.com/PetoiCamp/OpenCat-Quadruped-Robot/blob/main/serialMaster/ardSerial.py) that can handle the serial communication between NyBoard and Pi.
 
 ### 4.1. Config Raspberry Pi serial port
 
@@ -542,7 +542,7 @@ sudo chmod g+r /dev/ttyAMA0
 Or just create a script that will do this automatically.
 {% endhint %}
 
-### 4.2. Change the permission of [ardSerial.py](https://github.com/PetoiCamp/OpenCat/blob/master/SerialMasterPython/ardSerial.py)
+### 4.2. Change the permission of ardSerial.py
 
 If you want to run it as a bash command, you need to make it executable:
 

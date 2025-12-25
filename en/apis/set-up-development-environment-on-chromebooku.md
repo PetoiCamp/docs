@@ -1,10 +1,10 @@
-# 💻 Set up Development Environment on Chromebook
+# 💻 Set up Development Environment on ChromebookU
 
 ## Set up Linux on your Chromebook
 
 Linux is a feature that lets you develop software using your Chromebook. Install Linux command line tools, code editors, and IDEs (integrated development environments) on your Chromebook. These can be used to write code, create apps, and more.&#x20;
 
-**Important:** If you use your Chromebook at work or school, you might be unable to use Linux. For more information, [contact your administrator](https://support.google.com/accounts/answer/6208960).
+**Important:** If you use your Chromebook at work or school, you might be unable to use Linux. For more information, [contact your administrator](https://support.google.com/a/users/answer/15593939?visit_id=639022248360781300-3009579349\&rd=1\&hl=en\&sjid=2033080317536039223-NC).
 
 ### Turn on Linux
 
