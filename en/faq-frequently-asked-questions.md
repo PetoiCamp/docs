@@ -37,7 +37,7 @@ Try turning on the Gyro in the [mobile app](https://docs.petoi.com/mobile-app/ap
 
 <figure><img src=".gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
 
-### Bittle doesn't walk very stable.
+### Bittle doesn't walk very stably.
 
 * Make sure you [calibrate](https://bittle.petoi.com/6-calibration) the joints with the included L-shaped tuner and understand the references
 * Remove the rubber toe covers
@@ -45,7 +45,7 @@ Try turning on the Gyro in the [mobile app](https://docs.petoi.com/mobile-app/ap
 
 ### When I use the play dead command with the mobile app, Bittle seems to be stuck in a forever loop trying to play dead again and again.
 
-There's a known bug in one of the older firmware.  Please [upgrade to the latest firmware](https://docs.petoi.com/desktop-app/firmware-uploader).
+There's a known bug in one of the older firmware versions.  Please [upgrade to the latest firmware](https://docs.petoi.com/desktop-app/firmware-uploader).
 
 ### NyBoard can't upload firmware
 
@@ -58,9 +58,9 @@ The error that occurs when uploading the sketch is shown below:
 {% hint style="info" %}
 \[1]. Do the simple checks as follows:
 
-* Make sure there's no other program using the serial port, If you have opened the Arduino IDE and its serial monitor, it may occupy the serial port.
+* Make sure there's no other program using the serial port. If you have opened the Arduino IDE and its serial monitor, it may occupy the serial port.
 * Make sure the uploader is connected to the NyBoard [in the right way](https://docs.petoi.com/communication-modules/usb-downloader-ch340c#connect-nyboard).
-* Make sure you're using the USB cable that comes with the kit, some USB cables may only have two wires for powering, but no data wires.
+* Make sure you're using the USB cable that comes with the kit.  Some USB cables may only have two wires for powering, but no data wires.
 
 \[2]. For this operation, you can use a simple test sketch for convenience.&#x20;
 
@@ -72,7 +72,7 @@ The error that occurs when uploading the sketch is shown below:
 \[4]. [Reset the bootloader](https://docs.petoi.com/technical-support/burn-bootloader-for-nyboard).
 {% endhint %}
 
-### Why there are two calibration stages?
+### Why are there two calibration stages?
 
 There are two calibration steps for different components.
 
@@ -133,7 +133,7 @@ You should rename the unzipped **OpenCat-main** folder to **OpenCat** so that th
 For more information, please refer to: [https://docs.petoi.com/arduino-ide/upload-sketch-for-nyboard#setup-process](https://docs.petoi.com/arduino-ide/upload-sketch-for-nyboard#setup-process)
 
 \
-BTW, you also can upload the firmware via the Petoi Desktop App:&#x20;
+BTW, you can also upload the firmware via the Petoi Desktop App:&#x20;
 
 [https://docs.petoi.com/upload-firmware](https://docs.petoi.com/upload-firmware)\
 [https://docs.petoi.com/desktop-app/firmware-uploader](https://docs.petoi.com/desktop-app/firmware-uploader)
@@ -185,6 +185,14 @@ For NyBoard, if the firmware can not be upgraded, please refer to [NyBoard can't
 
 ## Hardware
 
+### Does it come with a battery, or do I have to buy a separate battery? <a href="#does-it-come-with-a-battery-or-do-i-have-to-buy-a-separate-battery" id="does-it-come-with-a-battery-or-do-i-have-to-buy-a-separate-battery"></a>
+
+All Petoi robot packages include one rechargeable Li-On battery and a USB data/charging cable. You can use any regular USB (phone) charger for charging. You may get more [spare batteries](https://www.petoi.com/products/li-ion-battery-for-petoi-robot-pets).
+
+### My robot battery isn't charging. What's going on? <a href="#my-robot-battery-isnt-charging.-whats-going-on" id="my-robot-battery-isnt-charging.-whats-going-on"></a>
+
+The battery charging port is on the battery, NOT on the microcontroller. Please make sure you connect the USB cable to the right port. Please check [the battery guide](https://guide.petoi.com/technical-support/battery) for more details.
+
 ### How can I easily install the springs into the upper legs of Bittle?
 
 Please check out [the forum](https://www.petoi.camp/forum/basic-assembly-and-setup/just-got-my-bittle-kit-can-t-install-springs) post discussing installing springs with various tools.  Or you can [request](https://www.petoi.com/pages/contact-us) Bittle upper legs with pre-installed springs
@@ -199,19 +207,15 @@ You may [contact us](https://www.petoi.com/pages/contact-us). Show the picture o
 
 ### Bittle's neck is loose and may fall accidentally. How can I reinforce the connection?
 
-Please refer to Bittle's instruction in [Final Assembly.](https://bittle.petoi.com/7-final-assembly#7.1-head)&#x20;
+Please refer to Bittle's instructions in [Final Assembly.](https://bittle.petoi.com/7-final-assembly#7.1-head)&#x20;
 
 ### Where can I get the bone shown in Bittle's picture?
 
 The little bone is included in the [Intelligent Camera Module](https://docs.petoi.com/extensible-modules/mu-camera) box, and it is not being sold separately. You may download its 3D-printable file at: [`https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/Bittle_bone/Bittle_bone.stl`](https://github.com/PetoiCamp/NonCodeFiles/blob/master/stl/Bittle%20%26%20BittleX/Bittle_bone/Bittle_bone.stl)
 
-### Does it come with a battery, or do you have to buy a lithium battery?
+### Does Raspberry Pi require any additional components?
 
-Both Bittle kit and pre-assembled Bittle include one Lithium battery with a built-in charging circuit. You may add more [spare batteries](https://www.petoi.com/products/li-ion-battery-for-petoi-robot-pets).
-
-### Does Rasberry Pi require any additional components?
-
-You can solder the 2x5 socket on the NyBoard and then mount the Rasberry Pi on the NyBoard.&#x20;
+You can solder the 2x5 socket on the NyBoard and then mount the Raspberry Pi on the NyBoard.&#x20;
 
 Read more at [https://docs.petoi.com/api/raspberry-pi-serial-port-as-an-interface](https://docs.petoi.com/api/raspberry-pi-serial-port-as-an-interface)
 
@@ -239,7 +243,7 @@ Please refer to the [FAQ](extensible-modules/mu-camera.md#faq) on the MU camera.
 
 ### The serial port can't be found when using a USB type-C data cable to connect the BiBoard to the computer.&#x20;
 
-Turn off the battery's power to see if the serial port can appear. Please refer to [Connect to BiBoard via USB type-C data cable](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.5-connect-to-biboard-via-usb-type-c-data-cable).
+Turn off the battery's power to see if the serial port can appear. Please refer to [Connect to BiBoard via USB Type-C data cable](https://docs.petoi.com/arduino-ide/upload-sketch-for-biboard#id-2.5-connect-to-biboard-via-usb-type-c-data-cable).
 
 #### **For** the BiBoard V0 mainboard, power on the robot via battery, and **the servos can not move.**
 
