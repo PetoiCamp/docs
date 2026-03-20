@@ -193,6 +193,7 @@
 * [🔭 Home of Petoi Robots](https://www.petoi.com)
 * [🛒 Shop Coding Robots](https://www.petoi.com/collections/robots)
 * [💿 GitHub of OpenCat](https://github.com/PetoiCamp/OpenCat)
-* [🎪 PetoiCamp (Forum)](https://www.petoi.camp/)
+* [Community(r/Petoi)](https://www.reddit.com/r/Petoi/)
+* [🎪 PetoiCamp (Forum) Archive](https://www.petoi.camp/)
 * [📽️ Petoi Robot Videos](https://www.youtube.com/@petoicamp/playlists)
 * [📬 Users' repositories](useful-links/users-repositories.md)

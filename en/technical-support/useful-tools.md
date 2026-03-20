@@ -6,9 +6,9 @@
 
 When you use a [USB uploader](https://docs.petoi.com/communication-modules/usb-downloader-ch340c) to upload the firmware for **NyBoard**, please download and install the driver first:
 
-* Mac: [http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html](http://www.wch-ic.com/download/CH341SER_MAC_ZIP.html)
+* Mac: [https://www.wch-ic.com/downloads/CH341SER\_MAC\_ZIP.html](https://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html)
 * Windows: [https://www.wch-ic.com/downloads/CH341SER\_ZIP.html](https://www.wch-ic.com/downloads/CH341SER_ZIP.html)
-* Linux: [http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](http://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html)
+* Linux: [https://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](https://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html)
 
 For example, for Windows:
 
