@@ -180,7 +180,7 @@ From version **1.1.3**, When exporting a skill, the desktop app automatically sa
 The [Skill Creation](../../applications/skill-creation.md) chapter focuses on the code and data structure so that you can integrate any number of new skills into the source code. The skill data array in the exported text file (\*.txt or \*.md) content _can be copied and pasted into the Instinct_\*\*.h file to be used as a skill array.
 {% endhint %}
 
-* [Export the skill ](../../mobile-app/controller.md#import-new-skills-as-a-customized-button)as a customized button in the mobile app. It can be **permanent** even if you create multiple skills.&#x20;
+* [Export the skill ](../../mobile-app/controller/#import-new-skills-as-a-customized-button)as a customized button in the mobile app. It can be **permanent** even if you create multiple skills.&#x20;
 
 ### Import the Skill
 

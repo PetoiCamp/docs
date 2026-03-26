@@ -1,0 +1,59 @@
+{
+    "skills": [
+          {
+            "name": "English",
+            "command": "X65,98",
+            "model": "Bittle"
+        },
+        {
+            "name": "Chinese",
+            "command": "X65,97",
+            "model": "Bittle"
+        },
+        {
+            "name": "disable all modes",
+            "command": "X",
+            "model": "Bittle"
+        },
+        {
+            "name": "vc on",
+            "command": "X65,99",
+            "model": "Bittle"
+        },
+        {
+            "name": "vc off",
+            "command": "X65,100",
+            "model": "Bittle"
+        },
+        {
+            "name": "vc reset",
+            "command": "^X65,99;!1000;X65,98;!1000;X65,97",
+            "model": "Bittle"
+        },
+        {
+            "name": "gyroscope on",
+            "command": "gB",
+            "model": "Bittle"
+        },
+        {
+            "name": "gyroscope off",
+            "command": "gb",
+            "model": "Bittle"
+        },
+        {
+            "name": "buzzer off",
+            "command": "b",
+            "model": "Bittle"
+        },
+        {
+            "name": "buzzer min",
+            "command": "b1",
+            "model": "Bittle"
+        },
+        {
+            "name": "buzzer max",
+            "command": "b10",
+            "model": "Bittle"
+        }
+    ]
+}

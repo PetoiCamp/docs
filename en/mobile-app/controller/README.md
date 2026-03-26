@@ -6,11 +6,11 @@ description: >-
 
 # Controller
 
-<figure><img src="../.gitbook/assets/controlPanel03.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/controlPanel03.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Gaits
 
-The left panel sets both the robot's gaits and directions and send combined command, such as "walk left" and "trot forward". The robot will only move if an initial gait and direction are selected. The "step" has no direction, and "backward" has left and right directions. The pause button "||" will pause the robot's motion and turn off the servos, so that you can rotate the joints to any angle. The "Turbo" button ( <img src="../.gitbook/assets/balancer01.png" alt="" data-size="line"> ) turns on/off the gyro, a sensor to detect the robot's body orientation. Turning it on will make the robot keep adjusting to body angles, and will know when it's upside down. Turning it off will reduce calculation and make it walk faster and more stable. &#x20;
+The left panel sets both the robot's gaits and directions and send combined command, such as "walk left" and "trot forward". The robot will only move if an initial gait and direction are selected. The "step" has no direction, and "backward" has left and right directions. The pause button "||" will pause the robot's motion and turn off the servos, so that you can rotate the joints to any angle. The "Turbo" button ( <img src="../../.gitbook/assets/balancer01.png" alt="" data-size="line"> ) turns on/off the gyro, a sensor to detect the robot's body orientation. Turning it on will make the robot keep adjusting to body angles, and will know when it's upside down. Turning it off will reduce calculation and make it walk faster and more stable. &#x20;
 
 ## Postures and behaviors
 
@@ -20,7 +20,12 @@ The built-in postures and behaviors can be triggered by pressing the buttons. Do
 
 You can press the Import commands button in the menu list (as follows) to import the command buttons via a config file (\*.json) .
 
-<figure><img src="../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
+
+The extra configuration and skills config file, please refer to the subpage:
+
+* [Bittle / Bittle X](bittle-bittle-x.md#the-extra-configuration-and-skills-file)
+* [Nybble / Nybble Q](bittle-bittle-x.md#the-extra-configuration-and-skills-file)
 
 ## Customized commands
 
@@ -28,13 +33,13 @@ You can press the Import commands button in the menu list (as follows) to import
 * **Double-tap** the command button to edit it.&#x20;
 * You can also create a customized single command/group command by pressing the "+" button.
 
-<figure><img src="../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
 
 ### Create a single command
 
 After pressing the **Create Command** button, you can see the following interface:
 
-![](../.gitbook/assets/修改命令_en.PNG)
+![](../../.gitbook/assets/修改命令_en.PNG)
 
 After entering the editing state, there's a serial console to test the command and configure the robot.&#x20;
 
@@ -72,7 +77,7 @@ i 0 -45 8 -30 12 -60
 
 Below are the indexes of the joints for your reference. Observe the patterns of the ordering and try to remember them.&#x20;
 
-![](../.gitbook/assets/indexes.png)
+![](../../.gitbook/assets/indexes.png)
 
 #### \* show current joint angles&#x20;
 
@@ -128,21 +133,21 @@ A more detailed command table can be found in the [Serial Protocol](https://docs
 
 You can send the skill file to your phone using Messenger or email and open the file on the phone using the Petoi App. A button will be created for the new skill; you can see it when you open the control panel.
 
-<figure><img src="../.gitbook/assets/image (470).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (470).png" alt=""><figcaption></figcaption></figure>
 
 #### Import new skills from the skill library on GitHub
 
 [The SkillLibrary folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary) in Github contains new skills for the OpenCat robot, which can be used for your reference. You can use your mobile browser to access the GitHub page of the OpenCat project, open the skill file (such as [Bittle\_Fold.md](https://github.com/PetoiCamp/OpenCat/blob/main/SkillLibrary/Bittle/Bittle_Fold.md)), select the "Code" tab, and share it with [**Petoi Mobile App**](https://docs.petoi.com/mobile-app/introduction)(make sure the mobile app is connected to your Petoi robot first), as shown in the figures below.  Then you can execute this skill by pressing the newly created command button.
 
 {% hint style="warning" %}
-On the iOS device, you may not share the .md skill file on the Github via the Chrome browser. You can download the skill file and refer to the method - [Import your local customized skill](controller.md#import-your-local-customized-skill-created-by-the-skill-composer) to import it to this smartphone app.
+On the iOS device, you may not share the .md skill file on the Github via the Chrome browser. You can download the skill file and refer to the method - [Import your local customized skill](./#import-your-local-customized-skill-created-by-the-skill-composer) to import it to this smartphone app.
 {% endhint %}
 
-<div><figure><img src="../.gitbook/assets/Share_skill01en_02.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill02en.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Share_skill01en_02.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Share_skill02en.jpg" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/Share_skill03en.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Share_skill04en.jpg" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/Share_skill03en.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Share_skill04en.jpg" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/Share_skill05en_03.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Share_skill05en_03.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 You are welcome to create your new skills([using the Skill Composer](https://docs.petoi.com/desktop-app/skill-composer) or [modifying the source code](https://docs.petoi.com/applications/skill-creation)) and share them by sending merge requests to [this folder](https://github.com/PetoiCamp/OpenCat/tree/main/SkillLibrary).
@@ -154,11 +159,11 @@ The group command feature lets you chain multiple commands together and play the
 
 After pressing the **Create Group Command** button, you can see the following interface:
 
-<figure><img src="../.gitbook/assets/Edit Group.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Edit Group.png" alt=""><figcaption></figcaption></figure>
 
 You can name the command group in the **Name** text box and add the command to the **Command Group** list by clicking the command button in the **Command Library** selection box. In the **Command Group** list, you can _**press and hold**_ the command button and **drag** to change the command position.&#x20;
 
-Click the **Test** or **Play (**![](<../.gitbook/assets/image (436).png>)**)** button to test the function of the command group. click the **Pause (**![](<../.gitbook/assets/image (435).png>)**)** button to interrupt the command list execution flow.
+Click the **Test** or **Play (**![](<../../.gitbook/assets/image (436).png>)**)** button to test the function of the command group. click the **Pause (**![](<../../.gitbook/assets/image (435).png>)**)** button to interrupt the command list execution flow.
 
 Click the **Delete** button to Delete the group command.
 
@@ -168,7 +173,7 @@ Click the **Delete** button to Delete the group command.
 
 {% embed url="https://www.youtube.com/watch?v=nHLkE74Q3k8" %}
 
-If your robot doesn't have any random behavior, you may need to upgrade your robot to [the latest firmware](../desktop-app/firmware-uploader/).&#x20;
+If your robot doesn't have any random behavior, you may need to upgrade your robot to [the latest firmware](../../desktop-app/firmware-uploader/).&#x20;
 
 ## Updates and support
 

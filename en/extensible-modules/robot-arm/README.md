@@ -116,7 +116,7 @@ Please install the latest version of the [mobile app](https://docs.petoi.com/mob
 
 {% file src="../../.gitbook/assets/RoboticArmSkills_EN.json" %}
 
-You can [batch import](../../mobile-app/controller.md#import-commands-in-batches) multiple command buttons related to the robotic arm at one time.
+You can [batch import](../../mobile-app/controller/#import-commands-in-batches) multiple command buttons related to the robotic arm at one time.
 
 ### Mind+
 

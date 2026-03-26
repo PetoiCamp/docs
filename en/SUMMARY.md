@@ -34,7 +34,9 @@
   * [Nybble](mobile-app/app-guide/nybble.md)
   * [Bittle](mobile-app/app-guide/bittle.md)
   * [Bittle X+Arm](mobile-app/app-guide/bittle-x+arm.md)
-* [Controller](mobile-app/controller.md)
+* [Controller](mobile-app/controller/README.md)
+  * [Bittle / Bittle X](mobile-app/controller/bittle-bittle-x.md)
+  * [Nybble / Nybble Q](mobile-app/controller/nybble-nybble-q.md)
 
 ## Desktop APP
 

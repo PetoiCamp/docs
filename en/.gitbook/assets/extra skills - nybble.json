@@ -1,0 +1,69 @@
+{
+    "skills": [
+        {
+            "name": "lucky cat",
+            "command": "klucky",
+            "model": "Nybble"
+        },
+        {
+            "name": "wash face",
+            "command": "kwsf",
+            "model": "Nybble"
+        },
+        {
+            "name": "spin L",
+            "command": "kvtL",
+            "model": "Nybble"
+        },
+        {
+            "name": "spin R",
+            "command": "kvtR",
+            "model": "Nybble"
+        },
+        {
+            "name": "spin R",
+            "command": "kvtR",
+            "model": "Nybble"
+        },
+        {
+            "name": "push",
+            "command": "kphF",
+            "model": "Nybble"
+        },
+        {
+            "name": "push L",
+            "command": "kphL",
+            "model": "Nybble"
+        },
+        {
+            "name": "push R",
+            "command": "kphR",
+            "model": "Nybble"
+        },
+        {
+            "name": "move joints",
+            "command": "m 0 -70 0 70 8 -30",
+            "model": "Nybble"
+        },
+        {
+            "name": "move head",
+            "command": "m0 -70 0 70",
+            "model": "Nybble"
+        },
+        {
+            "name": "learn move",
+            "command": "fl",
+            "model": "Nybble"
+        },
+        {
+            "name": "play move",
+            "command": "fr",
+            "model": "Nybble"
+        },
+        {
+            "name": "random toggle",
+            "command": "z",
+            "model": "Nybble"
+        }
+    ]
+}

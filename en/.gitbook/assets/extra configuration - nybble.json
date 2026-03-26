@@ -1,0 +1,89 @@
+{
+    "skills": [
+        {
+            "name": "English",
+            "command": "X65,98",
+            "model": "Nybble"
+        },
+        {
+            "name": "Chinese",
+            "command": "X65,97",
+            "model": "Nybble"
+        },
+        {
+            "name": "disable all modes",
+            "command": "X",
+            "model": "Nybble"
+        },
+        {
+            "name": "vc on",
+            "command": "X65,99",
+            "model": "Nybble"
+        },
+        {
+            "name": "vc off",
+            "command": "X65,100",
+            "model": "Nybble"
+        },
+        {
+            "name": "vc reset",
+            "command": "^X65,99;!1000;X65,98;!1000;X65,97",
+            "model": "Nybble"
+        },
+        {
+            "name": "gyroscope on",
+            "command": "gB",
+            "model": "Nybble"
+        },
+        {
+            "name": "gyroscope off",
+            "command": "gb",
+            "model": "Nybble"
+        },
+        {
+            "name": "buzzer off",
+            "command": "b",
+            "model": "Nybble"
+        },
+        {
+            "name": "buzzer min",
+            "command": "b1",
+            "model": "Nybble"
+        },
+        {
+            "name": "buzzer max",
+            "command": "b10",
+            "model": "Nybble"
+        },
+        {
+            "name": "gesture on",
+            "command": "X71",
+            "model": "Nybble"
+        },
+        {
+            "name": "gesture off",
+            "command": "X103",
+            "model": "Nybble"
+        },
+        {
+            "name": "back sensor on",
+            "command": "X66",
+            "model": "Nybble"
+        },
+        {
+            "name": "back sensor off",
+            "command": "X98",
+            "model": "Nybble"
+        },
+        {
+            "name": "ultrasonic on",
+            "command": "X85",
+            "model": "Nybble"
+        },
+        {
+            "name": "ultrasonic off",
+            "command": "X117",
+            "model": "Nybble"
+        }
+    ]
+}

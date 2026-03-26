@@ -1,0 +1,49 @@
+{
+    "skills": [
+        {
+            "name": "front-flip",
+            "command": "kff",
+            "model": "Bittle"
+        },
+        {
+            "name": "spin L",
+            "command": "kvtL",
+            "model": "Bittle"
+        },
+        {
+            "name": "spin R",
+            "command": "kvtR",
+            "model": "Bittle"
+        },
+        {
+            "name": "spin R",
+            "command": "kvtR",
+            "model": "Bittle"
+        },
+        {
+            "name": "push",
+            "command": "kphF",
+            "model": "Bittle"
+        },
+        {
+            "name": "push L",
+            "command": "kphL",
+            "model": "Bittle"
+        },
+        {
+            "name": "push R",
+            "command": "kphR",
+            "model": "Bittle"
+        },
+        {
+            "name": "move joints",
+            "command": "m 0 -70 0 70 8 -30",
+            "model": "Bittle"
+        },
+        {
+            "name": "move head",
+            "command": "m0 -70 0 70",
+            "model": "Bittle"
+        }
+    ]
+}
