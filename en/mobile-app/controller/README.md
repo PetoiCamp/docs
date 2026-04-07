@@ -25,7 +25,7 @@ You can press the Import commands button in the menu list (as follows) to import
 The extra configuration and skills config file, please refer to the subpage:
 
 * [Bittle / Bittle X](bittle-bittle-x.md#the-extra-configuration-and-skills-file)
-* [Nybble / Nybble Q](bittle-bittle-x.md#the-extra-configuration-and-skills-file)
+* [Nybble / Nybble Q](nybble-nybble-q.md#the-extra-configuration-and-skills-file)
 
 ## Customized commands
 
