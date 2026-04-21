@@ -23,12 +23,26 @@ Download a fresh ​OpenCat repository from GitHub:&#x20;
 
 [https://github.com/PetoiCamp/OpenCat](https://github.com/PetoiCamp/OpenCat)
 
-Please utilize GitHub’s version control feature. Otherwise, make sure you download the **WHOLE OpenCat FOLDER** every time.
+Please utilize GitHub’s version control feature. Otherwise, make sure you download the WHOLE **OpenCat** FOLDER every time.
 
-Open a Terminal (such as Anaconda Prompt) and enter the path where the Python API is located (\*\*\*/OpenCatPythonAPI). Then, run the two example scripts in the folder(_**petoiRobotExample.py**_ and _**ardSerialExample.py**_). The script will automatically identify the serial port number at the beginning and complete the connection.
+Open a Terminal (such as Anaconda Prompt) and use the following command to navigate to the path where the Python API is located:\
+&#x20;`cd ***/`**`OpenCatPythonAPI`**
+
+1. (Recommended) Create a Virtual Environment. Run the following command in any directory: \
+   `conda create --name myenv python=3.7`\
+   Run the following command to activate it: \
+   `conda activate myenv`
+2. Install Dependencies only within this environment. Run the following command: \
+   `pip install -r requirements.txt`
+3. Navigate to the **demos** directory: \
+   `cd`` `**`demos`**\
+   Then run the following command to run a Python script (for example, petoiRobotExample.py): `python3 petoiRobotExample.py`
+
+The script will automatically identify the serial port name at the beginning and complete the connection.
 
 {% hint style="info" %}
-ardSerial.py contains the core communication functions. robot.py is a wrapper module that provides more user-friendly functions. Our Mind+ coding blocks is a graphical UI for this library.
+ardSerial.py in the _**PetoiRobot**_ Python library contains the core communication functions. \
+robot.py in the _**PetoiRobot**_ Python library is a wrapper module that provides more user-friendly functions. The Petoi coding block in Mind+ is a graphical UI for this library.
 {% endhint %}
 
 ## **Run the scripts**
@@ -36,10 +50,10 @@ ardSerial.py contains the core communication functions. robot.py is a wrapper mo
 ### Run  the _**ardSerialExample.py**_
 
 ```
-***\OpenCatPythonAPI>python3 ardSerialExample.py
+***\OpenCatPythonAPI\demos>python3 ardSerialExample.py
 ```
 
-_**ardSerialExample.py**_ demonstrates how to call the functions defined in _ardSerial.py_（in the _\*\*\*/OpenCatPythonAPI/PetoiRobot_）
+_**ardSerialExample.py**_ demonstrates how to call the functions defined in _ardSerial.py_（in the _**PetoiRobot**_ Python library）
 
 The list **testSchedule** in _ardSerialExample.py_ is used to test various serial port commands. Run the following script code to see the execution effect of each serial port command in the list:
 
@@ -189,10 +203,10 @@ For the description of other serial port commands, please refer to [Serial Comma
 ### Run the **petoiRobotExample.py**
 
 ```
-***\OpenCatPythonAPI>python3 petoiRobotExample.py
+***\OpenCatPythonAPI\demos>python3 petoiRobotExample.py
 ```
 
-_**petoiRobotExample.py**_ demonstrates how to call the functions defined in _robot.py_（in the _\*\*\*/OpenCatPythonAPI/PetoiRobot_）
+_**petoiRobotExample.py**_ demonstrates how to call the functions defined in _robot.py_（in the _**PetoiRobot**_ Python library）
 
 ## Available APIs
 
@@ -305,4 +319,4 @@ modelName: Bittle
 2024-11-15 15:15:05,134 PetoiRobot.ardSerial - INFO - close the serial port.
 ```
 
-Please help the robots find their sparks. Wish you have fun! 😍
+Please help the robots find their sparks. Wish you fun! 😍
