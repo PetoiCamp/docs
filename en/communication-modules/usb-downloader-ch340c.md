@@ -2,7 +2,7 @@
 
 The module is also called **USB Adapter**. It uses a CH340C USB bridge. Windows 10, Linux, and macOS are all drive-free. The specific interface is shown in the following figure:
 
-![](../.gitbook/assets/USB\_Adapter.png)
+![](../.gitbook/assets/USB_Adapter.png)
 
 **NyBoard download interface**: used to connect to NyBoard, download program firmware to the robot, and communicate with the computer via serial port.
 
@@ -16,23 +16,15 @@ Do not plug in the NyBoard and the other module(WiFi or Bluetooth) at the same t
 
 ## Connect NyBoard
 
-<div align="left">
-
-<img src="../.gitbook/assets/usbAdapter2.jpg" alt="Nybble" width="563">
-
- 
-
-<img src="../.gitbook/assets/Plug_in_usb_uploader (2).jpeg" alt="Bittle" width="563">
-
-</div>
+<div align="left"><img src="../.gitbook/assets/usbAdapter2.jpg" alt="Nybble" width="563"> <img src="../.gitbook/assets/Plug_in_usb_uploader (2).jpeg" alt="Bittle" width="563"></div>
 
 Insert the 6-pin(H1) of the USB uploader to the NyBoard's uploader socket and then use the included USB data cable to insert one end into the MicroUSB interface of the USB upload module; the other end into the USB interface of the PC.
 
 Right-click on "**This PC**" on the Windows desktop, and then click on "**Manage**" with the left mouse button (of course, you can also operate in the folder browser), as shown in the figure below, and then  select "**Device Manager**" in the "**Computer Management**" page to check the connected serial port:
 
-![](../.gitbook/assets/打开设备管理器01\_En.jpg) ![](../.gitbook/assets/打开设备管理器02\_en.jpg)
+<div><img src="../.gitbook/assets/打开设备管理器01_En.jpg" alt="" width="269"> <img src="../.gitbook/assets/打开设备管理器02_en.jpg" alt="" width="375"></div>
 
-![Device Manager](../.gitbook/assets/打开设备管理器03\_En.jpg)
+![Device Manager](../.gitbook/assets/打开设备管理器03_En.jpg)
 
 Open the Arduino IDE, or the Desktop App Firmware Uploader interface, and select the corresponding COM port to upload the firmware for the NyBoard and use the serial monitor to communicate.
 
@@ -56,9 +48,9 @@ If Tx and Rx keep lighting up, there’s something wrong with the USB communicat
 
 If you cannot find the serial port after connecting to your computer, you may need to install the driver for the CH340 chip.&#x20;
 
-* Mac: [http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html](http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html)
-* Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER\_EXE.html)
-* Linux: [http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html)
+* Mac: [http://www.wch-ic.com/download/CH341SER\_MAC\_ZIP.html](http://www.wch-ic.com/download/CH341SER_MAC_ZIP.html)
+* Windows: [http://www.wch-ic.com/downloads/CH341SER\_EXE.html](http://www.wch-ic.com/downloads/CH341SER_EXE.html)
+* Linux: [http://www.wch-ic.com/downloads/CH341SER\_LINUX\_ZIP.html](http://www.wch-ic.com/downloads/CH341SER_LINUX_ZIP.html)
 
 #### CH343G (with two USB ports)
 
