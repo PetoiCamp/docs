@@ -205,7 +205,7 @@ You can click the ![](<../.gitbook/assets/image (669).png>) button to add commen
 
 The blocks in the **Communication** category are used for interacting with various modules of the robot.
 
-For detailed instructions on sensor connections, please refer to the individual sensor documentation in the "[EXTENSIBLE MODULES](/broken/pages/CnhBSyOt20PZ5qCUAtIJ)" section. Only basic connection diagrams and pin number references are provided here for your guidance.
+For detailed instructions on sensor connections, please refer to the individual sensor documentation in the "[EXTENSIBLE MODULES](https://app.gitbook.com/s/-MQ6a951Q6Jn1Zzt5Ajr-887967055/extensible-modules)" section. Only basic connection diagrams and pin number references are provided here for your guidance.
 
 <figure><img src="../.gitbook/assets/传感器连接图简洁版.png" alt="" width="563"><figcaption></figcaption></figure>
 
